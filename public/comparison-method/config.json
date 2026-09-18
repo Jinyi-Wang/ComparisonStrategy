@@ -1,0 +1,356 @@
+{
+    "$schema": "https://raw.githubusercontent.com/revisit-studies/study/main/src/parser/StudyConfigSchema.json",
+    "studyMetadata": {
+        "title": "Temporal Comparison",
+        "version": "pilot",
+        "authors": [
+            "Jinyi"
+        ],
+        "date": "2026-09-21",
+        "description": "Comparing Visual Strategies for Temporal Comparison",
+        "organizations": [
+            "LiU"        ]
+    },
+    "uiConfig": {
+        "contactEmail": "hello@email.com",
+        "helpTextPath": "comparison-method/assets/help.md",
+        "logoPath": "revisitAssets/revisitLogoSquare.svg",
+    "withProgressBar": true,
+    "autoDownloadStudy": false,
+    "withSidebar": true,
+    "nextOnEnter": true
+  },
+
+  "components": {
+    "introduction": {
+      "type": "markdown",
+      "path": "comparison-method/assets/introduction.md",
+      "response": []
+    },
+    "consent": {
+      "type": "markdown",
+      "path": "comparison-method/assets/consent.md",
+      "nextButtonText": "Agree",
+      "nextButtonLocation": "sidebar",
+      "response": [
+        {
+          "id": "accept",
+          "prompt": "Do you consent to the study and wish to continue?",
+          "requiredValue": "Accept",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Decline",
+            "Accept"
+          ]
+        }
+      ]
+    },
+    "tutorial1": {
+      "type": "markdown",
+      "path": "comparison-method/assets/tutorial1.md",
+      "nextButtonText": "Next",
+      "nextButtonLocation": "sidebar",
+      "response": [
+        {
+          "id": "accept",
+          "prompt": "Do you understand?",
+          "requiredValue": "Yes",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "No",
+            "Yes"
+          ]
+        }
+      ]
+    },
+    "tutorial2": {
+      "type": "markdown",
+      "path": "comparison-method/assets/tutorial2.md",
+      "nextButtonText": "Next",
+      "nextButtonLocation": "sidebar",
+      "response": [
+        {
+          "id": "accept",
+          "prompt": "Do you understand?",
+          "requiredValue": "Yes",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "No",
+            "Yes"
+          ]
+        }
+      ]
+    },
+    "tutorial3": {
+      "type": "markdown",
+      "path": "comparison-method/assets/tutorial3.md",
+      "nextButtonText": "Next",
+      "nextButtonLocation": "sidebar",
+      "response": [
+        {
+          "id": "accept",
+          "prompt": "Do you understand?",
+          "requiredValue": "Yes",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "No",
+            "Yes"
+          ]
+        }
+      ]
+    },
+    "juxtaposition1": {
+      "meta": {
+        "difficulty": 1,
+        "check": "value",
+        "temp": "jux"
+      },
+      "description": "Juxtaposition comparison",
+      "instruction": "Find h.23 and compare, which one has larger local maximum value?",
+      "type": "image",
+      "path": "comparison-method/assets/jux/Q1.png",
+      "style": {
+        "width": "800px"
+      },
+      "nextButtonLocation": "sidebar",
+      "response": [
+        {
+          "id": "comparison-method/assets-response",
+          "prompt": "Answer:",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Left",
+            "Right"
+          ]
+        }
+      ]
+    },
+
+    "juxtaposition2": {
+      "meta": {
+        "difficulty": 1,
+        "check": "value",
+        "temp": "jux"
+      },
+      "description": "Juxtaposition comparison",
+      "instruction": "Find h.23 and compare, which one has larger local maximum value?",
+      "type": "image",
+      "path": "comparison-method/assets/jux/Q1.png",
+      "style": {
+        "width": "800px"
+      },
+      "nextButtonLocation": "sidebar",
+      "response": [
+        {
+          "id": "comparison-method/assets-response",
+          "prompt": "Answer:",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Left",
+            "Right"
+          ]
+        }
+      ]
+    },
+
+      "juxtaposition3": {
+      "meta": {
+        "difficulty": 1,
+        "check": "value",
+        "temp": "jux"
+      },
+      "description": "Juxtaposition comparison",
+      "instruction": "Find h.23 and compare, which one has larger local maximum value?",
+      "type": "image",
+      "path": "comparison-method/assets/jux/Q1.png",
+      "style": {
+        "width": "800px"
+      },
+      "nextButtonLocation": "sidebar",
+      "response": [
+        {
+          "id": "comparison-method/assets-response",
+          "prompt": "Answer:",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Left",
+            "Right"
+          ]
+        }
+      ]
+    },
+
+        "juxtaposition4": {
+      "meta": {
+        "difficulty": 1,
+        "check": "value",
+        "temp": "jux"
+      },
+      "description": "Juxtaposition comparison",
+      "instruction": "Find h.23 and compare, which one has larger local maximum value?",
+      "type": "image",
+      "path": "comparison-method/assets/jux/Q1.png",
+      "style": {
+        "width": "800px"
+      },
+      "nextButtonLocation": "sidebar",
+      "response": [
+        {
+          "id": "comparison-method/assets-response",
+          "prompt": "Answer:",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Left",
+            "Right"
+          ]
+        }
+      ]
+    },
+
+        "juxtaposition5": {
+      "meta": {
+        "difficulty": 1,
+        "check": "value",
+        "temp": "jux"
+      },
+      "description": "Juxtaposition comparison",
+      "instruction": "Find h.23 and compare, which one has larger local maximum value?",
+      "type": "image",
+      "path": "comparison-method/assets/jux/Q1.png",
+      "style": {
+        "width": "800px"
+      },
+      "nextButtonLocation": "sidebar",
+      "response": [
+        {
+          "id": "comparison-method/assets-response",
+          "prompt": "Answer:",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Left",
+            "Right"
+          ]
+        }
+      ]
+    },
+
+
+
+
+    
+    "superposition1": {
+      "meta": {
+        "difficulty": 1,
+        "check": "value",
+        "temp": "sup"
+      },
+      "description": "Superposition comparison",
+      "instruction": "Find h.26 and compare, which one has smaller global minimum value?",
+      "type": "image",
+      "path": "comparison-method/assets/sup/Q1.png",
+      "style": {
+        "width": "400px"
+      },
+      "nextButtonLocation": "sidebar",
+      "response": [
+        {
+          "id": "comparison-method/assets-response",
+          "prompt": "Answer:",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Left",
+            "Right"
+          ]
+        }
+      ]
+    },
+
+    
+    "explicit1": {
+      "meta": {
+        "difficulty": 1,
+        "check": "value",
+        "temp": "exp"
+      },
+      "description": "Explicit encoding comparison",
+      "instruction": "Find h.31 and compare, which one has current value?",
+      "type": "image",
+      "path": "comparison-method/assets/exp/Q1.png",
+      "style": {
+        "width": "400px"
+      },
+      "nextButtonLocation": "sidebar",
+      "response": [
+        {
+          "id": "comparison-method/assets-response",
+          "prompt": "Answer:",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Left",
+            "Right"
+          ]
+        }
+      ]
+    }
+    },
+
+  "sequence": {
+    "order": "fixed",
+    "components": [
+      "introduction",
+      "consent",
+    {
+      "order": "latinSquare",
+      "components": [
+        {
+          "order": "fixed",
+          "components": [
+            "tutorial1",
+            "juxtaposition1",
+            "juxtaposition2",
+            "juxtaposition3",
+            "juxtaposition4",
+            "juxtaposition5"
+          ]
+        },
+        {
+          "order": "fixed",
+          "components": [
+            "tutorial2",
+            "superposition1"
+          ]
+        },
+        {
+          "order": "fixed",
+          "components": [
+            "tutorial3",
+            "explicit1"
+          ]
+        }
+      ]
+    }
+  ]
+
+
+
+  }
+}
+
+
+
+
+
+
+
+
