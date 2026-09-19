@@ -1,26 +1,265 @@
 {
-    "$schema": "https://raw.githubusercontent.com/revisit-studies/study/main/src/parser/StudyConfigSchema.json",
-    "studyMetadata": {
-        "title": "Temporal Comparison",
-        "version": "pilot",
-        "authors": [
-            "Jinyi"
-        ],
-        "date": "2026-09-21",
-        "description": "Comparing Visual Strategies for Temporal Comparison",
-        "organizations": [
-            "LiU"        ]
-    },
-    "uiConfig": {
-        "contactEmail": "hello@email.com",
-        "helpTextPath": "comparison-method/assets/help.md",
-        "logoPath": "revisitAssets/revisitLogoSquare.svg",
+  "$schema": "https://raw.githubusercontent.com/revisit-studies/study/main/src/parser/StudyConfigSchema.json",
+  "studyMetadata": {
+    "title": "Temporal Comparison",
+    "version": "pilot",
+    "authors": [
+      "Jinyi"
+    ],
+    "date": "2026-09-21",
+    "description": "Comparing Visual Strategies for Temporal Comparison",
+    "organizations": [
+      "LiU"
+    ]
+  },
+  "uiConfig": {
+    "contactEmail": "hello@email.com",
+    "helpTextPath": "comparison-method/assets/help.md",
+    "logoPath": "revisitAssets/revisitLogoSquare.svg",
     "withProgressBar": true,
     "autoDownloadStudy": false,
     "withSidebar": true,
     "nextOnEnter": true
   },
-
+  "baseComponents": {
+    "juxValueBase": {
+      "description": "Juxtaposition comparison (value)",
+      "type": "image",
+      "style": {
+        "width": "800px"
+      },
+      "nextButtonLocation": "sidebar",
+      "response": [
+        {
+          "id": "answer",
+          "prompt": "Answer:",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Dataset A",
+            "Dataset B",
+            "Same"
+          ]
+        }
+      ]
+    },
+    "juxTrendBase": {
+      "description": "Juxtaposition comparison (trend)",
+      "type": "image",
+      "style": {
+        "width": "800px"
+      },
+      "nextButtonLocation": "sidebar",
+      "response": [
+        {
+          "id": "answer",
+          "prompt": "Answer:",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Same",
+            "Dataset B is increasing more",
+            "Dataset B is decreasing more"
+          ]
+        }
+      ]
+    },
+    "juxRangeBase": {
+      "description": "Juxtaposition comparison (range)",
+      "type": "image",
+      "style": {
+        "width": "800px"
+      },
+      "nextButtonLocation": "sidebar",
+      "response": [
+        {
+          "id": "answer",
+          "prompt": "Answer:",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Same",
+            "Dataset A",
+            "Dataset B"
+          ]
+        }
+      ]
+    },
+    "supValueBase": {
+      "description": "Superposition comparison (value)",
+      "type": "image",
+      "style": {
+        "width": "400px"
+      },
+      "nextButtonLocation": "sidebar",
+      "response": [
+        {
+          "id": "answer",
+          "prompt": "Answer:",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Dataset A",
+            "Dataset B",
+            "Same"
+          ]
+        }
+      ]
+    },
+    "supTrendBase": {
+      "description": "Superposition comparison (trend)",
+      "type": "image",
+      "style": {
+        "width": "400px"
+      },
+      "nextButtonLocation": "sidebar",
+      "response": [
+        {
+          "id": "answer",
+          "prompt": "Answer:",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Same",
+            "Dataset B is increasing more",
+            "Dataset B is decreasing more"
+          ]
+        }
+      ]
+    },
+    "supRangeBase": {
+      "description": "Superposition comparison (range)",
+      "type": "image",
+      "style": {
+        "width": "400px"
+      },
+      "nextButtonLocation": "sidebar",
+      "response": [
+        {
+          "id": "answer",
+          "prompt": "Answer:",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Same",
+            "Dataset A",
+            "Dataset B"
+          ]
+        }
+      ]
+    },
+    "expValueBase": {
+      "description": "Explicit encoding comparison (value)",
+      "type": "image",
+      "style": {
+        "width": "400px"
+      },
+      "nextButtonLocation": "sidebar",
+      "response": [
+        {
+          "id": "answer",
+          "prompt": "Answer:",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Dataset A",
+            "Dataset B",
+            "Same"
+          ]
+        }
+      ]
+    },
+    "expTrendBase": {
+      "description": "Explicit encoding comparison (trend)",
+      "type": "image",
+      "style": {
+        "width": "400px"
+      },
+      "nextButtonLocation": "sidebar",
+      "response": [
+        {
+          "id": "answer",
+          "prompt": "Answer:",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Same",
+            "Dataset B is increasing more",
+            "Dataset B is decreasing more"
+          ]
+        }
+      ]
+    },
+    "expRangeBase": {
+      "description": "Explicit encoding comparison (range)",
+      "type": "image",
+      "style": {
+        "width": "400px"
+      },
+      "nextButtonLocation": "sidebar",
+      "response": [
+        {
+          "id": "answer",
+          "prompt": "Answer:",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Same",
+            "Dataset A",
+            "Dataset B"
+          ]
+        }
+      ]
+    },
+    "postGroupBase": {
+      "type": "questionnaire",
+      "response": [
+        {
+          "id": "difficulty",
+          "prompt": "How difficult were the questions in this part?",
+          "location": "belowStimulus",
+          "type": "likert",
+          "numItems": 7,
+          "leftLabel": "Very easy",
+          "rightLabel": "Very difficult"
+        },
+        {
+          "id": "confidence",
+          "prompt": "How confident are you in your answers in this part?",
+          "location": "belowStimulus",
+          "type": "likert",
+          "numItems": 7,
+          "leftLabel": "Not at all confident",
+          "rightLabel": "Very confident"
+        },
+        {
+          "id": "helpfulness",
+          "prompt": "The visualization made it easy to compare the two datasets.",
+          "location": "belowStimulus",
+          "type": "likert",
+          "numItems": 7,
+          "leftLabel": "Strongly disagree",
+          "rightLabel": "Strongly agree"
+        },
+        {
+          "id": "enjoyment",
+          "prompt": "How enjoyable was it to use this visualization?",
+          "location": "belowStimulus",
+          "type": "likert",
+          "numItems": 7,
+          "leftLabel": "Not at all enjoyable",
+          "rightLabel": "Very enjoyable"
+        },
+        {
+          "id": "comments",
+          "prompt": "Any other comments about this part? (optional)",
+          "location": "belowStimulus",
+          "type": "longText",
+          "required": false
+        }
+      ]
+    }
+  },
   "components": {
     "introduction": {
       "type": "markdown",
@@ -103,254 +342,531 @@
         }
       ]
     },
-    "juxtaposition1": {
-      "meta": {
-        "difficulty": 1,
-        "check": "value",
-        "temp": "jux"
-      },
-      "description": "Juxtaposition comparison",
-      "instruction": "Find h.23 and compare, which one has larger local maximum value?",
-      "type": "image",
-      "path": "comparison-method/assets/jux/Q1.png",
-      "style": {
-        "width": "800px"
-      },
-      "nextButtonLocation": "sidebar",
+    "jux-value-1": {
+      "baseComponent": "juxValueBase",
+      "instruction": "Find h.23 and compare, which dataset has larger local maximum value?",
+      "path": "comparison-method/assets/jux/s1.png"
+    },
+    "jux-value-2": {
+      "baseComponent": "juxValueBase",
+      "instruction": "Find h.24 and compare, which dataset has larger global maximum value?",
+      "path": "comparison-method/assets/jux/s2.png"
+    },
+    "jux-value-3": {
+      "baseComponent": "juxValueBase",
+      "instruction": "Find h.15 and compare, which dataset has larger current value?",
+      "path": "comparison-method/assets/jux/s3.png"
+    },
+    "jux-value-4": {
+      "baseComponent": "juxValueBase",
+      "instruction": "Find h.4 and compare, which dataset has larger global minimum value?",
+      "path": "comparison-method/assets/jux/s3.png"
+    },
+    "jux-value-5": {
+      "baseComponent": "juxValueBase",
+      "instruction": "Find h.33 and compare, which dataset has larger current value?",
+      "path": "comparison-method/assets/jux/s6.png"
+    },
+    "jux-value-6": {
+      "baseComponent": "juxValueBase",
+      "instruction": "Find h.32 and compare, which dataset has larger global minimum value?",
+      "path": "comparison-method/assets/jux/s5.png"
+    },
+    "jux-trend-1": {
+      "baseComponent": "juxTrendBase",
+      "instruction": "Find h.31 and compare, is the trend of two datasets the same?",
+      "path": "comparison-method/assets/jux/s7.png"
+    },
+    "jux-trend-2": {
+      "baseComponent": "juxTrendBase",
+      "instruction": "Find h.16 and compare, is the trend of two datasets the same?",
+      "path": "comparison-method/assets/jux/s10.png"
+    },
+    "jux-trend-3": {
+      "baseComponent": "juxTrendBase",
+      "instruction": "Find h.25 and compare, is the trend of two datasets the same?",
+      "path": "comparison-method/assets/jux/s9.png"
+    },
+    "jux-trend-4": {
+      "baseComponent": "juxTrendBase",
+      "instruction": "Find h.33 and compare, is the trend of two datasets the same?",
+      "path": "comparison-method/assets/jux/s7.png"
+    },
+    "jux-trend-5": {
+      "baseComponent": "juxTrendBase",
+      "instruction": "Find h.7 and compare, is the trend of two datasets the same?",
+      "path": "comparison-method/assets/jux/s11.png"
+    },
+    "jux-trend-6": {
+      "baseComponent": "juxTrendBase",
+      "instruction": "Find h.32 and compare, is the trend of two datasets the same?",
+      "path": "comparison-method/assets/jux/s9.png"
+    },
+    "jux-range-1": {
+      "baseComponent": "juxRangeBase",
+      "instruction": "Find h.2 and compare, which dataset has larger range for that node?",
+      "path": "comparison-method/assets/jux/s3.png"
+    },
+    "jux-range-2": {
+      "baseComponent": "juxRangeBase",
+      "instruction": "Find h.32 and compare, which dataset has larger range for that node?",
+      "path": "comparison-method/assets/jux/s4.png"
+    },
+    "jux-range-3": {
+      "baseComponent": "juxRangeBase",
+      "instruction": "Find h.19 and compare, which dataset has larger range for that node?",
+      "path": "comparison-method/assets/jux/s1.png"
+    },
+    "jux-range-4": {
+      "baseComponent": "juxRangeBase",
+      "instruction": "Find h.17 and compare, which dataset has larger range for that node?",
+      "path": "comparison-method/assets/jux/s10.png"
+    },
+    "jux-range-5": {
+      "baseComponent": "juxRangeBase",
+      "instruction": "Find h.34 and compare, which dataset has larger range for that node?",
+      "path": "comparison-method/assets/jux/s5.png"
+    },
+    "jux-range-6": {
+      "baseComponent": "juxRangeBase",
+      "instruction": "Find h.17 and compare, which dataset has larger range for that node?",
+      "path": "comparison-method/assets/jux/s11.png"
+    },
+    "sup-value-1": {
+      "baseComponent": "supValueBase",
+      "instruction": "Find h.26 and compare, which dataset has larger current value?",
+      "path": "comparison-method/assets/sup/s1.png"
+    },
+    "sup-value-2": {
+      "baseComponent": "supValueBase",
+      "instruction": "Find h.3 and compare, which dataset has larger global maximum value?",
+      "path": "comparison-method/assets/sup/s2.png"
+    },
+    "sup-value-3": {
+      "baseComponent": "supValueBase",
+      "instruction": "Find h.30 and compare, which dataset has larger local maximum value?",
+      "path": "comparison-method/assets/sup/s3.png"
+    },
+    "sup-value-4": {
+      "baseComponent": "supValueBase",
+      "instruction": "Find h.28 and compare, which dataset has larger global minimum value?",
+      "path": "comparison-method/assets/sup/s3.png"
+    },
+    "sup-value-5": {
+      "baseComponent": "supValueBase",
+      "instruction": "Find h.33 and compare, which dataset has larger local minimum value?",
+      "path": "comparison-method/assets/sup/s5.png"
+    },
+    "sup-value-6": {
+      "baseComponent": "supValueBase",
+      "instruction": "Find h.11 and compare, which dataset has larger local maximum value?",
+      "path": "comparison-method/assets/sup/s7.png"
+    },
+    "sup-trend-1": {
+      "baseComponent": "supTrendBase",
+      "instruction": "Find h.8 and compare, is the trend of two datasets the same?",
+      "path": "comparison-method/assets/sup/s9.png"
+    },
+    "sup-trend-2": {
+      "baseComponent": "supTrendBase",
+      "instruction": "Find h.24 and compare, is the trend of two datasets the same?",
+      "path": "comparison-method/assets/sup/s12.png"
+    },
+    "sup-trend-3": {
+      "baseComponent": "supTrendBase",
+      "instruction": "Find h.17 and compare, is the trend of two datasets the same?",
+      "path": "comparison-method/assets/sup/s10.png"
+    },
+    "sup-trend-4": {
+      "baseComponent": "supTrendBase",
+      "instruction": "Find h.10 and compare, is the trend of two datasets the same?",
+      "path": "comparison-method/assets/sup/s8.png"
+    },
+    "sup-trend-5": {
+      "baseComponent": "supTrendBase",
+      "instruction": "Find h.29 and compare, is the trend of two datasets the same?",
+      "path": "comparison-method/assets/sup/s11.png"
+    },
+    "sup-trend-6": {
+      "baseComponent": "supTrendBase",
+      "instruction": "Find h.13 and compare, is the trend of two datasets the same?",
+      "path": "comparison-method/assets/sup/s9.png"
+    },
+    "sup-range-1": {
+      "baseComponent": "supRangeBase",
+      "instruction": "Find h.9 and compare, which dataset has larger range for that node?",
+      "path": "comparison-method/assets/sup/s7.png"
+    },
+    "sup-range-2": {
+      "baseComponent": "supRangeBase",
+      "instruction": "Find h.33 and compare, which dataset has larger range for that node?",
+      "path": "comparison-method/assets/sup/s12.png"
+    },
+    "sup-range-3": {
+      "baseComponent": "supRangeBase",
+      "instruction": "Find h.30 and compare, which dataset has larger range for that node?",
+      "path": "comparison-method/assets/sup/s3.png"
+    },
+    "sup-range-4": {
+      "baseComponent": "supRangeBase",
+      "instruction": "Find h.32 and compare, which dataset has larger range for that node?",
+      "path": "comparison-method/assets/sup/s4.png"
+    },
+    "sup-range-5": {
+      "baseComponent": "supRangeBase",
+      "instruction": "Find h.11 and compare, which dataset has larger range for that node?",
+      "path": "comparison-method/assets/sup/s7.png"
+    },
+    "sup-range-6": {
+      "baseComponent": "supRangeBase",
+      "instruction": "Find h.12 and compare, which dataset has larger range for that node?",
+      "path": "comparison-method/assets/sup/s2.png"
+    },
+    "exp-value-1": {
+      "baseComponent": "expValueBase",
+      "instruction": "Find h.17 and compare, which dataset has larger current value?",
+      "path": "comparison-method/assets/exp/s1.png"
+    },
+    "exp-value-2": {
+      "baseComponent": "expValueBase",
+      "instruction": "Find h.24 and compare, which dataset has larger local minimum value?",
+      "path": "comparison-method/assets/exp/s2.png"
+    },
+    "exp-value-3": {
+      "baseComponent": "expValueBase",
+      "instruction": "Find h.33 and compare, which dataset has larger local maximum value?",
+      "path": "comparison-method/assets/exp/s3.png"
+    },
+    "exp-value-4": {
+      "baseComponent": "expValueBase",
+      "instruction": "Find h.30 and compare, which dataset has larger current value?",
+      "path": "comparison-method/assets/exp/s4.png"
+    },
+    "exp-value-5": {
+      "baseComponent": "expValueBase",
+      "instruction": "Find h.3 and compare, which dataset has larger global maximum value?",
+      "path": "comparison-method/assets/exp/s5.png"
+    },
+    "exp-value-6": {
+      "baseComponent": "expValueBase",
+      "instruction": "Find h.13 and compare, which dataset has larger local minimum value?",
+      "path": "comparison-method/assets/exp/s6.png"
+    },
+    "exp-trend-1": {
+      "baseComponent": "expTrendBase",
+      "instruction": "Find h.17 and compare, is the trend of two datasets the same?",
+      "path": "comparison-method/assets/exp/s8.png"
+    },
+    "exp-trend-2": {
+      "baseComponent": "expTrendBase",
+      "instruction": "Find h.10 and compare, is the trend of two datasets the same?",
+      "path": "comparison-method/assets/exp/s7.png"
+    },
+    "exp-trend-3": {
+      "baseComponent": "expTrendBase",
+      "instruction": "Find h.26 and compare, is the trend of two datasets the same?",
+      "path": "comparison-method/assets/exp/s11.png"
+    },
+    "exp-trend-4": {
+      "baseComponent": "expTrendBase",
+      "instruction": "Find h.8 and compare, is the trend of two datasets the same?",
+      "path": "comparison-method/assets/exp/s7.png"
+    },
+    "exp-trend-5": {
+      "baseComponent": "expTrendBase",
+      "instruction": "Find h.25 and compare, is the trend of two datasets the same?",
+      "path": "comparison-method/assets/exp/s10.png"
+    },
+    "exp-trend-6": {
+      "baseComponent": "expTrendBase",
+      "instruction": "Find h.28 and compare, is the trend of two datasets the same?",
+      "path": "comparison-method/assets/exp/s12.png"
+    },
+    "exp-range-1": {
+      "baseComponent": "expRangeBase",
+      "instruction": "Find h.15 and compare, which dataset has larger range for that node?",
+      "path": "comparison-method/assets/exp/s1.png"
+    },
+    "exp-range-2": {
+      "baseComponent": "expRangeBase",
+      "instruction": "Find h.25 and compare, which dataset has larger range for that node?",
+      "path": "comparison-method/assets/exp/s10.png"
+    },
+    "exp-range-3": {
+      "baseComponent": "expRangeBase",
+      "instruction": "Find h.16 and compare, which dataset has larger range for that node?",
+      "path": "comparison-method/assets/exp/s7.png"
+    },
+    "exp-range-4": {
+      "baseComponent": "expRangeBase",
+      "instruction": "Find h.27 and compare, which dataset has larger range for that node?",
+      "path": "comparison-method/assets/exp/s12.png"
+    },
+    "exp-range-5": {
+      "baseComponent": "expRangeBase",
+      "instruction": "Find h.13 and compare, which dataset has larger range for that node?",
+      "path": "comparison-method/assets/exp/s6.png"
+    },
+    "exp-range-6": {
+      "baseComponent": "expRangeBase",
+      "instruction": "Find h.23 and compare, which dataset has larger range for that node?",
+      "path": "comparison-method/assets/exp/s10.png"
+    },
+    "post-jux": {
+      "baseComponent": "postGroupBase",
+      "description": "Post-group questionnaire: Juxtaposition",
+      "instruction": "You have just finished the juxtaposition part. Please answer a few questions about it."
+    },
+    "post-sup": {
+      "baseComponent": "postGroupBase",
+      "description": "Post-group questionnaire: Superposition",
+      "instruction": "You have just finished the superposition part. Please answer a few questions about it."
+    },
+    "post-exp": {
+      "baseComponent": "postGroupBase",
+      "description": "Post-group questionnaire: Explicit encoding",
+      "instruction": "You have just finished the explicit encoding part. Please answer a few questions about it."
+    },
+    "background": {
+      "type": "questionnaire",
+      "description": "Background questionnaire",
+      "instruction": "Before we start, please tell us a little about yourself.",
       "response": [
         {
-          "id": "comparison-method/assets-response",
-          "prompt": "Answer:",
-          "location": "sidebar",
+          "id": "age",
+          "prompt": "How old are you?",
+          "location": "belowStimulus",
+          "type": "numerical",
+          "min": 18,
+          "max": 100,
+          "placeholder": "Age in years"
+        },
+        {
+          "id": "gender",
+          "prompt": "What is your gender?",
+          "location": "belowStimulus",
           "type": "radio",
           "options": [
-            "Left",
-            "Right"
+            "Woman",
+            "Man",
+            "Non-binary",
+            "Prefer not to say"
+          ],
+          "withOther": true
+        },
+        {
+          "id": "education",
+          "prompt": "What is your highest level of education (completed or in progress)?",
+          "location": "belowStimulus",
+          "type": "dropdown",
+          "placeholder": "Select one",
+          "options": [
+            "High school",
+            "Bachelor's degree",
+            "Master's degree",
+            "PhD",
+            "Other"
+          ]
+        },
+        {
+          "id": "occupation",
+          "prompt": "What is your field of study or occupation? (optional)",
+          "location": "belowStimulus",
+          "type": "shortText",
+          "required": false
+        },
+        {
+          "id": "vis-years",
+          "prompt": "How many years of experience do you have with data visualization?",
+          "location": "belowStimulus",
+          "type": "radio",
+          "options": [
+            "None",
+            "Less than 1 year",
+            "1-3 years",
+            "3-5 years",
+            "More than 5 years"
+          ]
+        },
+        {
+          "id": "vis-experience",
+          "prompt": "How would you rate your experience with data visualization?",
+          "location": "belowStimulus",
+          "type": "likert",
+          "numItems": 5,
+          "leftLabel": "No experience",
+          "rightLabel": "Expert"
+        },
+        {
+          "id": "chart-frequency",
+          "prompt": "How often do you read or create charts (for example line charts or time series)?",
+          "location": "belowStimulus",
+          "type": "radio",
+          "options": [
+            "Never",
+            "A few times a year",
+            "About monthly",
+            "About weekly",
+            "Daily"
+          ]
+        },
+        {
+          "id": "color-vision",
+          "prompt": "Do you have any color vision deficiency?",
+          "location": "belowStimulus",
+          "type": "radio",
+          "options": [
+            "No",
+            "Yes",
+            "Not sure"
           ]
         }
       ]
     },
-
-    "juxtaposition2": {
-      "meta": {
-        "difficulty": 1,
-        "check": "value",
-        "temp": "jux"
-      },
-      "description": "Juxtaposition comparison",
-      "instruction": "Find h.23 and compare, which one has larger local maximum value?",
-      "type": "image",
-      "path": "comparison-method/assets/jux/Q1.png",
-      "style": {
-        "width": "800px"
-      },
-      "nextButtonLocation": "sidebar",
+    "final-questionnaire": {
+      "type": "questionnaire",
+      "description": "Final questionnaire",
+      "instruction": "You have now seen all three visualizations. Please answer a few final questions.",
       "response": [
         {
-          "id": "comparison-method/assets-response",
-          "prompt": "Answer:",
-          "location": "sidebar",
+          "id": "preferred",
+          "prompt": "Which visualization did you like the most overall?",
+          "location": "belowStimulus",
           "type": "radio",
           "options": [
-            "Left",
-            "Right"
-          ]
-        }
-      ]
-    },
-
-      "juxtaposition3": {
-      "meta": {
-        "difficulty": 1,
-        "check": "value",
-        "temp": "jux"
-      },
-      "description": "Juxtaposition comparison",
-      "instruction": "Find h.23 and compare, which one has larger local maximum value?",
-      "type": "image",
-      "path": "comparison-method/assets/jux/Q1.png",
-      "style": {
-        "width": "800px"
-      },
-      "nextButtonLocation": "sidebar",
-      "response": [
+            "Juxtaposition",
+            "Superposition",
+            "Explicit encoding"
+          ],
+          "optionOrder": "random"
+        },
         {
-          "id": "comparison-method/assets-response",
-          "prompt": "Answer:",
-          "location": "sidebar",
+          "id": "easiest",
+          "prompt": "Which visualization made the questions easiest to answer?",
+          "location": "belowStimulus",
           "type": "radio",
           "options": [
-            "Left",
-            "Right"
-          ]
-        }
-      ]
-    },
-
-        "juxtaposition4": {
-      "meta": {
-        "difficulty": 1,
-        "check": "value",
-        "temp": "jux"
-      },
-      "description": "Juxtaposition comparison",
-      "instruction": "Find h.23 and compare, which one has larger local maximum value?",
-      "type": "image",
-      "path": "comparison-method/assets/jux/Q1.png",
-      "style": {
-        "width": "800px"
-      },
-      "nextButtonLocation": "sidebar",
-      "response": [
+            "Juxtaposition",
+            "Superposition",
+            "Explicit encoding"
+          ],
+          "optionOrder": "random"
+        },
         {
-          "id": "comparison-method/assets-response",
-          "prompt": "Answer:",
-          "location": "sidebar",
+          "id": "hardest",
+          "prompt": "Which visualization made the questions hardest to answer?",
+          "location": "belowStimulus",
           "type": "radio",
           "options": [
-            "Left",
-            "Right"
-          ]
-        }
-      ]
-    },
-
-        "juxtaposition5": {
-      "meta": {
-        "difficulty": 1,
-        "check": "value",
-        "temp": "jux"
-      },
-      "description": "Juxtaposition comparison",
-      "instruction": "Find h.23 and compare, which one has larger local maximum value?",
-      "type": "image",
-      "path": "comparison-method/assets/jux/Q1.png",
-      "style": {
-        "width": "800px"
-      },
-      "nextButtonLocation": "sidebar",
-      "response": [
+            "Juxtaposition",
+            "Superposition",
+            "Explicit encoding"
+          ],
+          "optionOrder": "random"
+        },
         {
-          "id": "comparison-method/assets-response",
-          "prompt": "Answer:",
-          "location": "sidebar",
-          "type": "radio",
-          "options": [
-            "Left",
-            "Right"
-          ]
-        }
-      ]
-    },
-
-
-
-
-    
-    "superposition1": {
-      "meta": {
-        "difficulty": 1,
-        "check": "value",
-        "temp": "sup"
-      },
-      "description": "Superposition comparison",
-      "instruction": "Find h.26 and compare, which one has smaller global minimum value?",
-      "type": "image",
-      "path": "comparison-method/assets/sup/Q1.png",
-      "style": {
-        "width": "400px"
-      },
-      "nextButtonLocation": "sidebar",
-      "response": [
+          "id": "preference-reason",
+          "prompt": "Why did you prefer that visualization?",
+          "location": "belowStimulus",
+          "type": "longText"
+        },
         {
-          "id": "comparison-method/assets-response",
-          "prompt": "Answer:",
-          "location": "sidebar",
-          "type": "radio",
-          "options": [
-            "Left",
-            "Right"
-          ]
-        }
-      ]
-    },
-
-    
-    "explicit1": {
-      "meta": {
-        "difficulty": 1,
-        "check": "value",
-        "temp": "exp"
-      },
-      "description": "Explicit encoding comparison",
-      "instruction": "Find h.31 and compare, which one has current value?",
-      "type": "image",
-      "path": "comparison-method/assets/exp/Q1.png",
-      "style": {
-        "width": "400px"
-      },
-      "nextButtonLocation": "sidebar",
-      "response": [
-        {
-          "id": "comparison-method/assets-response",
-          "prompt": "Answer:",
-          "location": "sidebar",
-          "type": "radio",
-          "options": [
-            "Left",
-            "Right"
-          ]
+          "id": "final-comments",
+          "prompt": "Any other comments about the study? (optional)",
+          "location": "belowStimulus",
+          "type": "longText",
+          "required": false
         }
       ]
     }
-    },
-
+  },
   "sequence": {
     "order": "fixed",
     "components": [
       "introduction",
       "consent",
-    {
-      "order": "latinSquare",
-      "components": [
-        {
-          "order": "fixed",
-          "components": [
-            "tutorial1",
-            "juxtaposition1",
-            "juxtaposition2",
-            "juxtaposition3",
-            "juxtaposition4",
-            "juxtaposition5"
-          ]
-        },
-        {
-          "order": "fixed",
-          "components": [
-            "tutorial2",
-            "superposition1"
-          ]
-        },
-        {
-          "order": "fixed",
-          "components": [
-            "tutorial3",
-            "explicit1"
-          ]
-        }
-      ]
-    }
-  ]
-
-
-
+      "background",
+      {
+        "order": "latinSquare",
+        "components": [
+          {
+            "order": "fixed",
+            "components": [
+              "tutorial1",
+              "jux-value-1",
+              "jux-value-2",
+              "jux-value-3",
+              "jux-value-4",
+              "jux-value-5",
+              "jux-value-6",
+              "jux-trend-1",
+              "jux-trend-2",
+              "jux-trend-3",
+              "jux-trend-4",
+              "jux-trend-5",
+              "jux-trend-6",
+              "jux-range-1",
+              "jux-range-2",
+              "jux-range-3",
+              "jux-range-4",
+              "jux-range-5",
+              "jux-range-6",
+              "post-jux"
+            ]
+          },
+          {
+            "order": "fixed",
+            "components": [
+              "tutorial2",
+              "sup-value-1",
+              "sup-value-2",
+              "sup-value-3",
+              "sup-value-4",
+              "sup-value-5",
+              "sup-value-6",
+              "sup-trend-1",
+              "sup-trend-2",
+              "sup-trend-3",
+              "sup-trend-4",
+              "sup-trend-5",
+              "sup-trend-6",
+              "sup-range-1",
+              "sup-range-2",
+              "sup-range-3",
+              "sup-range-4",
+              "sup-range-5",
+              "sup-range-6",
+              "post-sup"
+            ]
+          },
+          {
+            "order": "fixed",
+            "components": [
+              "tutorial3",
+              "exp-value-1",
+              "exp-value-2",
+              "exp-value-3",
+              "exp-value-4",
+              "exp-value-5",
+              "exp-value-6",
+              "exp-trend-1",
+              "exp-trend-2",
+              "exp-trend-3",
+              "exp-trend-4",
+              "exp-trend-5",
+              "exp-trend-6",
+              "exp-range-1",
+              "exp-range-2",
+              "exp-range-3",
+              "exp-range-4",
+              "exp-range-5",
+              "exp-range-6",
+              "post-exp"
+            ]
+          }
+        ]
+      },
+      "final-questionnaire"
+    ]
   }
 }
-
-
-
-
-
-
-
-
