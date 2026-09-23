@@ -1,6 +1,6 @@
 # Juxtaposition
 
-In this part, you will compare two datasets and answer a series of questions about the differences between them. In this design, the two datasets are shown **side by side**.
+In this part, you will compare two datasets and answer three groups of questions about the differences between them. In this design, the two datasets are shown **side by side**.
 
 ![Example of the juxtaposition visualization](comparison-method/assets/jux/node.png)
 
@@ -9,9 +9,9 @@ In this part, you will compare two datasets and answer a series of questions abo
 * **Dataset A** is shown on the left.
 * **Dataset B** is shown on the right.
 * The node is a box-and-whisker symbol. 
-* For each symbol, upper whisker represents the maximum global value, bottom whisker represents the minimum global value. 
-* Upper box border represents maximum local value, bottom box border represents minimum local value.
-* The line in the box represents current value, or the trend of crrent value. 
+* For each symbol, upper whisker represents the maximum voltage value in the whole neighborhood, bottom whisker represents the minimum voltage value in the whole neighborhood. 
+* Upper box border represents maximum voltage value in that household, bottom box border represents minimum voltage value in that household.
+* The line in the box represents current voltage value, or the voltage variation over time. 
 
 
 ## How to answer
@@ -26,20 +26,20 @@ Please use only the information shown in the two datasets. There are no right or
 
 ## The three kinds of questions
 
-**Value questions** ask which dataset has the *larger* value of one of these:
+**Value questions** ask which dataset has the *higher* value of one of these:
 
-* **Maximum / minimum global** the highest / lowest value over the time period across all nodes.
-* **Maximum / minimum local** the highest / lowest value over the time period for that node.
-* **Current value:** current value at that timestamp.
+* **Maximum / minimum voltage value in the whole neighborhood:** check the upper / bottom whisker for both datasets and compare.
+* **Maximum / minimum voltage value in that household:** check the upper / bottom box border for both datasets and compare.
+* **Current voltage value:** check the current voltage line in the box.
 
 *Answers: Dataset A, Dataset B, or Same.*
 
-**Trend questions** ask whether the two datasets change in the same way over time, or whether Dataset B is increasing or decreasing more than Dataset A.
+**Variation questions** ask which dataset shows greater variation over time.
 
-*Answers: Same, Dataset B is increasing more, or Dataset B is decreasing more.*
+*Answers: Dataset A, Dataset B, or Same.*
 
-**Range questions** ask which dataset has the larger range for the node, that is, the difference between its maximum and minimum local value.
+**Range questions** ask which dataset has the larger range for the node, that is, the difference between the maximum and minimum voltage value for that node.
 
-*Answers: Same, Dataset A, or Dataset B.*
+*Answers: Dataset A, Dataset B, or Same.*
 
 If anything is unclear, please read this page again. When you are ready, select **Yes** in the sidebar and click **Next**.

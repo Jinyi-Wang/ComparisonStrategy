@@ -44,7 +44,7 @@
       ]
     },
     "juxTrendBase": {
-      "description": "Juxtaposition comparison (trend)",
+      "description": "Juxtaposition comparison (variation)",
       "type": "image",
       "style": {
         "width": "1000px"
@@ -57,9 +57,9 @@
           "location": "sidebar",
           "type": "radio",
           "options": [
-            "Same",
-            "Dataset B is increasing more",
-            "Dataset B is decreasing more"
+            "Dataset A, the left one",
+            "Dataset B, the right one",
+            "Same"
           ]
         }
       ]
@@ -78,10 +78,10 @@
           "location": "sidebar",
           "type": "radio",
           "options": [
-            "Same",
             "Dataset A, the left one",
-            "Dataset B, the right one"
-          ]
+            "Dataset B, the right one",
+            "Same"
+         ]
         }
       ]
     },
@@ -107,7 +107,7 @@
       ]
     },
     "supTrendBase": {
-      "description": "Superposition comparison (trend)",
+      "description": "Superposition comparison (variation)",
       "type": "image",
       "style": {
         "width": "700px"
@@ -120,9 +120,9 @@
           "location": "sidebar",
           "type": "radio",
           "options": [
-            "Same",
-            "Dataset B is increasing more",
-            "Dataset B is decreasing more"
+            "Dataset A, the left one",
+            "Dataset B, the right one",
+            "Same"
           ]
         }
       ]
@@ -141,9 +141,9 @@
           "location": "sidebar",
           "type": "radio",
           "options": [
-            "Same",
             "Dataset A, the left one",
-            "Dataset B, the right one"
+            "Dataset B, the right one",
+            "Same"
           ]
         }
       ]
@@ -170,7 +170,7 @@
       ]
     },
     "expTrendBase": {
-      "description": "Explicit encoding comparison (trend)",
+      "description": "Explicit encoding comparison (variation)",
       "type": "image",
       "style": {
         "width": "700px"
@@ -183,9 +183,9 @@
           "location": "sidebar",
           "type": "radio",
           "options": [
-            "Same",
-            "Dataset B is increasing more",
-            "Dataset B is decreasing more"
+            "Dataset A",
+            "Dataset B",
+            "Same"
           ]
         }
       ]
@@ -204,13 +204,20 @@
           "location": "sidebar",
           "type": "radio",
           "options": [
-            "Same",
             "Dataset A, the left one",
             "Dataset B, the right one",
-            "Hard to say"
+            "Same"
           ]
         }
       ]
+    },
+    "questionPageBase": {
+      "description": "Question-only page shown before each test",
+      "type": "questionnaire",
+      "instructionLocation": "sidebar",
+      "nextButtonLocation": "sidebar",
+      "nextButtonText": "Next",
+      "response": []
     }
   },
   "components": {
@@ -228,12 +235,73 @@
         {
           "id": "accept",
           "prompt": "Do you consent to the study and wish to continue?",
+          "secondaryText": "You must agree to participate before continuing with the study. If you do not wish to participate in the study, you may close this browser tab at any time.",
           "requiredValue": "Accept",
           "location": "sidebar",
           "type": "radio",
           "options": [
             "Decline",
             "Accept"
+          ]
+        }
+      ]
+    },
+    "tutorial1-pre": {
+      "type": "markdown",
+      "path": "comparison-method/assets/tutorial1.md",
+      "nextButtonText": "Next",
+      "nextButtonLocation": "sidebar",
+      "response": [
+        {
+          "id": "accept",
+          "prompt": "Do you understand and ready to practice?",
+          "secondaryText": "After this tutorial, you will complete three practice tasks to become familiar with the visualization and three types of questions you will encounter. After each practice task, you will be shown an explanation of the correct answer. Once you have completed all three practice tasks, you will see the tutorial again for a quick review before starting the main tasks. ",
+          "requiredValue": "Yes",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "No",
+            "Yes"
+          ]
+        }
+      ]
+    },
+        "tutorial2-pre": {
+      "type": "markdown",
+      "path": "comparison-method/assets/tutorial2.md",
+      "nextButtonText": "Next",
+      "nextButtonLocation": "sidebar",
+      "response": [
+        {
+          "id": "accept",
+          "prompt": "Do you understand and ready to practice?",
+          "secondaryText": "After this tutorial, you will complete three practice tasks to become familiar with the visualization and three types of questions you will encounter. After each practice task, you will be shown an explanation of the correct answer. Once you have completed all three practice tasks, you will see the tutorial again for a quick review before starting the main tasks. ",
+          "requiredValue": "Yes",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "No",
+            "Yes"
+          ]
+        }
+      ]
+    },
+        "tutorial3-pre": {
+      "type": "markdown",
+      "path": "comparison-method/assets/tutorial3.md",
+      "nextButtonText": "Next",
+      "nextButtonLocation": "sidebar",
+      "response": [
+        {
+          "id": "accept",
+          "prompt": "Do you understand and ready to practice?",
+          "secondaryText": "After this tutorial, you will complete three practice tasks to become familiar with the visualization and three types of questions you will encounter. After each practice task, you will be shown an explanation of the correct answer. Once you have completed all three practice tasks, you will see the tutorial again for a quick review before starting the main tasks. ",
+          "requiredValue": "Yes",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "No",
+            "Yes"
           ]
         }
       ]
@@ -295,486 +363,696 @@
         }
       ]
     },
+    "jux-value-1-question": {
+      "baseComponent": "questionPageBase",
+      "instruction": "Find **h.23** and compare, which dataset has higher maximum voltage value in that household?"
+    },
     "jux-value-1": {
       "baseComponent": "juxValueBase",
-      "instruction": "Find **h.23** and compare, which dataset has larger local maximum value?",
+      "instruction": "Find **h.23** and compare, which dataset has higher maximum voltage value in that household?",
       "path": "comparison-method/assets/jux/s1.png"
+    },
+    "jux-value-2-question": {
+      "baseComponent": "questionPageBase",
+      "instruction": "Find **h.24** and compare, which dataset has higher maximum voltage value in the whole neighborhood?"
     },
     "jux-value-2": {
       "baseComponent": "juxValueBase",
-      "instruction": "Find **h.24** and compare, which dataset has larger global maximum value?",
+      "instruction": "Find **h.24** and compare, which dataset has higher maximum voltage value in the whole neighborhood?",
       "path": "comparison-method/assets/jux/s2.png"
+    },
+    "jux-value-3-question": {
+      "baseComponent": "questionPageBase",
+      "instruction": "Find **h.15** and compare, which dataset has higher current voltage value?"
     },
     "jux-value-3": {
       "baseComponent": "juxValueBase",
-      "instruction": "Find **h.15** and compare, which dataset has larger current value?",
+      "instruction": "Find **h.15** and compare, which dataset has higher current voltage value?",
       "path": "comparison-method/assets/jux/s3.png"
+    },
+    "jux-value-4-question": {
+      "baseComponent": "questionPageBase",
+      "instruction": "Find **h.4** and compare, which dataset has higher minimum voltage value in the whole neighborhood?"
     },
     "jux-value-4": {
       "baseComponent": "juxValueBase",
-      "instruction": "Find **h.4** and compare, which dataset has larger global minimum value?",
+      "instruction": "Find **h.4** and compare, which dataset has higher minimum voltage value in the whole neighborhood?",
       "path": "comparison-method/assets/jux/s3.png"
+    },
+    "jux-value-5-question": {
+      "baseComponent": "questionPageBase",
+      "instruction": "Find **h.33** and compare, which dataset has higher current voltage value?"
     },
     "jux-value-5": {
       "baseComponent": "juxValueBase",
-      "instruction": "Find **h.33** and compare, which dataset has larger current value?",
+      "instruction": "Find **h.33** and compare, which dataset has higher current voltage value?",
       "path": "comparison-method/assets/jux/s6.png"
+    },
+    "jux-value-6-question": {
+      "baseComponent": "questionPageBase",
+      "instruction": "Find **h.32** and compare, which dataset has higher minimum voltage value in the whole neighborhood?"
     },
     "jux-value-6": {
       "baseComponent": "juxValueBase",
-      "instruction": "Find **h.32** and compare, which dataset has larger global minimum value?",
+      "instruction": "Find **h.32** and compare, which dataset has higher minimum voltage value in the whole neighborhood?",
       "path": "comparison-method/assets/jux/s5.png"
+    },
+    "jux-trend-1-question": {
+      "baseComponent": "questionPageBase",
+      "instruction": "Find **h.31** and compare. Which dataset shows greater variation over time?"
     },
     "jux-trend-1": {
       "baseComponent": "juxTrendBase",
-      "instruction": "Find **h.31** and compare, is the trend of two datasets the same?",
+      "instruction": "Find **h.31** and compare. Which dataset shows greater variation over time?",
       "path": "comparison-method/assets/jux/s7.png"
+    },
+    "jux-trend-2-question": {
+      "baseComponent": "questionPageBase",
+      "instruction": "Find **h.16** and compare. Which dataset shows greater variation over time?"
     },
     "jux-trend-2": {
       "baseComponent": "juxTrendBase",
-      "instruction": "Find **h.16** and compare, is the trend of two datasets the same?",
+      "instruction": "Find **h.16** and compare. Which dataset shows greater variation over time?",
       "path": "comparison-method/assets/jux/s10.png"
+    },
+    "jux-trend-3-question": {
+      "baseComponent": "questionPageBase",
+      "instruction": "Find **h.25** and compare. Which dataset shows greater variation over time?"
     },
     "jux-trend-3": {
       "baseComponent": "juxTrendBase",
-      "instruction": "Find **h.25** and compare, is the trend of two datasets the same?",
+      "instruction": "Find **h.25** and compare. Which dataset shows greater variation over time?",
       "path": "comparison-method/assets/jux/s9.png"
+    },
+    "jux-trend-4-question": {
+      "baseComponent": "questionPageBase",
+      "instruction": "Find **h.33** and compare. Which dataset shows greater variation over time?"
     },
     "jux-trend-4": {
       "baseComponent": "juxTrendBase",
-      "instruction": "Find **h.33** and compare, is the trend of two datasets the same?",
+      "instruction": "Find **h.33** and compare. Which dataset shows greater variation over time?",
       "path": "comparison-method/assets/jux/s7.png"
+    },
+    "jux-trend-5-question": {
+      "baseComponent": "questionPageBase",
+      "instruction": "Find **h.7** and compare. Which dataset shows greater variation over time?"
     },
     "jux-trend-5": {
       "baseComponent": "juxTrendBase",
-      "instruction": "Find **h.7** and compare, is the trend of two datasets the same?",
+      "instruction": "Find **h.7** and compare. Which dataset shows greater variation over time?",
       "path": "comparison-method/assets/jux/s11.png"
+    },
+    "jux-trend-6-question": {
+      "baseComponent": "questionPageBase",
+      "instruction": "Find **h.32** and compare. Which dataset shows greater variation over time?"
     },
     "jux-trend-6": {
       "baseComponent": "juxTrendBase",
-      "instruction": "Find **h.32** and compare, is the trend of two datasets the same?",
+      "instruction": "Find **h.32** and compare. Which dataset shows greater variation over time?",
       "path": "comparison-method/assets/jux/s9.png"
+    },
+    "jux-range-1-question": {
+      "baseComponent": "questionPageBase",
+      "instruction": "Find **h.2** and compare, which dataset has larger range for that node?"
     },
     "jux-range-1": {
       "baseComponent": "juxRangeBase",
       "instruction": "Find **h.2** and compare, which dataset has larger range for that node?",
       "path": "comparison-method/assets/jux/s3.png"
     },
+    "jux-range-2-question": {
+      "baseComponent": "questionPageBase",
+      "instruction": "Find **h.32** and compare, which dataset has larger range for that node?"
+    },
     "jux-range-2": {
       "baseComponent": "juxRangeBase",
       "instruction": "Find **h.32** and compare, which dataset has larger range for that node?",
       "path": "comparison-method/assets/jux/s4.png"
+    },
+    "jux-range-3-question": {
+      "baseComponent": "questionPageBase",
+      "instruction": "Find **h.19** and compare, which dataset has larger range for that node?"
     },
     "jux-range-3": {
       "baseComponent": "juxRangeBase",
       "instruction": "Find **h.19** and compare, which dataset has larger range for that node?",
       "path": "comparison-method/assets/jux/s1.png"
     },
+    "jux-range-4-question": {
+      "baseComponent": "questionPageBase",
+      "instruction": "Find **h.17** and compare, which dataset has larger range for that node?"
+    },
     "jux-range-4": {
       "baseComponent": "juxRangeBase",
       "instruction": "Find **h.17** and compare, which dataset has larger range for that node?",
       "path": "comparison-method/assets/jux/s10.png"
+    },
+    "jux-range-5-question": {
+      "baseComponent": "questionPageBase",
+      "instruction": "Find **h.34** and compare, which dataset has larger range for that node?"
     },
     "jux-range-5": {
       "baseComponent": "juxRangeBase",
       "instruction": "Find **h.34** and compare, which dataset has larger range for that node?",
       "path": "comparison-method/assets/jux/s5.png"
     },
+    "jux-range-6-question": {
+      "baseComponent": "questionPageBase",
+      "instruction": "Find **h.17** and compare, which dataset has larger range for that node?"
+    },
     "jux-range-6": {
       "baseComponent": "juxRangeBase",
       "instruction": "Find **h.17** and compare, which dataset has larger range for that node?",
       "path": "comparison-method/assets/jux/s11.png"
     },
+    "sup-value-1-question": {
+      "baseComponent": "questionPageBase",
+      "instruction": "Find **h.26** and compare, which dataset has higher current voltage value?"
+    },
     "sup-value-1": {
       "baseComponent": "supValueBase",
-      "instruction": "Find **h.26** and compare, which dataset has larger current value?",
+      "instruction": "Find **h.26** and compare, which dataset has higher current voltage value?",
       "path": "comparison-method/assets/sup/s1.png"
+    },
+    "sup-value-2-question": {
+      "baseComponent": "questionPageBase",
+      "instruction": "Find **h.3** and compare, which dataset has higher maximum voltage value in the whole neighborhood?"
     },
     "sup-value-2": {
       "baseComponent": "supValueBase",
-      "instruction": "Find **h.3** and compare, which dataset has larger global maximum value?",
+      "instruction": "Find **h.3** and compare, which dataset has higher maximum voltage value in the whole neighborhood?",
       "path": "comparison-method/assets/sup/s2.png"
+    },
+    "sup-value-3-question": {
+      "baseComponent": "questionPageBase",
+      "instruction": "Find **h.30** and compare, which dataset has higher maximum voltage value in that household?"
     },
     "sup-value-3": {
       "baseComponent": "supValueBase",
-      "instruction": "Find **h.30** and compare, which dataset has larger local maximum value?",
+      "instruction": "Find **h.30** and compare, which dataset has higher maximum voltage value in that household?",
       "path": "comparison-method/assets/sup/s3.png"
+    },
+    "sup-value-4-question": {
+      "baseComponent": "questionPageBase",
+      "instruction": "Find **h.28** and compare, which dataset has higher minimum voltage value in the whole neighborhood?"
     },
     "sup-value-4": {
       "baseComponent": "supValueBase",
-      "instruction": "Find **h.28** and compare, which dataset has larger global minimum value?",
+      "instruction": "Find **h.28** and compare, which dataset has higher minimum voltage value in the whole neighborhood?",
       "path": "comparison-method/assets/sup/s3.png"
+    },
+    "sup-value-5-question": {
+      "baseComponent": "questionPageBase",
+      "instruction": "Find **h.33** and compare, which dataset has higher minimum voltage value in that household?"
     },
     "sup-value-5": {
       "baseComponent": "supValueBase",
-      "instruction": "Find **h.33** and compare, which dataset has larger local minimum value?",
+      "instruction": "Find **h.33** and compare, which dataset has higher minimum voltage value in that household?",
       "path": "comparison-method/assets/sup/s5.png"
+    },
+    "sup-value-6-question": {
+      "baseComponent": "questionPageBase",
+      "instruction": "Find **h.11** and compare, which dataset has higher maximum voltage value in that household?"
     },
     "sup-value-6": {
       "baseComponent": "supValueBase",
-      "instruction": "Find **h.11** and compare, which dataset has larger local maximum value?",
+      "instruction": "Find **h.11** and compare, which dataset has higher maximum voltage value in that household?",
       "path": "comparison-method/assets/sup/s7.png"
+    },
+    "sup-trend-1-question": {
+      "baseComponent": "questionPageBase",
+      "instruction": "Find **h.8** and compare. Which dataset shows greater variation over time?"
     },
     "sup-trend-1": {
       "baseComponent": "supTrendBase",
-      "instruction": "Find **h.8** and compare, is the trend of two datasets the same?",
+      "instruction": "Find **h.8** and compare. Which dataset shows greater variation over time?",
       "path": "comparison-method/assets/sup/s9.png"
+    },
+    "sup-trend-2-question": {
+      "baseComponent": "questionPageBase",
+      "instruction": "Find **h.24** and compare. Which dataset shows greater variation over time?"
     },
     "sup-trend-2": {
       "baseComponent": "supTrendBase",
-      "instruction": "Find **h.24** and compare, is the trend of two datasets the same?",
+      "instruction": "Find **h.24** and compare. Which dataset shows greater variation over time?",
       "path": "comparison-method/assets/sup/s12.png"
+    },
+    "sup-trend-3-question": {
+      "baseComponent": "questionPageBase",
+      "instruction": "Find **h.17** and compare. Which dataset shows greater variation over time?"
     },
     "sup-trend-3": {
       "baseComponent": "supTrendBase",
-      "instruction": "Find **h.17** and compare, is the trend of two datasets the same?",
+      "instruction": "Find **h.17** and compare. Which dataset shows greater variation over time?",
       "path": "comparison-method/assets/sup/s10.png"
+    },
+    "sup-trend-4-question": {
+      "baseComponent": "questionPageBase",
+      "instruction": "Find **h.10** and compare. Which dataset shows greater variation over time?"
     },
     "sup-trend-4": {
       "baseComponent": "supTrendBase",
-      "instruction": "Find **h.10** and compare, is the trend of two datasets the same?",
+      "instruction": "Find **h.10** and compare. Which dataset shows greater variation over time?",
       "path": "comparison-method/assets/sup/s8.png"
+    },
+    "sup-trend-5-question": {
+      "baseComponent": "questionPageBase",
+      "instruction": "Find **h.29** and compare. Which dataset shows greater variation over time?"
     },
     "sup-trend-5": {
       "baseComponent": "supTrendBase",
-      "instruction": "Find **h.29** and compare, is the trend of two datasets the same?",
+      "instruction": "Find **h.29** and compare. Which dataset shows greater variation over time?",
       "path": "comparison-method/assets/sup/s11.png"
+    },
+    "sup-trend-6-question": {
+      "baseComponent": "questionPageBase",
+      "instruction": "Find **h.13** and compare. Which dataset shows greater variation over time?"
     },
     "sup-trend-6": {
       "baseComponent": "supTrendBase",
-      "instruction": "Find **h.13** and compare, is the trend of two datasets the same?",
+      "instruction": "Find **h.13** and compare. Which dataset shows greater variation over time?",
       "path": "comparison-method/assets/sup/s9.png"
+    },
+    "sup-range-1-question": {
+      "baseComponent": "questionPageBase",
+      "instruction": "Find **h.9** and compare, which dataset has larger range for that node?"
     },
     "sup-range-1": {
       "baseComponent": "supRangeBase",
       "instruction": "Find **h.9** and compare, which dataset has larger range for that node?",
       "path": "comparison-method/assets/sup/s7.png"
     },
+    "sup-range-2-question": {
+      "baseComponent": "questionPageBase",
+      "instruction": "Find **h.33** and compare, which dataset has larger range for that node?"
+    },
     "sup-range-2": {
       "baseComponent": "supRangeBase",
       "instruction": "Find **h.33** and compare, which dataset has larger range for that node?",
       "path": "comparison-method/assets/sup/s12.png"
+    },
+    "sup-range-3-question": {
+      "baseComponent": "questionPageBase",
+      "instruction": "Find **h.30** and compare, which dataset has larger range for that node?"
     },
     "sup-range-3": {
       "baseComponent": "supRangeBase",
       "instruction": "Find **h.30** and compare, which dataset has larger range for that node?",
       "path": "comparison-method/assets/sup/s3.png"
     },
+    "sup-range-4-question": {
+      "baseComponent": "questionPageBase",
+      "instruction": "Find **h.32** and compare, which dataset has larger range for that node?"
+    },
     "sup-range-4": {
       "baseComponent": "supRangeBase",
       "instruction": "Find **h.32** and compare, which dataset has larger range for that node?",
       "path": "comparison-method/assets/sup/s4.png"
+    },
+    "sup-range-5-question": {
+      "baseComponent": "questionPageBase",
+      "instruction": "Find **h.11** and compare, which dataset has larger range for that node?"
     },
     "sup-range-5": {
       "baseComponent": "supRangeBase",
       "instruction": "Find **h.11** and compare, which dataset has larger range for that node?",
       "path": "comparison-method/assets/sup/s7.png"
     },
+    "sup-range-6-question": {
+      "baseComponent": "questionPageBase",
+      "instruction": "Find **h.12** and compare, which dataset has larger range for that node?"
+    },
     "sup-range-6": {
       "baseComponent": "supRangeBase",
       "instruction": "Find **h.12** and compare, which dataset has larger range for that node?",
       "path": "comparison-method/assets/sup/s2.png"
     },
+    "exp-value-1-question": {
+      "baseComponent": "questionPageBase",
+      "instruction": "Find **h.17** and compare, which dataset has higher current voltage value?"
+    },
     "exp-value-1": {
       "baseComponent": "expValueBase",
-      "instruction": "Find **h.17** and compare, which dataset has larger current value?",
+      "instruction": "Find **h.17** and compare, which dataset has higher current voltage value?",
       "path": "comparison-method/assets/exp/s1.png"
+    },
+    "exp-value-2-question": {
+      "baseComponent": "questionPageBase",
+      "instruction": "Find **h.24** and compare, which dataset has higher minimum voltage value in that household?"
     },
     "exp-value-2": {
       "baseComponent": "expValueBase",
-      "instruction": "Find **h.24** and compare, which dataset has larger local minimum value?",
+      "instruction": "Find **h.24** and compare, which dataset has higher minimum voltage value in that household?",
       "path": "comparison-method/assets/exp/s2.png"
+    },
+    "exp-value-3-question": {
+      "baseComponent": "questionPageBase",
+      "instruction": "Find **h.33** and compare, which dataset has higher maximum voltage value in that household?"
     },
     "exp-value-3": {
       "baseComponent": "expValueBase",
-      "instruction": "Find **h.33** and compare, which dataset has larger local maximum value?",
+      "instruction": "Find **h.33** and compare, which dataset has higher maximum voltage value in that household?",
       "path": "comparison-method/assets/exp/s3.png"
+    },
+    "exp-value-4-question": {
+      "baseComponent": "questionPageBase",
+      "instruction": "Find **h.30** and compare, which dataset has higher current voltage value?"
     },
     "exp-value-4": {
       "baseComponent": "expValueBase",
-      "instruction": "Find **h.30** and compare, which dataset has larger current value?",
+      "instruction": "Find **h.30** and compare, which dataset has higher current voltage value?",
       "path": "comparison-method/assets/exp/s4.png"
+    },
+    "exp-value-5-question": {
+      "baseComponent": "questionPageBase",
+      "instruction": "Find **h.3** and compare, which dataset has higher maximum voltage value in the whole neighborhood?"
     },
     "exp-value-5": {
       "baseComponent": "expValueBase",
-      "instruction": "Find **h.3** and compare, which dataset has larger global maximum value?",
+      "instruction": "Find **h.3** and compare, which dataset has higher maximum voltage value in the whole neighborhood?",
       "path": "comparison-method/assets/exp/s5.png"
+    },
+    "exp-value-6-question": {
+      "baseComponent": "questionPageBase",
+      "instruction": "Find **h.13** and compare, which dataset has higher minimum voltage value in that household?"
     },
     "exp-value-6": {
       "baseComponent": "expValueBase",
-      "instruction": "Find **h.13** and compare, which dataset has larger local minimum value?",
+      "instruction": "Find **h.13** and compare, which dataset has higher minimum voltage value in that household?",
       "path": "comparison-method/assets/exp/s6.png"
+    },
+    "exp-trend-1-question": {
+      "baseComponent": "questionPageBase",
+      "instruction": "Find **h.17** and compare. Which dataset shows greater variation over time?"
     },
     "exp-trend-1": {
       "baseComponent": "expTrendBase",
-      "instruction": "Find **h.17** and compare, is the trend of two datasets the same?",
+      "instruction": "Find **h.17** and compare. Which dataset shows greater variation over time?",
       "path": "comparison-method/assets/exp/s8.png"
+    },
+    "exp-trend-2-question": {
+      "baseComponent": "questionPageBase",
+      "instruction": "Find **h.10** and compare. Which dataset shows greater variation over time?"
     },
     "exp-trend-2": {
       "baseComponent": "expTrendBase",
-      "instruction": "Find **h.10** and compare, is the trend of two datasets the same?",
+      "instruction": "Find **h.10** and compare. Which dataset shows greater variation over time?",
       "path": "comparison-method/assets/exp/s7.png"
+    },
+    "exp-trend-3-question": {
+      "baseComponent": "questionPageBase",
+      "instruction": "Find **h.26** and compare. Which dataset shows greater variation over time?"
     },
     "exp-trend-3": {
       "baseComponent": "expTrendBase",
-      "instruction": "Find **h.26** and compare, is the trend of two datasets the same?",
+      "instruction": "Find **h.26** and compare. Which dataset shows greater variation over time?",
       "path": "comparison-method/assets/exp/s11.png"
+    },
+    "exp-trend-4-question": {
+      "baseComponent": "questionPageBase",
+      "instruction": "Find **h.8** and compare. Which dataset shows greater variation over time?"
     },
     "exp-trend-4": {
       "baseComponent": "expTrendBase",
-      "instruction": "Find **h.8** and compare, is the trend of two datasets the same?",
+      "instruction": "Find **h.8** and compare. Which dataset shows greater variation over time?",
       "path": "comparison-method/assets/exp/s7.png"
+    },
+    "exp-trend-5-question": {
+      "baseComponent": "questionPageBase",
+      "instruction": "Find **h.25** and compare. Which dataset shows greater variation over time?"
     },
     "exp-trend-5": {
       "baseComponent": "expTrendBase",
-      "instruction": "Find **h.25** and compare, is the trend of two datasets the same?",
+      "instruction": "Find **h.25** and compare. Which dataset shows greater variation over time?",
       "path": "comparison-method/assets/exp/s10.png"
+    },
+    "exp-trend-6-question": {
+      "baseComponent": "questionPageBase",
+      "instruction": "Find **h.28** and compare. Which dataset shows greater variation over time?"
     },
     "exp-trend-6": {
       "baseComponent": "expTrendBase",
-      "instruction": "Find **h.28** and compare, is the trend of two datasets the same?",
+      "instruction": "Find **h.28** and compare. Which dataset shows greater variation over time?",
       "path": "comparison-method/assets/exp/s12.png"
+    },
+    "exp-range-1-question": {
+      "baseComponent": "questionPageBase",
+      "instruction": "Find **h.15** and compare, which dataset has larger range for that node?"
     },
     "exp-range-1": {
       "baseComponent": "expRangeBase",
       "instruction": "Find **h.15** and compare, which dataset has larger range for that node?",
       "path": "comparison-method/assets/exp/s1.png"
     },
+    "exp-range-2-question": {
+      "baseComponent": "questionPageBase",
+      "instruction": "Find **h.25** and compare, which dataset has larger range for that node?"
+    },
     "exp-range-2": {
       "baseComponent": "expRangeBase",
       "instruction": "Find **h.25** and compare, which dataset has larger range for that node?",
       "path": "comparison-method/assets/exp/s10.png"
+    },
+    "exp-range-3-question": {
+      "baseComponent": "questionPageBase",
+      "instruction": "Find **h.16** and compare, which dataset has larger range for that node?"
     },
     "exp-range-3": {
       "baseComponent": "expRangeBase",
       "instruction": "Find **h.16** and compare, which dataset has larger range for that node?",
       "path": "comparison-method/assets/exp/s7.png"
     },
+    "exp-range-4-question": {
+      "baseComponent": "questionPageBase",
+      "instruction": "Find **h.27** and compare, which dataset has larger range for that node?"
+    },
     "exp-range-4": {
       "baseComponent": "expRangeBase",
       "instruction": "Find **h.27** and compare, which dataset has larger range for that node?",
       "path": "comparison-method/assets/exp/s12.png"
+    },
+    "exp-range-5-question": {
+      "baseComponent": "questionPageBase",
+      "instruction": "Find **h.13** and compare, which dataset has larger range for that node?"
     },
     "exp-range-5": {
       "baseComponent": "expRangeBase",
       "instruction": "Find **h.13** and compare, which dataset has larger range for that node?",
       "path": "comparison-method/assets/exp/s6.png"
     },
+    "exp-range-6-question": {
+      "baseComponent": "questionPageBase",
+      "instruction": "Find **h.23** and compare, which dataset has larger range for that node?"
+    },
     "exp-range-6": {
       "baseComponent": "expRangeBase",
       "instruction": "Find **h.23** and compare, which dataset has larger range for that node?",
       "path": "comparison-method/assets/exp/s10.png"
     },
-
-
     "post-jux": {
-  "type": "questionnaire",
-  "description": "Post-group questionnaire: juxtaposition",
-  "instruction": "You have just finished the **juxtaposition** visualization. Please answer a few questions about your experience.",
-  "response": [
-    {
-      "id": "overall-ease",
-      "prompt": "Overall, how easy was it to answer the questions using the **juxtaposition** visualization?",
-      "location": "belowStimulus",
-      "type": "likert",
-      "numItems": 5,
-      "leftLabel": "Very difficult",
-      "rightLabel": "Very easy"
+      "type": "questionnaire",
+      "description": "Post-group questionnaire: juxtaposition",
+      "instruction": "You have just finished the **juxtaposition** visualization. Please answer a few questions about your experience.",
+      "response": [
+        {
+          "id": "overall-ease",
+          "prompt": "Overall, how easy was it to answer the questions using the **juxtaposition** visualization?",
+          "location": "belowStimulus",
+          "type": "likert",
+          "numItems": 5,
+          "leftLabel": "Very difficult",
+          "rightLabel": "Very easy"
+        },
+        {
+          "id": "value-ease",
+          "prompt": "How easy was it to compare **individual values** using the **juxtaposition** visualization?",
+          "location": "belowStimulus",
+          "type": "likert",
+          "numItems": 5,
+          "leftLabel": "Very difficult",
+          "rightLabel": "Very easy"
+        },
+        {
+          "id": "trend-ease",
+          "prompt": "How easy was it to compare **variation** using the **juxtaposition** visualization?",
+          "location": "belowStimulus",
+          "type": "likert",
+          "numItems": 5,
+          "leftLabel": "Very difficult",
+          "rightLabel": "Very easy"
+        },
+        {
+          "id": "range-ease",
+          "prompt": "How easy was it to compare **ranges** using the **juxtaposition** visualization?",
+          "location": "belowStimulus",
+          "type": "likert",
+          "numItems": 5,
+          "leftLabel": "Very difficult",
+          "rightLabel": "Very easy"
+        },
+        {
+          "id": "confidence",
+          "prompt": "How confident were you in your answers using the **juxtaposition** visualization?",
+          "location": "belowStimulus",
+          "type": "likert",
+          "numItems": 5,
+          "leftLabel": "Not at all confident",
+          "rightLabel": "Very confident"
+        },
+        {
+          "id": "enjoyment",
+          "prompt": "How accurate do you think your answers were when using the **juxtaposition** visualization?",
+          "location": "belowStimulus",
+          "type": "likert",
+          "numItems": 5,
+          "leftLabel": "Not at all accurate",
+          "rightLabel": "Very accurate"
+        },
+        {
+          "id": "comments",
+          "prompt": "Any other comments about the **juxtaposition** visualization? (optional)",
+          "location": "belowStimulus",
+          "type": "longText",
+          "required": false
+        }
+      ]
     },
-    {
-      "id": "value-ease",
-      "prompt": "How easy was it to compare **individual values** using the **juxtaposition** visualization?",
-      "location": "belowStimulus",
-      "type": "likert",
-      "numItems": 5,
-      "leftLabel": "Very difficult",
-      "rightLabel": "Very easy"
+    "post-sup": {
+      "type": "questionnaire",
+      "description": "Post-group questionnaire: superposition",
+      "instruction": "You have just finished the **superposition** visualization. Please answer a few questions about your experience.",
+      "response": [
+        {
+          "id": "overall-ease",
+          "prompt": "Overall, how easy was it to answer the questions using the **superposition** visualization?",
+          "location": "belowStimulus",
+          "type": "likert",
+          "numItems": 5,
+          "leftLabel": "Very difficult",
+          "rightLabel": "Very easy"
+        },
+        {
+          "id": "value-ease",
+          "prompt": "How easy was it to compare **individual values** using the **superposition** visualization?",
+          "location": "belowStimulus",
+          "type": "likert",
+          "numItems": 5,
+          "leftLabel": "Very difficult",
+          "rightLabel": "Very easy"
+        },
+        {
+          "id": "trend-ease",
+          "prompt": "How easy was it to compare **variation** using the **superposition** visualization?",
+          "location": "belowStimulus",
+          "type": "likert",
+          "numItems": 5,
+          "leftLabel": "Very difficult",
+          "rightLabel": "Very easy"
+        },
+        {
+          "id": "range-ease",
+          "prompt": "How easy was it to compare **ranges** using the **superposition** visualization?",
+          "location": "belowStimulus",
+          "type": "likert",
+          "numItems": 5,
+          "leftLabel": "Very difficult",
+          "rightLabel": "Very easy"
+        },
+        {
+          "id": "confidence",
+          "prompt": "How confident were you in your answers using the **superposition** visualization?",
+          "location": "belowStimulus",
+          "type": "likert",
+          "numItems": 5,
+          "leftLabel": "Not at all confident",
+          "rightLabel": "Very confident"
+        },
+        {
+          "id": "enjoyment",
+          "prompt": "How accurate do you think your answers were when using the **superposition** visualization?",
+          "location": "belowStimulus",
+          "type": "likert",
+          "numItems": 5,
+          "leftLabel": "Not at all accurate",
+          "rightLabel": "Very accurate"
+        },
+        {
+          "id": "comments",
+          "prompt": "Any other comments about the **superposition** visualization? (optional)",
+          "location": "belowStimulus",
+          "type": "longText",
+          "required": false
+        }
+      ]
     },
-    {
-      "id": "trend-ease",
-      "prompt": "How easy was it to compare **trends** using the **juxtaposition** visualization?",
-      "location": "belowStimulus",
-      "type": "likert",
-      "numItems": 5,
-      "leftLabel": "Very difficult",
-      "rightLabel": "Very easy"
+    "post-exp": {
+      "type": "questionnaire",
+      "description": "Post-group questionnaire: explicit encoding",
+      "instruction": "You have just finished the **explicit encoding** visualization. Please answer a few questions about your experience.",
+      "response": [
+        {
+          "id": "overall-ease",
+          "prompt": "Overall, how easy was it to answer the questions using the **explicit encoding** visualization?",
+          "location": "belowStimulus",
+          "type": "likert",
+          "numItems": 5,
+          "leftLabel": "Very difficult",
+          "rightLabel": "Very easy"
+        },
+        {
+          "id": "value-ease",
+          "prompt": "How easy was it to compare **individual values** using the **explicit encoding** visualization?",
+          "location": "belowStimulus",
+          "type": "likert",
+          "numItems": 5,
+          "leftLabel": "Very difficult",
+          "rightLabel": "Very easy"
+        },
+        {
+          "id": "trend-ease",
+          "prompt": "How easy was it to compare **variation** using the **explicit encoding** visualization?",
+          "location": "belowStimulus",
+          "type": "likert",
+          "numItems": 5,
+          "leftLabel": "Very difficult",
+          "rightLabel": "Very easy"
+        },
+        {
+          "id": "range-ease",
+          "prompt": "How easy was it to compare **ranges** using the **explicit encoding** visualization?",
+          "location": "belowStimulus",
+          "type": "likert",
+          "numItems": 5,
+          "leftLabel": "Very difficult",
+          "rightLabel": "Very easy"
+        },
+        {
+          "id": "confidence",
+          "prompt": "How confident were you in your answers using the **explicit encoding** visualization?",
+          "location": "belowStimulus",
+          "type": "likert",
+          "numItems": 5,
+          "leftLabel": "Not at all confident",
+          "rightLabel": "Very confident"
+        },
+        {
+          "id": "enjoyment",
+          "prompt": "How accurate do you think your answers were when using the **explicit encoding** visualization?",
+          "location": "belowStimulus",
+          "type": "likert",
+          "numItems": 5,
+          "leftLabel": "Not at all accurate",
+          "rightLabel": "Very accurate"
+        },
+        {
+          "id": "comments",
+          "prompt": "Any other comments about the **explicit encoding** visualization? (optional)",
+          "location": "belowStimulus",
+          "type": "longText",
+          "required": false
+        }
+      ]
     },
-    {
-      "id": "range-ease",
-      "prompt": "How easy was it to compare **ranges** using the **juxtaposition** visualization?",
-      "location": "belowStimulus",
-      "type": "likert",
-      "numItems": 5,
-      "leftLabel": "Very difficult",
-      "rightLabel": "Very easy"
-    },
-    {
-      "id": "confidence",
-      "prompt": "How confident were you in your answers using the **juxtaposition** visualization?",
-      "location": "belowStimulus",
-      "type": "likert",
-      "numItems": 5,
-      "leftLabel": "Not at all confident",
-      "rightLabel": "Very confident"
-    },
-    {
-      "id": "enjoyment",
-      "prompt": "How enjoyable was it to use the **juxtaposition** visualization?",
-      "location": "belowStimulus",
-      "type": "likert",
-      "numItems": 5,
-      "leftLabel": "Not at all enjoyable",
-      "rightLabel": "Very enjoyable"
-    },
-    {
-      "id": "comments",
-      "prompt": "Any other comments about the **juxtaposition** visualization? (optional)",
-      "location": "belowStimulus",
-      "type": "longText",
-      "required": false
-    }
-  ]
-},
-
-"post-sup": {
-  "type": "questionnaire",
-  "description": "Post-group questionnaire: superposition",
-  "instruction": "You have just finished the **superposition** visualization. Please answer a few questions about your experience.",
-  "response": [
-    {
-      "id": "overall-ease",
-      "prompt": "Overall, how easy was it to answer the questions using the **superposition** visualization?",
-      "location": "belowStimulus",
-      "type": "likert",
-      "numItems": 5,
-      "leftLabel": "Very difficult",
-      "rightLabel": "Very easy"
-    },
-    {
-      "id": "value-ease",
-      "prompt": "How easy was it to compare **individual values** using the **superposition** visualization?",
-      "location": "belowStimulus",
-      "type": "likert",
-      "numItems": 5,
-      "leftLabel": "Very difficult",
-      "rightLabel": "Very easy"
-    },
-    {
-      "id": "trend-ease",
-      "prompt": "How easy was it to compare **trends** using the **superposition** visualization?",
-      "location": "belowStimulus",
-      "type": "likert",
-      "numItems": 5,
-      "leftLabel": "Very difficult",
-      "rightLabel": "Very easy"
-    },
-    {
-      "id": "range-ease",
-      "prompt": "How easy was it to compare **ranges** using the **superposition** visualization?",
-      "location": "belowStimulus",
-      "type": "likert",
-      "numItems": 5,
-      "leftLabel": "Very difficult",
-      "rightLabel": "Very easy"
-    },
-    {
-      "id": "confidence",
-      "prompt": "How confident were you in your answers using the **superposition** visualization?",
-      "location": "belowStimulus",
-      "type": "likert",
-      "numItems": 5,
-      "leftLabel": "Not at all confident",
-      "rightLabel": "Very confident"
-    },
-    {
-      "id": "enjoyment",
-      "prompt": "How enjoyable was it to use the **superposition** visualization?",
-      "location": "belowStimulus",
-      "type": "likert",
-      "numItems": 5,
-      "leftLabel": "Not at all enjoyable",
-      "rightLabel": "Very enjoyable"
-    },
-    {
-      "id": "comments",
-      "prompt": "Any other comments about the **superposition** visualization? (optional)",
-      "location": "belowStimulus",
-      "type": "longText",
-      "required": false
-    }
-  ]
-},
-
-"post-exp": {
-  "type": "questionnaire",
-  "description": "Post-group questionnaire: explicit encoding",
-  "instruction": "You have just finished the **explicit encoding** visualization. Please answer a few questions about your experience.",
-  "response": [
-    {
-      "id": "overall-ease",
-      "prompt": "Overall, how easy was it to answer the questions using the **explicit encoding** visualization?",
-      "location": "belowStimulus",
-      "type": "likert",
-      "numItems": 5,
-      "leftLabel": "Very difficult",
-      "rightLabel": "Very easy"
-    },
-    {
-      "id": "value-ease",
-      "prompt": "How easy was it to compare **individual values** using the **explicit encoding** visualization?",
-      "location": "belowStimulus",
-      "type": "likert",
-      "numItems": 5,
-      "leftLabel": "Very difficult",
-      "rightLabel": "Very easy"
-    },
-    {
-      "id": "trend-ease",
-      "prompt": "How easy was it to compare **trends** using the **explicit encoding** visualization?",
-      "location": "belowStimulus",
-      "type": "likert",
-      "numItems": 5,
-      "leftLabel": "Very difficult",
-      "rightLabel": "Very easy"
-    },
-    {
-      "id": "range-ease",
-      "prompt": "How easy was it to compare **ranges** using the **explicit encoding** visualization?",
-      "location": "belowStimulus",
-      "type": "likert",
-      "numItems": 5,
-      "leftLabel": "Very difficult",
-      "rightLabel": "Very easy"
-    },
-    {
-      "id": "confidence",
-      "prompt": "How confident were you in your answers using the **explicit encoding** visualization?",
-      "location": "belowStimulus",
-      "type": "likert",
-      "numItems": 5,
-      "leftLabel": "Not at all confident",
-      "rightLabel": "Very confident"
-    },
-    {
-      "id": "enjoyment",
-      "prompt": "How enjoyable was it to use the **explicit encoding** visualization?",
-      "location": "belowStimulus",
-      "type": "likert",
-      "numItems": 5,
-      "leftLabel": "Not at all enjoyable",
-      "rightLabel": "Very enjoyable"
-    },
-    {
-      "id": "comments",
-      "prompt": "Any other comments about the **explicit encoding** visualization? (optional)",
-      "location": "belowStimulus",
-      "type": "longText",
-      "required": false
-    }
-  ]
-},
-
-    
     "background": {
       "type": "questionnaire",
       "description": "Background questionnaire",
@@ -858,51 +1136,98 @@
       "response": [
         {
           "id": "easiest-value",
-          "prompt": "Which visualization made **value comparison** questions easiest to answer?",
+          "prompt": "Rate each visualization based on how easy it was to use for **value comparison**.",
           "location": "belowStimulus",
-          "type": "radio",
-          "options": [
-            "Juxtaposition",
-            "Superposition",
-            "Explicit encoding"
+          "type": "matrix-radio",
+          "required": true,
+          "questionOptions": [
+            "juxtaposition",
+            "superposition",
+            "explicit encoding"
           ],
-          "optionOrder": "random"
+          "answerOptions": [
+            "1 - Very difficult",
+            "2",
+            "3",
+            "4",
+            "5 - Very easy"
+          ]
         },
         {
           "id": "easiest-trend",
-          "prompt": "Which visualization made **trend comparison** questions easiest to answer?",
+          "prompt": "Rate each visualization based on how easy it was to use for **variation comparison**.",
           "location": "belowStimulus",
-          "type": "radio",
-          "options": [
-            "Juxtaposition",
-            "Superposition",
-            "Explicit encoding"
+          "type": "matrix-radio",
+          "required": true,
+          "questionOptions": [
+            "juxtaposition",
+            "superposition",
+            "explicit encoding"
           ],
-          "optionOrder": "random"
+          "answerOptions": [
+            "1 - Very difficult",
+            "2",
+            "3",
+            "4",
+            "5 - Very easy"
+          ]
         },
         {
           "id": "easiest-range",
-          "prompt": "Which visualization made **range comparison** questions easiest to answer?",
+          "prompt": "Rate each visualization based on how easy it was to use for **range comparison**.",
           "location": "belowStimulus",
-          "type": "radio",
-          "options": [
-            "Juxtaposition",
-            "Superposition",
-            "Explicit encoding"
+          "type": "matrix-radio",
+          "required": true,
+          "questionOptions": [
+            "juxtaposition",
+            "superposition",
+            "explicit encoding"
           ],
-          "optionOrder": "random"
+          "answerOptions": [
+            "1 - Very difficult",
+            "2",
+            "3",
+            "4",
+            "5 - Very easy"
+          ]
         },
         {
           "id": "preferred",
-          "prompt": "Which visualization did you like the most overall?",
+          "prompt": "Rate each visualization based on how easy it was to use overall.",
           "location": "belowStimulus",
-          "type": "radio",
-          "options": [
-            "Juxtaposition",
-            "Superposition",
-            "Explicit encoding"
+          "type": "matrix-radio",
+          "required": true,
+          "questionOptions": [
+            "juxtaposition",
+            "superposition",
+            "explicit encoding"
           ],
-          "optionOrder": "random"
+          "answerOptions": [
+            "1 - Very difficult",
+            "2",
+            "3",
+            "4",
+            "5 - Very easy"
+          ]
+        },
+        {
+          "id": "preferred",
+          "prompt": "Rate how much you liked each visualization overall.",
+          "location": "belowStimulus",
+          "type": "matrix-radio",
+          "required": true,
+          "questionOptions": [
+            "juxtaposition",
+            "superposition",
+            "explicit encoding"
+          ],
+          "answerOptions": [
+            "1 - Not at all",
+            "2",
+            "3",
+            "4",
+            "5 - Very much"
+          ]
         },
         {
           "id": "preference-reason",
@@ -910,7 +1235,6 @@
           "location": "belowStimulus",
           "type": "longText",
           "required": false
-
         },
         {
           "id": "final-comments",
@@ -934,24 +1258,43 @@
           {
             "order": "fixed",
             "components": [
+              "tutorial1-pre",
               "tutorial1",
+              "jux-value-1-question",
               "jux-value-1",
+              "jux-value-2-question",
               "jux-value-2",
+              "jux-value-3-question",
               "jux-value-3",
+              "jux-value-4-question",
               "jux-value-4",
+              "jux-value-5-question",
               "jux-value-5",
+              "jux-value-6-question",
               "jux-value-6",
+              "jux-trend-1-question",
               "jux-trend-1",
+              "jux-trend-2-question",
               "jux-trend-2",
+              "jux-trend-3-question",
               "jux-trend-3",
+              "jux-trend-4-question",
               "jux-trend-4",
+              "jux-trend-5-question",
               "jux-trend-5",
+              "jux-trend-6-question",
               "jux-trend-6",
+              "jux-range-1-question",
               "jux-range-1",
+              "jux-range-2-question",
               "jux-range-2",
+              "jux-range-3-question",
               "jux-range-3",
+              "jux-range-4-question",
               "jux-range-4",
+              "jux-range-5-question",
               "jux-range-5",
+              "jux-range-6-question",
               "jux-range-6",
               "post-jux"
             ]
@@ -959,24 +1302,43 @@
           {
             "order": "fixed",
             "components": [
+              "tutorial2-pre",
               "tutorial2",
+              "sup-value-1-question",
               "sup-value-1",
+              "sup-value-2-question",
               "sup-value-2",
+              "sup-value-3-question",
               "sup-value-3",
+              "sup-value-4-question",
               "sup-value-4",
+              "sup-value-5-question",
               "sup-value-5",
+              "sup-value-6-question",
               "sup-value-6",
+              "sup-trend-1-question",
               "sup-trend-1",
+              "sup-trend-2-question",
               "sup-trend-2",
+              "sup-trend-3-question",
               "sup-trend-3",
+              "sup-trend-4-question",
               "sup-trend-4",
+              "sup-trend-5-question",
               "sup-trend-5",
+              "sup-trend-6-question",
               "sup-trend-6",
+              "sup-range-1-question",
               "sup-range-1",
+              "sup-range-2-question",
               "sup-range-2",
+              "sup-range-3-question",
               "sup-range-3",
+              "sup-range-4-question",
               "sup-range-4",
+              "sup-range-5-question",
               "sup-range-5",
+              "sup-range-6-question",
               "sup-range-6",
               "post-sup"
             ]
@@ -984,24 +1346,43 @@
           {
             "order": "fixed",
             "components": [
+              "tutorial3-pre",
               "tutorial3",
+              "exp-value-1-question",
               "exp-value-1",
+              "exp-value-2-question",
               "exp-value-2",
+              "exp-value-3-question",
               "exp-value-3",
+              "exp-value-4-question",
               "exp-value-4",
+              "exp-value-5-question",
               "exp-value-5",
+              "exp-value-6-question",
               "exp-value-6",
+              "exp-trend-1-question",
               "exp-trend-1",
+              "exp-trend-2-question",
               "exp-trend-2",
+              "exp-trend-3-question",
               "exp-trend-3",
+              "exp-trend-4-question",
               "exp-trend-4",
+              "exp-trend-5-question",
               "exp-trend-5",
+              "exp-trend-6-question",
               "exp-trend-6",
+              "exp-range-1-question",
               "exp-range-1",
+              "exp-range-2-question",
               "exp-range-2",
+              "exp-range-3-question",
               "exp-range-3",
+              "exp-range-4-question",
               "exp-range-4",
+              "exp-range-5-question",
               "exp-range-5",
+              "exp-range-6-question",
               "exp-range-6",
               "post-exp"
             ]

@@ -6,15 +6,16 @@ In this part, you will compare two datasets and answer a series of questions abo
 
 ## How to read the figure
 
-* **Explicit Encoding** shows a single box-and-whisker symbol per node, representing the difference between Dataset B and Dataset A (B − A) — not either dataset directly.
+* **Explicit Encoding** shows a single box-and-whisker symbol per node, representing the difference between **Dataset B and Dataset A (B − A)** — not either dataset directly.
 * The box-and-whisker is a **fixed, faded background symbol**, they represent a constant reference frame, not an actual data value.
-* B − A difference is instead shown through three separate encodings layered on top of that fixed symbol:
-  * **A line inside the box** — current value difference between dataset B and A, or current value trend between dataset B and A.
-  * **A left-side arrow** — the *global* maximum and minimum direction of B relative to A across the whole dataset.
-  * **A right-side arrow** — the *local* maximum and minimum direction of B relative to A for that specific node.
+* **B − A** difference is instead shown through three separate encodings layered on top of that fixed symbol:
+  * **A line inside the box** — current voltage value difference between dataset B and A, or voltage variation over time between dataset B and A.
+  * **A left-side arrow** — the direction of B relative to A for maximum and minimum voltage value in the whole neighborhood.
+  * **A right-side arrow** — the direction of B relative to A for maximum and minimum voltage value in that household.
   * For the upper whisker and upper box border: arrow uses ▲ if B > A, ▼ if B < A, or ● if B = A.
   * For the bottom whisker and bottom box border: arrow uses ▼ if B > A, ▲ if B < A, or ● if B = A.
   
+
 
 ## How to answer
 
@@ -28,20 +29,20 @@ Please use only the information shown in the two datasets. There are no right or
 
 ## The three kinds of questions
 
-**Value questions** ask which dataset has the *larger* value of one of these:
+**Value questions** ask which dataset has the *higher value* of one of these:
 
-* **Maximum / minimum global** the highest / lowest value over the time period across all nodes.
-* **Maximum / minimum local** the highest / lowest value over the time period for that node.
-* **Current value:** current value at that timestamp.
+* **Maximum / minimum voltage value in the whole neighborhood:** check the direction of left arrow.
+* **Maximum / minimum voltage value in that household:** check the direction of right arrow.
+* **Current voltage value:** check the current voltage line in the box.
 
 *Answers: Dataset A, Dataset B, or Same.*
 
-**Trend questions** ask whether the two datasets change in the same way over time, or whether Dataset B is increasing or decreasing more than Dataset A.
+**Variation questions** ask which dataset shows *greater variation* over time.
 
-*Answers: Same, Dataset B is increasing more, or Dataset B is decreasing more.*
+*Answers: Dataset A, Dataset B, or Same.*
 
-**Range questions** ask which dataset has the larger range for the node, that is, the difference between its maximum and minimum local value.
+**Range questions** ask which dataset has the *larger range* for the node, that is, the difference between the maximum and minimum voltage value for that node.
 
-*Answers: Same, Dataset A, or Dataset B.*
+*Answers: Dataset A, Dataset B, or Same.*
 
 If anything is unclear, please read this page again. When you are ready, select **Yes** in the sidebar and click **Next**.
