@@ -36,8 +36,8 @@
           "location": "sidebar",
           "type": "radio",
           "options": [
-            "Dataset A",
-            "Dataset B",
+            "Dataset A, the left one",
+            "Dataset B, the right one",
             "Same"
           ]
         }
@@ -79,8 +79,8 @@
           "type": "radio",
           "options": [
             "Same",
-            "Dataset A",
-            "Dataset B"
+            "Dataset A, the left one",
+            "Dataset B, the right one"
           ]
         }
       ]
@@ -99,8 +99,8 @@
           "location": "sidebar",
           "type": "radio",
           "options": [
-            "Dataset A",
-            "Dataset B",
+            "Dataset A, the left one",
+            "Dataset B, the right one",
             "Same"
           ]
         }
@@ -142,8 +142,8 @@
           "type": "radio",
           "options": [
             "Same",
-            "Dataset A",
-            "Dataset B"
+            "Dataset A, the left one",
+            "Dataset B, the right one"
           ]
         }
       ]
@@ -162,8 +162,8 @@
           "location": "sidebar",
           "type": "radio",
           "options": [
-            "Dataset A",
-            "Dataset B",
+            "Dataset A, the left one",
+            "Dataset B, the right one",
             "Same"
           ]
         }
@@ -205,75 +205,10 @@
           "type": "radio",
           "options": [
             "Same",
-            "Dataset A",
-            "Dataset B"
+            "Dataset A, the left one",
+            "Dataset B, the right one",
+            "Hard to say"
           ]
-        }
-      ]
-    },
-    "postGroupBase": {
-      "type": "questionnaire",
-      "response": [
-        {
-          "id": "difficulty",
-          "prompt": "How difficult are the questions in this part overall?",
-          "location": "belowStimulus",
-          "type": "likert",
-          "numItems": 5,
-          "leftLabel": "Very easy",
-          "rightLabel": "Very difficult"
-        },
-        {
-          "id": "confidence",
-          "prompt": "How confident are you in your answers in this part?",
-          "location": "belowStimulus",
-          "type": "likert",
-          "numItems": 5,
-          "leftLabel": "Not at all confident",
-          "rightLabel": "Very confident"
-        },
-        {
-          "id": "helpfulness-value",
-          "prompt": "The visualization made it easy to compare **a single value**.",
-          "location": "belowStimulus",
-          "type": "likert",
-          "numItems": 5,
-          "leftLabel": "Strongly disagree",
-          "rightLabel": "Strongly agree"
-        },
-        {
-          "id": "helpfulness-trend",
-          "prompt": "The visualization made it easy to compare **trend**.",
-          "location": "belowStimulus",
-          "type": "likert",
-          "numItems": 5,
-          "leftLabel": "Strongly disagree",
-          "rightLabel": "Strongly agree"
-        },
-        {
-          "id": "helpfulness-range",
-          "prompt": "The visualization made it easy to compare **range**.",
-          "location": "belowStimulus",
-          "type": "likert",
-          "numItems": 5,
-          "leftLabel": "Strongly disagree",
-          "rightLabel": "Strongly agree"
-        },
-        {
-          "id": "enjoyment",
-          "prompt": "How enjoyable was it to use this visualization?",
-          "location": "belowStimulus",
-          "type": "likert",
-          "numItems": 5,
-          "leftLabel": "Not at all enjoyable",
-          "rightLabel": "Very enjoyable"
-        },
-        {
-          "id": "comments",
-          "prompt": "Any other comments about this part? (optional)",
-          "location": "belowStimulus",
-          "type": "longText",
-          "required": false
         }
       ]
     }
@@ -630,21 +565,216 @@
       "instruction": "Find **h.23** and compare, which dataset has larger range for that node?",
       "path": "comparison-method/assets/exp/s10.png"
     },
+
+
     "post-jux": {
-      "baseComponent": "postGroupBase",
-      "description": "Post-group questionnaire: Juxtaposition",
-      "instruction": "You have just finished the juxtaposition part. Please answer a few questions about it."
+  "type": "questionnaire",
+  "description": "Post-group questionnaire: juxtaposition",
+  "instruction": "You have just finished the **juxtaposition** visualization. Please answer a few questions about your experience.",
+  "response": [
+    {
+      "id": "overall-ease",
+      "prompt": "Overall, how easy was it to answer the questions using the **juxtaposition** visualization?",
+      "location": "belowStimulus",
+      "type": "likert",
+      "numItems": 5,
+      "leftLabel": "Very difficult",
+      "rightLabel": "Very easy"
     },
-    "post-sup": {
-      "baseComponent": "postGroupBase",
-      "description": "Post-group questionnaire: Superposition",
-      "instruction": "You have just finished the superposition part. Please answer a few questions about it."
+    {
+      "id": "value-ease",
+      "prompt": "How easy was it to compare **individual values** using the **juxtaposition** visualization?",
+      "location": "belowStimulus",
+      "type": "likert",
+      "numItems": 5,
+      "leftLabel": "Very difficult",
+      "rightLabel": "Very easy"
     },
-    "post-exp": {
-      "baseComponent": "postGroupBase",
-      "description": "Post-group questionnaire: Explicit encoding",
-      "instruction": "You have just finished the explicit encoding part. Please answer a few questions about it."
+    {
+      "id": "trend-ease",
+      "prompt": "How easy was it to compare **trends** using the **juxtaposition** visualization?",
+      "location": "belowStimulus",
+      "type": "likert",
+      "numItems": 5,
+      "leftLabel": "Very difficult",
+      "rightLabel": "Very easy"
     },
+    {
+      "id": "range-ease",
+      "prompt": "How easy was it to compare **ranges** using the **juxtaposition** visualization?",
+      "location": "belowStimulus",
+      "type": "likert",
+      "numItems": 5,
+      "leftLabel": "Very difficult",
+      "rightLabel": "Very easy"
+    },
+    {
+      "id": "confidence",
+      "prompt": "How confident were you in your answers using the **juxtaposition** visualization?",
+      "location": "belowStimulus",
+      "type": "likert",
+      "numItems": 5,
+      "leftLabel": "Not at all confident",
+      "rightLabel": "Very confident"
+    },
+    {
+      "id": "enjoyment",
+      "prompt": "How enjoyable was it to use the **juxtaposition** visualization?",
+      "location": "belowStimulus",
+      "type": "likert",
+      "numItems": 5,
+      "leftLabel": "Not at all enjoyable",
+      "rightLabel": "Very enjoyable"
+    },
+    {
+      "id": "comments",
+      "prompt": "Any other comments about the **juxtaposition** visualization? (optional)",
+      "location": "belowStimulus",
+      "type": "longText",
+      "required": false
+    }
+  ]
+},
+
+"post-sup": {
+  "type": "questionnaire",
+  "description": "Post-group questionnaire: superposition",
+  "instruction": "You have just finished the **superposition** visualization. Please answer a few questions about your experience.",
+  "response": [
+    {
+      "id": "overall-ease",
+      "prompt": "Overall, how easy was it to answer the questions using the **superposition** visualization?",
+      "location": "belowStimulus",
+      "type": "likert",
+      "numItems": 5,
+      "leftLabel": "Very difficult",
+      "rightLabel": "Very easy"
+    },
+    {
+      "id": "value-ease",
+      "prompt": "How easy was it to compare **individual values** using the **superposition** visualization?",
+      "location": "belowStimulus",
+      "type": "likert",
+      "numItems": 5,
+      "leftLabel": "Very difficult",
+      "rightLabel": "Very easy"
+    },
+    {
+      "id": "trend-ease",
+      "prompt": "How easy was it to compare **trends** using the **superposition** visualization?",
+      "location": "belowStimulus",
+      "type": "likert",
+      "numItems": 5,
+      "leftLabel": "Very difficult",
+      "rightLabel": "Very easy"
+    },
+    {
+      "id": "range-ease",
+      "prompt": "How easy was it to compare **ranges** using the **superposition** visualization?",
+      "location": "belowStimulus",
+      "type": "likert",
+      "numItems": 5,
+      "leftLabel": "Very difficult",
+      "rightLabel": "Very easy"
+    },
+    {
+      "id": "confidence",
+      "prompt": "How confident were you in your answers using the **superposition** visualization?",
+      "location": "belowStimulus",
+      "type": "likert",
+      "numItems": 5,
+      "leftLabel": "Not at all confident",
+      "rightLabel": "Very confident"
+    },
+    {
+      "id": "enjoyment",
+      "prompt": "How enjoyable was it to use the **superposition** visualization?",
+      "location": "belowStimulus",
+      "type": "likert",
+      "numItems": 5,
+      "leftLabel": "Not at all enjoyable",
+      "rightLabel": "Very enjoyable"
+    },
+    {
+      "id": "comments",
+      "prompt": "Any other comments about the **superposition** visualization? (optional)",
+      "location": "belowStimulus",
+      "type": "longText",
+      "required": false
+    }
+  ]
+},
+
+"post-exp": {
+  "type": "questionnaire",
+  "description": "Post-group questionnaire: explicit encoding",
+  "instruction": "You have just finished the **explicit encoding** visualization. Please answer a few questions about your experience.",
+  "response": [
+    {
+      "id": "overall-ease",
+      "prompt": "Overall, how easy was it to answer the questions using the **explicit encoding** visualization?",
+      "location": "belowStimulus",
+      "type": "likert",
+      "numItems": 5,
+      "leftLabel": "Very difficult",
+      "rightLabel": "Very easy"
+    },
+    {
+      "id": "value-ease",
+      "prompt": "How easy was it to compare **individual values** using the **explicit encoding** visualization?",
+      "location": "belowStimulus",
+      "type": "likert",
+      "numItems": 5,
+      "leftLabel": "Very difficult",
+      "rightLabel": "Very easy"
+    },
+    {
+      "id": "trend-ease",
+      "prompt": "How easy was it to compare **trends** using the **explicit encoding** visualization?",
+      "location": "belowStimulus",
+      "type": "likert",
+      "numItems": 5,
+      "leftLabel": "Very difficult",
+      "rightLabel": "Very easy"
+    },
+    {
+      "id": "range-ease",
+      "prompt": "How easy was it to compare **ranges** using the **explicit encoding** visualization?",
+      "location": "belowStimulus",
+      "type": "likert",
+      "numItems": 5,
+      "leftLabel": "Very difficult",
+      "rightLabel": "Very easy"
+    },
+    {
+      "id": "confidence",
+      "prompt": "How confident were you in your answers using the **explicit encoding** visualization?",
+      "location": "belowStimulus",
+      "type": "likert",
+      "numItems": 5,
+      "leftLabel": "Not at all confident",
+      "rightLabel": "Very confident"
+    },
+    {
+      "id": "enjoyment",
+      "prompt": "How enjoyable was it to use the **explicit encoding** visualization?",
+      "location": "belowStimulus",
+      "type": "likert",
+      "numItems": 5,
+      "leftLabel": "Not at all enjoyable",
+      "rightLabel": "Very enjoyable"
+    },
+    {
+      "id": "comments",
+      "prompt": "Any other comments about the **explicit encoding** visualization? (optional)",
+      "location": "belowStimulus",
+      "type": "longText",
+      "required": false
+    }
+  ]
+},
+
+    
     "background": {
       "type": "questionnaire",
       "description": "Background questionnaire",
@@ -674,7 +804,7 @@
         },
         {
           "id": "education",
-          "prompt": "What is your highest level of education (completed or in progress)?",
+          "prompt": "What is your highest level of completed education?",
           "location": "belowStimulus",
           "type": "dropdown",
           "placeholder": "Select one",
@@ -683,49 +813,28 @@
             "Bachelor's degree",
             "Master's degree",
             "PhD",
-            "Other"
-          ]
-        },
-        {
-          "id": "occupation",
-          "prompt": "What is your field of study or occupation? (optional)",
-          "location": "belowStimulus",
-          "type": "shortText",
-          "required": false
-        },
-        {
-          "id": "vis-years",
-          "prompt": "How many years of experience do you have with data visualization?",
-          "location": "belowStimulus",
-          "type": "radio",
-          "options": [
-            "None",
-            "Less than 1 year",
-            "1-3 years",
-            "3-5 years",
-            "More than 5 years"
+            "Doctoral degree"
           ]
         },
         {
           "id": "vis-experience",
-          "prompt": "How would you rate your experience with data visualization?",
+          "prompt": "How would you rate your experience with reading data visualization?",
           "location": "belowStimulus",
           "type": "likert",
           "numItems": 5,
           "leftLabel": "No experience",
-          "rightLabel": "Expert"
+          "rightLabel": "Very experienced"
         },
         {
-          "id": "chart-frequency",
-          "prompt": "How often do you read or create charts (for example line charts or time series)?",
+          "id": "vision",
+          "prompt": "How would you describe your eyesight when using your usual glasses or contact lenses, if applicable?",
           "location": "belowStimulus",
           "type": "radio",
           "options": [
-            "Never",
-            "A few times a year",
-            "About monthly",
-            "About weekly",
-            "Daily"
+            "Normal or corrected-to-normal vision with glasses or contact lenses",
+            "Vision is not fully corrected with glasses or contact lenses",
+            "Not sure",
+            "Prefer not to say"
           ]
         },
         {
@@ -736,7 +845,8 @@
           "options": [
             "No",
             "Yes",
-            "Not sure"
+            "Not sure",
+            "Prefer not to say"
           ]
         }
       ]
