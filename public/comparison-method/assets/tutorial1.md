@@ -1,45 +1,45 @@
 # Juxtaposition
 
-In this part, you will compare two datasets and answer three groups of questions about the differences between them. In this design, the two datasets are shown **side by side**.
+In this part, you will compare two datasets and answer three groups of questions about the differences between them. In this design, the two datasets are shown in two grids **side by side**.
 
 ![Example of the juxtaposition visualization](comparison-method/assets/jux/node.png)
 
 ## How to read the figure
+* **Dataset A** is shown in the left grid.
+* **Dataset B** is shown in the right grid.
+* The node symbol is a box-and-whisker, and it represents the household in the grid. 
 
-* **Dataset A** is shown on the left.
-* **Dataset B** is shown on the right.
-* The node is a box-and-whisker symbol. 
-* For each symbol, upper whisker represents the maximum voltage value in the whole neighborhood, bottom whisker represents the minimum voltage value in the whole neighborhood. 
-* Upper box border represents maximum voltage value in that household, bottom box border represents minimum voltage value in that household.
-* The line in the box represents current voltage value, or the voltage variation over time. 
+## How to read symbol
+* **Upper whisker** represents the maximum voltage value across all households.
+* **Bottom whisker** represents the minimum voltage value across all households.
+* **Upper box border** represents maximum voltage value for that household.
+* **Bottom box border** represents minimum voltage value for that household.
+* **Line in the box** represents voltage value, or the voltage variation over time. 
+* **Vertical position** for all of these visual elements, vertical position represents the voltage value: a higher position indicates a higher voltage value, while a lower position indicates a lower voltage value.
 
 
 ## How to answer
 
-Each question names a node, for example **h.23**. For every question:
+Each question names a node, for example **h.23**. There are three types of questions:
 
-1. Find that node in **both** datasets.
-2. Compare the two datasets for that node, as the question asks.
-3. Select the answer that best matches your comparison.
+1. **Value questions** ask which dataset has the *higher* value of one of these:
 
-Please use only the information shown in the two datasets. There are no right or wrong strategies, so take your time and answer as accurately as you can.
-
-## The three kinds of questions
-
-**Value questions** ask which dataset has the *higher* value of one of these:
-
-* **Maximum / minimum voltage value in the whole neighborhood:** check the upper / bottom whisker for both datasets and compare.
-* **Maximum / minimum voltage value in that household:** check the upper / bottom box border for both datasets and compare.
-* **Current voltage value:** check the current voltage line in the box.
+    * **Maximum / minimum voltage value across all households:** check the upper / bottom whisker, a higher position indicates a higher value, while a lower position indicates a lower value.
+    * **Maximum / minimum voltage value for that household:** check the upper / bottom box border, a higher position indicates a higher value, while a lower position indicates a lower value.
+    * **Voltage value:** check the voltage line in the box, a higher position indicates a higher value, while a lower position indicates a lower value.
 
 *Answers: Dataset A, Dataset B, or Same.*
 
-**Variation questions** ask which dataset shows greater variation over time.
+2. **Variation questions** ask which dataset shows greater variation over time: 
+
+* **Voltage curve:** assess the degree of dispersion of each time series around its central tendency over the time period. A greater degree of dispersion indicates greater variation.
 
 *Answers: Dataset A, Dataset B, or Same.*
 
-**Range questions** ask which dataset has the larger range for the node, that is, the difference between the maximum and minimum voltage value for that node.
+3. **Range questions** ask which dataset has the larger range for the node, that is, the difference between the maximum and minimum voltage value for that node:
+
+    * **Maximum / minimum voltage value for that household:** check the difference between upper / bottom box border, larger the difference indicates larger the range.
 
 *Answers: Dataset A, Dataset B, or Same.*
 
-If anything is unclear, please read this page again. When you are ready, select **Yes** in the sidebar and click **Next**.
+If anything is unclear, please read this page again. When you are ready, select **Next** to start the questions.
