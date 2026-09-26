@@ -1,0 +1,13 @@
+{
+  "$schema": "https://raw.githubusercontent.com/revisit-studies/study/v2.4.3/src/parser/GlobalConfigSchema.json",
+  "configsList": [
+    "comparison-method"  ],
+  "configs": {
+    "comparison-method": {
+      "path": "comparison-method/config.json"
+    }
+  }
+}
+
+
+
