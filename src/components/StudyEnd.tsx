@@ -192,9 +192,45 @@ export function StudyEnd() {
     <Center style={{ height: '100%' }}>
       <Flex direction="column">
         {completed || !dataCollectionEnabled
-          ? (processedStudyEndMsg
-            ? <ReactMarkdownWrapper text={processedStudyEndMsg} />
-            : <Text size="xl" display="block">Thank you for completing the study. You may close this window now.</Text>)
+          ? (
+            <>
+              {processedStudyEndMsg
+                ? <ReactMarkdownWrapper text={processedStudyEndMsg} />
+                : (
+                  <Text size="xl" display="block">
+                    Thank you for completing the study.
+                  </Text>
+                )}
+
+              <Space h="lg" />
+
+              <Text>
+                Please download your study data file first. Then upload the downloaded
+                file using the form below.
+              </Text>
+
+              <Space h="lg" />
+
+              <Group>
+                <Button
+                  onClick={downloadParticipant}
+                  disabled={downloadUnavailable}
+                >
+                  1. Download Data
+                </Button>
+
+                <Button
+                  component="a"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLScUc2ruD9OtvQPCzISw63tn7z6faYlt9CPUThaJ_ncjZ5H3_w/viewform?usp=publish-editor"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  variant="default"
+                >
+                  2. Upload Data
+                </Button>
+              </Group>
+            </>
+          )
           : (
             <>
               <Text size="xl" display="block">
