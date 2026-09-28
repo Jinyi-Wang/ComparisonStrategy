@@ -2,7 +2,7 @@
 
 In this part, you will compare two datasets and answer three groups of questions about the differences between them. In this design, the two datasets are shown in two grids **side by side**.
 
-![Example of the juxtaposition visualization](comparison-method/assets/jux/node.png)
+![Example of the juxtaposition visualization](comparison-method/assets/jux/test.png)
 
 ## How to read the figure
 * **Dataset A** is shown in the left grid.
@@ -22,24 +22,33 @@ In this part, you will compare two datasets and answer three groups of questions
 
 Each question names a node, for example **h.23**. There are three types of questions:
 
-1. **Value questions** ask which dataset has the *higher* value of one of these:
+#### **Value questions** 
+Ask which dataset has the *higher* value of one of these:
+![Example of the juxtaposition visualization](comparison-method/assets/jux/node.png)
 
-    * **Maximum / minimum voltage value across all households:** check the upper / bottom whisker, a higher position indicates a higher value, while a lower position indicates a lower value.
-    * **Maximum / minimum voltage value for that household:** check the upper / bottom box border, a higher position indicates a higher value, while a lower position indicates a lower value.
-    * **Voltage value:** check the voltage line in the box, a higher position indicates a higher value, while a lower position indicates a lower value.
+* **Maximum / minimum voltage value across all households:** check the upper / bottom whisker, a higher position indicates a higher value, while a lower position indicates a lower value.
+* **Maximum / minimum voltage value for that household:** check the upper / bottom box border, a higher position indicates a higher value, while a lower position indicates a lower value.
+* **Voltage value:** check the voltage line in the box, a higher position indicates a higher value, while a lower position indicates a lower value.
 
 *Answers: Dataset A, Dataset B, or Same.*
 
-2. **Variation questions** ask which dataset shows greater variation over time: 
+
+#### **Variation questions** 
+Ask which dataset shows greater variation over time: 
+<img src="comparison-method/assets/jux/variation.png" alt="drawing" style="width:500px;"/>
 
 * **Voltage curve:** assess the degree of dispersion of each time series around its central tendency over the time period. A greater degree of dispersion indicates greater variation.
 
 *Answers: Dataset A, Dataset B, or Same.*
 
-3. **Range questions** ask which dataset has the larger range for the node, that is, the difference between the maximum and minimum voltage value for that node:
 
-    * **Maximum / minimum voltage value for that household:** check the difference between upper / bottom box border, larger the difference indicates larger the range.
+#### **Range questions** 
+Ask which dataset has the larger range for the node, that is, the difference between the maximum and minimum voltage value for that node:
+<img src="comparison-method/assets/jux/range.png" alt="drawing" style="width:700px;"/>
+
+* **Maximum / minimum voltage value for that household:** check the difference between upper / bottom box border, larger the difference indicates larger the range.
 
 *Answers: Dataset A, Dataset B, or Same.*
 
+#### Note
 If anything is unclear, please read this page again. When you are ready, select **Next** to start the questions.
