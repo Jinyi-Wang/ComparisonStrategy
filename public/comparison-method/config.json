@@ -332,11 +332,11 @@
     },
     "jux-practice-value-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.5** and compare, which dataset has higher current voltage value?"
+      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.5** and compare, which dataset has higher voltage value?"
     },
     "jux-practice-value": {
       "baseComponent": "juxValueBase",
-      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.5** and compare, which dataset has higher current voltage value?",
+      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.5** and compare, which dataset has higher voltage value?",
       "path": "comparison-method/assets/jux/s1.png",
       "provideFeedback": true,
       "trainingAttempts": 1,
@@ -354,7 +354,7 @@
       "style": {
         "width": "1000px"
       },
-  "instruction": "### Explanation\n\n**Correct answer: Dataset A, the left one.**\n\nFirst, locate the target node in both datasets.\n\nThen, compare the **horizontal lines inside the boxes** for that node. The horizontal line in the left dataset, representing Dataset A, is higher than the horizontal line in the right dataset, representing Dataset B.\n\nA higher horizontal line indicates a higher current voltage value. Therefore, **Dataset A, the left one, has the higher current voltage value**.",
+  "instruction": "### Explanation\n\n**Correct answer: Dataset A, the left one.**\n\nFirst, locate the target node in both datasets.\n\nThen, compare the **horizontal lines inside the boxes** for that node. The horizontal line in the left dataset, representing Dataset A, is higher than the horizontal line in the right dataset, representing Dataset B.\n\nA higher horizontal line indicates a higher voltage value. Therefore, **Dataset A, the left one, has the higher voltage value**.",
       "instructionLocation": "sidebar",
       "nextButtonLocation": "sidebar",
       "nextButtonText": "Continue",
@@ -422,11 +422,11 @@
     },
     "sup-practice-value-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **superposition**:\n\nFind **h.5** and compare, which dataset has higher current voltage value?"
+      "instruction": "Looking at the **superposition**:\n\nFind **h.5** and compare, which dataset has higher voltage value?"
     },
     "sup-practice-value": {
       "baseComponent": "supValueBase",
-      "instruction": "Looking at the **superposition**:\n\nFind **h.5** and compare, which dataset has higher current voltage value?",
+      "instruction": "Looking at the **superposition**:\n\nFind **h.5** and compare, which dataset has higher voltage value?",
       "path": "comparison-method/assets/sup/s1.png",
       "provideFeedback": true,
       "trainingAttempts": 1,
@@ -444,7 +444,7 @@
       "style": {
         "width": "700px"
       },
-  "instruction": "### Explanation\n\n**Correct answer: Dataset B, the right one.**\n\nFirst, locate **h.5** in the figure.\n\nThen, compare the **horizontal lines inside the boxes** for h.5 in the two datasets. The horizontal line in the right dataset is higher, while the horizontal line in the left dataset is lower.\n\nA higher horizontal line indicates a higher current voltage value. Therefore, Dataset B, shown on the right, has a higher current voltage value than Dataset A.\n\nTherefore, **Dataset B, the right one, is the correct answer**.",      "instructionLocation": "sidebar",
+  "instruction": "### Explanation\n\n**Correct answer: Dataset B, the right one.**\n\nFirst, locate **h.5** in the figure.\n\nThen, compare the **horizontal lines inside the boxes** for h.5 in the two datasets. The horizontal line in the right dataset is higher, while the horizontal line in the left dataset is lower.\n\nA higher horizontal line indicates a higher voltage value. Therefore, Dataset B, shown on the right, has a higher voltage value than Dataset A.\n\nTherefore, **Dataset B, the right one, is the correct answer**.",      "instructionLocation": "sidebar",
       "nextButtonLocation": "sidebar",
       "nextButtonText": "Continue",
       "response": []
@@ -511,11 +511,11 @@
     },
     "exp-practice-value-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.5** and compare, which dataset has higher current voltage value?"
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.5** and compare, which dataset has higher voltage value?"
     },
     "exp-practice-value": {
       "baseComponent": "expValueBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.5** and compare, which dataset has higher current voltage value?",
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.5** and compare, which dataset has higher voltage value?",
       "path": "comparison-method/assets/exp/s1.png",
       "provideFeedback": true,
       "trainingAttempts": 1,
@@ -533,7 +533,7 @@
       "style": {
         "width": "700px"
       },
-      "instruction": "### Explanation\n\n**Correct answer: Dataset A.**\n\nFirst, locate **h.5** in the figure.\n\nThen, look at the **horizontal line inside the box** for h.5. This line represents the difference **B − A**. You can see that the line is close to the bottom of the box, which indicates that **B − A is less than 0**.\n\nSince **B − A < 0**, the value in Dataset B is smaller than the value in Dataset A. Therefore, **Dataset A has the higher current voltage value**.",
+      "instruction": "### Explanation\n\n**Correct answer: Dataset A.**\n\nFirst, locate **h.5** in the figure.\n\nThen, look at the **horizontal line inside the box** for h.5. This line represents the difference **B − A**. You can see that the line is close to the bottom of the box, which indicates that **B − A is less than 0**.\n\nSince **B − A < 0**, the value in Dataset B is smaller than the value in Dataset A. Therefore, **Dataset A has the higher voltage value**.",
       "instructionLocation": "sidebar",
       "nextButtonLocation": "sidebar",
       "nextButtonText": "Continue",
@@ -619,11 +619,11 @@
     },
     "jux-value-3-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.6** and compare, which dataset has higher current voltage value?"
+      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.6** and compare, which dataset has higher voltage value?"
     },
     "jux-value-3": {
       "baseComponent": "juxValueBase",
-      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.6** and compare, which dataset has higher current voltage value?",
+      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.6** and compare, which dataset has higher voltage value?",
       "path": "comparison-method/assets/jux/s3.png"
     },
     "jux-value-4-question": {
@@ -637,11 +637,11 @@
     },
     "jux-value-5-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.4** and compare, which dataset has higher current voltage value?"
+      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.4** and compare, which dataset has higher voltage value?"
     },
     "jux-value-5": {
       "baseComponent": "juxValueBase",
-      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.4** and compare, which dataset has higher current voltage value?",
+      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.4** and compare, which dataset has higher voltage value?",
       "path": "comparison-method/assets/jux/s4.png"
     },
     "jux-value-6-question": {
@@ -763,11 +763,11 @@
     },
     "sup-value-1-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **superposition**:\n\nFind **h.4** and compare, which dataset has higher current voltage value?"
+      "instruction": "Looking at the **superposition**:\n\nFind **h.4** and compare, which dataset has higher voltage value?"
     },
     "sup-value-1": {
       "baseComponent": "supValueBase",
-      "instruction": "Looking at the **superposition**:\n\nFind **h.4** and compare, which dataset has higher current voltage value?",
+      "instruction": "Looking at the **superposition**:\n\nFind **h.4** and compare, which dataset has higher voltage value?",
       "path": "comparison-method/assets/sup/s4.png"
     },
     "sup-value-2-question": {
@@ -925,11 +925,11 @@
     },
     "exp-value-1-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.9** and compare, which dataset has higher current voltage value?"
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.9** and compare, which dataset has higher voltage value?"
     },
     "exp-value-1": {
       "baseComponent": "expValueBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.9** and compare, which dataset has higher current voltage value?",
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.9** and compare, which dataset has higher voltage value?",
       "path": "comparison-method/assets/exp/s3.png"
     },
     "exp-value-2-question": {
@@ -952,11 +952,11 @@
     },
     "exp-value-4-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.7** and compare, which dataset has higher current voltage value?"
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.7** and compare, which dataset has higher voltage value?"
     },
     "exp-value-4": {
       "baseComponent": "expValueBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.7** and compare, which dataset has higher current voltage value?",
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.7** and compare, which dataset has higher voltage value?",
       "path": "comparison-method/assets/exp/s5.png"
     },
     "exp-value-5-question": {

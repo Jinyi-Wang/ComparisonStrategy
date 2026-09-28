@@ -1,10 +1,10 @@
 # IRB Consent Form
 
- **Investigator: Jinyi**
+ **Investigator: Jinyi Wang**
 
  **Contact Information: jinyi.wang@liu.se; (+46) 070 385 6042**
 
-## Title of Research Study: Supporting Data Visualization Literacy
+## Title of Research Study: Comparing comparison strategy
 ## Introduction
 You are being asked to participate in a research study. Before you
 agree, however, you must be fully informed about the purpose of

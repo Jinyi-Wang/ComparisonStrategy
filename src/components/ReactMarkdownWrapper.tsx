@@ -29,6 +29,13 @@ const markdownComponents = (inline?: boolean): Partial<Components> => ({
   code({ node: _, ...props }) { return <Code {...props} />; },
   ul({ node: _, ...props }) { return <List withPadding {...props} pb={inline ? undefined : 8} />; },
   ol({ node: _, type: _type, ...props }) { return <List {...props} type="ordered" withPadding pb={inline ? undefined : 8} />; },
+  li({ node: _, children, ...props }) {
+    return (
+      <List.Item {...props}>
+        {children}
+      </List.Item>
+    );
+  },
   table({ node: _, ...props }) { return <Table {...props} mb={12} borderColor="grey" />; },
   thead({ node: _, ...props }) { return <Table.Thead {...props} />; },
   tbody({ node: _, ...props }) { return <Table.Tbody {...props} />; },
