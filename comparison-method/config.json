@@ -354,7 +354,7 @@
       "style": {
         "width": "1000px"
       },
-  "instruction": "### Explanation\n\n**Correct answer: Dataset A, the left one.**\n\nFirst, locate the target node in both datasets.\n\nThen, compare the **horizontal lines inside the boxes** for that node. The horizontal line in the left dataset, representing Dataset A, is higher than the horizontal line in the right dataset, representing Dataset B.\n\nA higher horizontal line indicates a higher voltage value. Therefore, **Dataset A, the left one, has the higher voltage value**.",
+  "instruction": "### Explanation\n\n**Correct answer: Dataset A, the left one.**\n\nFirst, locate the target node in both datasets.\n\nThen, compare the **horizontal lines inside the boxes** for that node. The horizontal line in the left grid, representing Dataset A, is higher than the horizontal line in the right grid, representing Dataset B.\n\nA higher horizontal line indicates a higher voltage value. Therefore, **Dataset A, the left one, has the higher voltage value**.",
       "instructionLocation": "sidebar",
       "nextButtonLocation": "sidebar",
       "nextButtonText": "Continue",
@@ -384,7 +384,7 @@
       "style": {
         "width": "1000px"
       },
-  "instruction": "### Explanation\n\n**Correct answer: Dataset B, the right one.**\n\nFirst, locate **h.5** in both datasets.\n\nThen, look at the **curves inside the two boxes** for h.5 and compare how they change over time. The curve in the left dataset, representing Dataset A, is smoother and shows fewer ups and downs. In contrast, the curve in the right dataset, representing Dataset B, has more ups and downs.\n\nMore ups and downs indicate greater variation over time, while a smoother curve indicates less variation.\n\nTherefore, **Dataset B, the right one, shows greater variation over time for h.5**.",
+  "instruction": "### Explanation\n\n**Correct answer: Dataset B, the right one.**\n\nFirst, locate **h.5** in both datasets.\n\nThen, look at the **curves inside the two boxes** for h.5 and compare how they change over time. The curve in the left grid, representing Dataset A, is smoother and shows fewer ups and downs. In contrast, the curve in the right grid, representing Dataset B, has more ups and downs.\n\nMore ups and downs indicate greater variation over time, while a smoother curve indicates less variation.\n\nTherefore, **Dataset B, the right one, shows greater variation over time for h.5**.",
       "instructionLocation": "sidebar",
       "nextButtonLocation": "sidebar",
       "nextButtonText": "Continue",
@@ -414,7 +414,7 @@
       "style": {
         "width": "1000px"
       },
-  "instruction": "### Explanation\n\n**Correct answer: Dataset A, the left one.**\n\nFirst, locate **h.13** in both datasets.\n\nThen, compare the **height of the two boxes** for h.13. The box in the left dataset, representing Dataset A, is taller than the box in the right dataset, representing Dataset B.\n\nThe height of the box represents the range of voltage values. A taller box indicates a larger range, while a shorter box indicates a smaller range.\n\nTherefore, **Dataset A, the left one, has the larger range for h.13**.",
+  "instruction": "### Explanation\n\n**Correct answer: Dataset A, the left one.**\n\nFirst, locate **h.13** in both datasets.\n\nThen, compare the **height of the two boxes** for h.13. The box in the left grid, representing Dataset A, is taller than the box in the right grid, representing Dataset B.\n\nThe height of the box represents the range of voltage values. A taller box indicates a larger range, while a shorter box indicates a smaller range.\n\nTherefore, **Dataset A, the left one, has the larger range for h.13**.",
       "instructionLocation": "sidebar",
       "nextButtonLocation": "sidebar",
       "nextButtonText": "Continue",
@@ -444,7 +444,7 @@
       "style": {
         "width": "700px"
       },
-  "instruction": "### Explanation\n\n**Correct answer: Dataset B, the right one.**\n\nFirst, locate **h.5** in the figure.\n\nThen, compare the **horizontal lines inside the boxes** for h.5 in the two datasets. The horizontal line in the right dataset is higher, while the horizontal line in the left dataset is lower.\n\nA higher horizontal line indicates a higher voltage value. Therefore, Dataset B, shown on the right, has a higher voltage value than Dataset A.\n\nTherefore, **Dataset B, the right one, is the correct answer**.",      "instructionLocation": "sidebar",
+  "instruction": "### Explanation\n\n**Correct answer: Dataset B, the right one.**\n\nFirst, locate **h.5** in the figure.\n\nThen, compare the **horizontal lines inside the boxes** for h.5 in the two datasets. The horizontal line in the right symbol is higher, while the horizontal line in the left symbol is lower.\n\nA higher horizontal line indicates a higher voltage value. Therefore, Dataset B, shown on the right, has a higher voltage value than Dataset A.\n\nTherefore, **Dataset B, the right one, is the correct answer**.",      "instructionLocation": "sidebar",
       "nextButtonLocation": "sidebar",
       "nextButtonText": "Continue",
       "response": []
@@ -473,7 +473,7 @@
       "style": {
         "width": "700px"
       },
-  "instruction": "### Explanation\n\n**Correct answer: Dataset B, the right one.**\n\nFirst, locate **h.8** in the figure.\n\nThen, look at the **curves inside the two boxes** for h.8 and compare how they change over time. The curve in the left box, representing Dataset A, is smoother and shows fewer changes. In contrast, the curve in the right box, representing Dataset B, has more ups and downs.\n\nMore ups and downs indicate greater variation over time, while a smoother curve indicates less variation.\n\nTherefore, **Dataset B, the right one, shows greater variation over time**.",
+  "instruction": "### Explanation\n\n**Correct answer: Dataset B, the right one.**\n\nFirst, locate **h.8** in the figure.\n\nThen, look at the **curves inside the two boxes** for h.8 and compare how they change over time. The curve in the left symbol, representing Dataset A, is smoother and shows fewer changes. In contrast, the curve in the right symbol, representing Dataset B, has more ups and downs.\n\nMore ups and downs indicate greater variation over time, while a smoother curve indicates less variation.\n\nTherefore, **Dataset B, the right one, shows greater variation over time**.",
       "instructionLocation": "sidebar",
       "nextButtonLocation": "sidebar",
       "nextButtonText": "Continue",
@@ -1428,7 +1428,7 @@
           ]
         },
         {
-          "id": "preferred",
+          "id": "easy",
           "prompt": "Rate each visualization based on how easy it was to use overall.",
           "location": "belowStimulus",
           "type": "matrix-radio",
