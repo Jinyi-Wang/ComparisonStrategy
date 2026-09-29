@@ -24,7 +24,7 @@ Each question names a node, for example **h.23**. There are three types of quest
 
 #### **Value questions** 
 Ask which dataset has the *higher* value of one of these:
-![Example of the juxtaposition visualization](comparison-method/assets/jux/node.png)
+<img src="comparison-method/assets/jux/node.png" alt="drawing" style="width:750px;"/>
 
 * **Maximum / minimum voltage value across all households:** check the upper / bottom whisker, a higher position indicates a higher value, while a lower position indicates a lower value.
 * **Maximum / minimum voltage value for that household:** check the upper / bottom box border, a higher position indicates a higher value, while a lower position indicates a lower value.
@@ -35,7 +35,7 @@ Ask which dataset has the *higher* value of one of these:
 
 #### **Variation questions** 
 Ask which dataset shows greater variation over time: 
-<img src="comparison-method/assets/jux/variation.png" alt="drawing" style="width:500px;"/>
+<img src="comparison-method/assets/jux/variation.png" alt="drawing" style="width:550px;"/>
 
 * **Voltage curve:** assess the degree of dispersion of each time series around its central tendency over the time period. A greater degree of dispersion indicates greater variation.
 
@@ -44,7 +44,7 @@ Ask which dataset shows greater variation over time:
 
 #### **Range questions** 
 Ask which dataset has the larger range for the node, that is, the difference between the maximum and minimum voltage value for that node:
-<img src="comparison-method/assets/jux/range.png" alt="drawing" style="width:700px;"/>
+<img src="comparison-method/assets/jux/range.png" alt="drawing" style="width:600px;"/>
 
 * **Maximum / minimum voltage value for that household:** check the difference between upper / bottom box border, larger the difference indicates larger the range.
 
