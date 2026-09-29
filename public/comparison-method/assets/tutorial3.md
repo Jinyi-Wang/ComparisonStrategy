@@ -45,7 +45,7 @@ Ask which dataset shows greater variation over time:
 
 #### **Range questions** 
 Ask which dataset has the larger range for the node, that is, the difference between the maximum and minimum voltage value for that node:
-<img src="comparison-method/assets/exp/variation.png" alt="drawing" style="width:600px;"/>
+<img src="comparison-method/assets/exp/range.png" alt="drawing" style="width:550px;"/>
 
 * **Maximum / minimum voltage value for that household:** check the right arrow, two ends moving away from the centerline indicates the range is larger in Dataset B, while two ends moving toward the centerline indicates the range is smaller in Dataset B.
 

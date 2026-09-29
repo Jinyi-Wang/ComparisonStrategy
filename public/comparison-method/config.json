@@ -516,24 +516,24 @@
     "exp-practice-value": {
       "baseComponent": "expValueBase",
       "instruction": "Looking at the **explicit encoding**:\n\nFind **h.5** and compare, which dataset has higher voltage value?",
-      "path": "comparison-method/assets/exp/s1.png",
+      "path": "comparison-method/assets/exp/test.png",
       "provideFeedback": true,
       "trainingAttempts": 1,
       "allowFailedTraining": true,
       "correctAnswer": [
         {
           "id": "answer",
-          "answer": "Dataset A"
+          "answer": "Dataset B"
         }
       ]
     },
     "exp-practice-value-explanation": {
       "type": "image",
-      "path": "comparison-method/assets/exp/s1.png",
+      "path": "comparison-method/assets/exp/test.png",
       "style": {
         "width": "700px"
       },
-      "instruction": "### Explanation\n\n**Correct answer: Dataset A.**\n\nFirst, locate **h.5** in the figure.\n\nThen, look at the **horizontal line inside the box** for h.5. This line represents the difference **B − A**. You can see that the line is close to the bottom of the box, which indicates that **B − A is less than 0**.\n\nSince **B − A < 0**, the value in Dataset B is smaller than the value in Dataset A. Therefore, **Dataset A has the higher voltage value**.",
+      "instruction": "### Explanation\n\n**Correct answer: Dataset B.**\n\nFirst, locate **h.5** in the figure.\n\nThen, look at the **horizontal line inside the box** for h.5. This line represents the difference **B − A**. You can see that the line is above the centerline, which indicates that **B − A is larger than 0**.\n\nSince **B − A > 0**, the value in Dataset B is larger than the value in Dataset A. Therefore, **Dataset B has the higher voltage value**.",
       "instructionLocation": "sidebar",
       "nextButtonLocation": "sidebar",
       "nextButtonText": "Continue",
@@ -541,12 +541,12 @@
     },
     "exp-practice-trend-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.5** and compare. Which dataset shows greater variation over time?"
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.33** and compare. Which dataset shows greater variation over time?"
     },
     "exp-practice-trend": {
       "baseComponent": "expTrendBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.5** and compare. Which dataset shows greater variation over time?",
-      "path": "comparison-method/assets/exp/test.png",
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.33** and compare. Which dataset shows greater variation over time?",
+      "path": "comparison-method/assets/exp/s1.png",
       "provideFeedback": true,
       "trainingAttempts": 1,
       "allowFailedTraining": true,
@@ -563,7 +563,7 @@
       "style": {
         "width": "700px"
       },
-      "instruction": "### Explanation\n\n**Correct answer: Dataset B.**\n\nFirst, locate **h.5** in the figure.\n\nThen, look at the **curve inside the box** for h.5. This curve represents the difference in voltage variation over time between the two datasets, **B − A**. The horizontal line in the center of the box represents **0**, where the two datasets have the same variation.\n\nYou can see that the curve is mostly above the center line. This means that **B − A is greater than 0**, indicating that Dataset B shows greater variation over time than Dataset A.\n\nTherefore, **Dataset B shows greater variation over time**.",
+      "instruction": "### Explanation\n\n**Correct answer: Dataset B.**\n\nFirst, locate **h.33** in the figure.\n\nThen, look at the **variation difference line** for h.33. This line represents the difference in voltage variation over time between the two datasets, **B − A**. The dashed line in the center of the box represents **0**, where the two datasets have the same variation.\n\nYou can see that the line is above the dashed line. This means that **B − A is greater than 0**, indicating that Dataset B shows greater variation over time than Dataset A.\n\nTherefore, **Dataset B shows greater variation over time**.",
       "instructionLocation": "sidebar",
       "nextButtonLocation": "sidebar",
       "nextButtonText": "Continue",
@@ -571,11 +571,11 @@
     },
     "exp-practice-range-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.11** and compare, which dataset has larger range for that node?"
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.25** and compare, which dataset has larger range for that node?"
     },
     "exp-practice-range": {
       "baseComponent": "expRangeBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.11** and compare, which dataset has larger range for that node?",
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.25** and compare, which dataset has larger range for that node?",
       "path": "comparison-method/assets/exp/s1.png",
       "provideFeedback": true,
       "trainingAttempts": 1,
@@ -593,7 +593,7 @@
       "style": {
         "width": "700px"
       },
-      "instruction": "### Explanation\n\n**Correct answer: Dataset A.**\n\nFirst, locate **h.11** in the figure.\n\nThen, look at the **range arrow** for h.11. The upper part of the arrow points toward the center, and the lower part of the arrow also points toward the center.\n\nThese directions indicate that the differences between Dataset B and Dataset A (**B − A**) are less than 0 for both ends of the range. In other words, Dataset B has a smaller range than Dataset A for this node.\n\nTherefore, **Dataset A has the larger range for h.11**.",
+      "instruction": "### Explanation\n\n**Correct answer: Dataset A.**\n\nFirst, locate **h.25** in the figure.\n\nThen, look at the **range arrow** for h.25. Both the upper part and the lower part of the arrow point toward the center.\n\nThese directions indicate that the differences between Dataset B and Dataset A (**B − A**) are less than 0 for both ends of the range. In other words, Dataset B has a smaller range than Dataset A for this node.\n\nTherefore, **Dataset A has the larger range for h.25**.",
       "instructionLocation": "sidebar",
       "nextButtonLocation": "sidebar",
       "nextButtonText": "Continue",
@@ -925,165 +925,165 @@
     },
     "exp-value-1-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.9** and compare, which dataset has higher voltage value?"
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.25** and compare, which dataset has higher voltage value?"
     },
     "exp-value-1": {
       "baseComponent": "expValueBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.9** and compare, which dataset has higher voltage value?",
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.25** and compare, which dataset has higher voltage value?",
       "path": "comparison-method/assets/exp/s3.png"
     },
     "exp-value-2-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.10** and compare, which dataset has higher minimum voltage value in that household?"
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.16** and compare, which dataset has higher minimum voltage value in that household?"
     },
     "exp-value-2": {
       "baseComponent": "expValueBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.10** and compare, which dataset has higher minimum voltage value in that household?",
-      "path": "comparison-method/assets/exp/s2.png"
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.16** and compare, which dataset has higher minimum voltage value in that household?",
+      "path": "comparison-method/assets/exp/s9.png"
     },
     "exp-value-3-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.26** and compare, which dataset has higher maximum voltage value in that household?"
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.19** and compare, which dataset has higher maximum voltage value in that household?"
     },
     "exp-value-3": {
       "baseComponent": "expValueBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.26** and compare, which dataset has higher maximum voltage value in that household?",
-      "path": "comparison-method/assets/exp/s9.png"
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.19** and compare, which dataset has higher maximum voltage value in that household?",
+      "path": "comparison-method/assets/exp/s2.png"
     },
     "exp-value-4-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.7** and compare, which dataset has higher voltage value?"
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.4** and compare, which dataset has higher voltage value?"
     },
     "exp-value-4": {
       "baseComponent": "expValueBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.7** and compare, which dataset has higher voltage value?",
-      "path": "comparison-method/assets/exp/s5.png"
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.4** and compare, which dataset has higher voltage value?",
+      "path": "comparison-method/assets/exp/s8.png"
     },
     "exp-value-5-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.30** and compare, which dataset has higher maximum voltage value in the whole neighborhood?"
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.9** and compare, which dataset has higher maximum voltage value in the whole neighborhood?"
     },
     "exp-value-5": {
       "baseComponent": "expValueBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.30** and compare, which dataset has higher maximum voltage value in the whole neighborhood?",
-      "path": "comparison-method/assets/exp/s6.png"
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.9** and compare, which dataset has higher maximum voltage value in the whole neighborhood?",
+      "path": "comparison-method/assets/exp/s5.png"
     },
     "exp-value-6-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.24** and compare, which dataset has higher minimum voltage value in that household?"
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.14** and compare, which dataset has higher minimum voltage value in that household?"
     },
     "exp-value-6": {
       "baseComponent": "expValueBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.24** and compare, which dataset has higher minimum voltage value in that household?",
-      "path": "comparison-method/assets/exp/s8.png"
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.14** and compare, which dataset has higher minimum voltage value in that household?",
+      "path": "comparison-method/assets/exp/s6.png"
     },
     "exp-trend-1-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.32** and compare. Which dataset shows greater variation over time?"
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.11** and compare. Which dataset shows greater variation over time?"
     },
     "exp-trend-1": {
       "baseComponent": "expTrendBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.32** and compare. Which dataset shows greater variation over time?",
-      "path": "comparison-method/assets/exp/s13.png"
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.11** and compare. Which dataset shows greater variation over time?",
+      "path": "comparison-method/assets/exp/s16.png"
     },
     "exp-trend-2-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.24** and compare. Which dataset shows greater variation over time?"
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.4** and compare. Which dataset shows greater variation over time?"
     },
     "exp-trend-2": {
       "baseComponent": "expTrendBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.24** and compare. Which dataset shows greater variation over time?",
-      "path": "comparison-method/assets/exp/s10.png"
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.4** and compare. Which dataset shows greater variation over time?",
+      "path": "comparison-method/assets/exp/s15.png"
     },
     "exp-trend-3-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.28** and compare. Which dataset shows greater variation over time?"
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.23** and compare. Which dataset shows greater variation over time?"
     },
     "exp-trend-3": {
       "baseComponent": "expTrendBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.28** and compare. Which dataset shows greater variation over time?",
-      "path": "comparison-method/assets/exp/s14.png"
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.23** and compare. Which dataset shows greater variation over time?",
+      "path": "comparison-method/assets/exp/s10.png"
     },
     "exp-trend-4-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.21** and compare. Which dataset shows greater variation over time?"
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.20** and compare. Which dataset shows greater variation over time?"
     },
     "exp-trend-4": {
       "baseComponent": "expTrendBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.21** and compare. Which dataset shows greater variation over time?",
-      "path": "comparison-method/assets/exp/s11.png"
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.20** and compare. Which dataset shows greater variation over time?",
+      "path": "comparison-method/assets/exp/s13.png"
     },
     "exp-trend-5-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.29** and compare. Which dataset shows greater variation over time?"
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.31** and compare. Which dataset shows greater variation over time?"
     },
     "exp-trend-5": {
       "baseComponent": "expTrendBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.29** and compare. Which dataset shows greater variation over time?",
-      "path": "comparison-method/assets/exp/s12.png"
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.31** and compare. Which dataset shows greater variation over time?",
+      "path": "comparison-method/assets/exp/s11.png"
     },
     "exp-trend-6-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.18** and compare. Which dataset shows greater variation over time?"
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.5** and compare. Which dataset shows greater variation over time?"
     },
     "exp-trend-6": {
       "baseComponent": "expTrendBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.18** and compare. Which dataset shows greater variation over time?",
-      "path": "comparison-method/assets/exp/s10.png"
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.5** and compare. Which dataset shows greater variation over time?",
+      "path": "comparison-method/assets/exp/s14.png"
     },
     "exp-range-1-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.12** and compare, which dataset has larger range for that node?"
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.8** and compare, which dataset has larger range for that node?"
     },
     "exp-range-1": {
       "baseComponent": "expRangeBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.12** and compare, which dataset has larger range for that node?",
-      "path": "comparison-method/assets/exp/s3.png"
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.8** and compare, which dataset has larger range for that node?",
+      "path": "comparison-method/assets/exp/s6.png"
     },
     "exp-range-2-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.24** and compare, which dataset has larger range for that node?"
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.17** and compare, which dataset has larger range for that node?"
     },
     "exp-range-2": {
       "baseComponent": "expRangeBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.24** and compare, which dataset has larger range for that node?",
-      "path": "comparison-method/assets/exp/s6.png"
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.17** and compare, which dataset has larger range for that node?",
+      "path": "comparison-method/assets/exp/s8.png"
     },
     "exp-range-3-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.32** and compare, which dataset has larger range for that node?"
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.25** and compare, which dataset has larger range for that node?"
     },
     "exp-range-3": {
       "baseComponent": "expRangeBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.32** and compare, which dataset has larger range for that node?",
-      "path": "comparison-method/assets/exp/s8.png"
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.25** and compare, which dataset has larger range for that node?",
+      "path": "comparison-method/assets/exp/s2.png"
     },
     "exp-range-4-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.31** and compare, which dataset has larger range for that node?"
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.16** and compare, which dataset has larger range for that node?"
     },
     "exp-range-4": {
       "baseComponent": "expRangeBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.31** and compare, which dataset has larger range for that node?",
-      "path": "comparison-method/assets/exp/s12.png"
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.16** and compare, which dataset has larger range for that node?",
+      "path": "comparison-method/assets/exp/s9.png"
     },
     "exp-range-5-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.21** and compare, which dataset has larger range for that node?"
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.20** and compare, which dataset has larger range for that node?"
     },
     "exp-range-5": {
       "baseComponent": "expRangeBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.21** and compare, which dataset has larger range for that node?",
-      "path": "comparison-method/assets/exp/s10.png"
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.20** and compare, which dataset has larger range for that node?",
+      "path": "comparison-method/assets/exp/s12.png"
     },
     "exp-range-6-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.16** and compare, which dataset has larger range for that node?"
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.27** and compare, which dataset has larger range for that node?"
     },
     "exp-range-6": {
       "baseComponent": "expRangeBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.16** and compare, which dataset has larger range for that node?",
-      "path": "comparison-method/assets/exp/s4.png"
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.27** and compare, which dataset has larger range for that node?",
+      "path": "comparison-method/assets/exp/s10.png"
     },
     "post-jux": {
       "type": "questionnaire",

@@ -34,7 +34,7 @@ Ask which dataset has the *higher* value of one of these:
 
 #### **Variation questions** 
 Ask which dataset shows greater variation over time: 
-![Example of the superposition visualization](comparison-method/assets/sup/variation.png)
+<img src="comparison-method/assets/sup/variation.png" alt="drawing" style="width:600px;"/>
 
 * **Voltage curve:** assess the degree of dispersion of each time series around its central tendency over the time period. A greater degree of dispersion indicates greater variation.
 
@@ -42,7 +42,7 @@ Ask which dataset shows greater variation over time:
 
 #### **Range questions** 
 Ask which dataset has the larger range for the node, that is, the difference between the maximum and minimum voltage value for that node:
-![Example of the superposition visualization](comparison-method/assets/sup/range.png)
+<img src="comparison-method/assets/sup/range.png" alt="drawing" style="width:650px;"/>
 
 * **Maximum / minimum voltage value for that household:** check the difference between upper / bottom box border, larger the difference indicates larger the range.
 
