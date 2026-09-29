@@ -332,11 +332,11 @@
     },
     "jux-practice-value-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.5** and compare, which dataset has higher voltage value?"
+      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.5** and compare, which dataset has higher **voltage value**?"
     },
     "jux-practice-value": {
       "baseComponent": "juxValueBase",
-      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.5** and compare, which dataset has higher voltage value?",
+      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.5** and compare, which dataset has higher **voltage value**?",
       "path": "comparison-method/assets/jux/s1.png",
       "provideFeedback": true,
       "trainingAttempts": 1,
@@ -362,11 +362,11 @@
     },
     "jux-practice-trend-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.5** and compare. Which dataset shows greater variation over time?"
+      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.5** and compare. Which dataset shows greater **variation over time**?"
     },
     "jux-practice-trend": {
       "baseComponent": "juxTrendBase",
-      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.5** and compare. Which dataset shows greater variation over time?",
+      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.5** and compare. Which dataset shows greater **variation over time**?",
       "path": "comparison-method/assets/jux/test.png",
       "provideFeedback": true,
       "trainingAttempts": 1,
@@ -384,7 +384,7 @@
       "style": {
         "width": "1000px"
       },
-  "instruction": "### Explanation\n\n**Correct answer: Dataset B, the right one.**\n\nFirst, locate **h.5** in both datasets.\n\nThen, look at the **curves inside the two boxes** for h.5 and compare how they change over time. The curve in the left grid, representing Dataset A, is smoother and shows fewer ups and downs. In contrast, the curve in the right grid, representing Dataset B, has more ups and downs.\n\nMore ups and downs indicate greater variation over time, while a smoother curve indicates less variation.\n\nTherefore, **Dataset B, the right one, shows greater variation over time for h.5**.",
+  "instruction": "### Explanation\n\n**Correct answer: Dataset B, the right one.**\n\nFirst, locate **h.5** in both datasets.\n\nThen, look at the **curves inside the two boxes** for h.5 and compare how they change over time. The curve in the left grid, representing Dataset A, is smoother and shows fewer ups and downs. In contrast, the curve in the right grid, representing Dataset B, has more ups and downs.\n\nMore ups and downs indicate greater **variation over time**, while a smoother curve indicates less variation.\n\nTherefore, **Dataset B, the right one, shows greater **variation over time** for h.5**.",
       "instructionLocation": "sidebar",
       "nextButtonLocation": "sidebar",
       "nextButtonText": "Continue",
@@ -392,11 +392,11 @@
     },
     "jux-practice-range-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.13** and compare, which dataset has larger range for that node?"
+      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.13** and compare, which dataset has larger **range for that node**?"
     },
     "jux-practice-range": {
       "baseComponent": "juxRangeBase",
-      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.13** and compare, which dataset has larger range for that node?",
+      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.13** and compare, which dataset has larger **range for that node**?",
       "path": "comparison-method/assets/jux/s1.png",
       "provideFeedback": true,
       "trainingAttempts": 1,
@@ -422,11 +422,11 @@
     },
     "sup-practice-value-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **superposition**:\n\nFind **h.5** and compare, which dataset has higher voltage value?"
+      "instruction": "Looking at the **superposition**:\n\nFind **h.5** and compare, which dataset has higher **voltage value**?"
     },
     "sup-practice-value": {
       "baseComponent": "supValueBase",
-      "instruction": "Looking at the **superposition**:\n\nFind **h.5** and compare, which dataset has higher voltage value?",
+      "instruction": "Looking at the **superposition**:\n\nFind **h.5** and compare, which dataset has higher **voltage value**?",
       "path": "comparison-method/assets/sup/s1.png",
       "provideFeedback": true,
       "trainingAttempts": 1,
@@ -451,11 +451,11 @@
     },
     "sup-practice-trend-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **superposition**:\n\nFind **h.8** and compare. Which dataset shows greater variation over time?"
+      "instruction": "Looking at the **superposition**:\n\nFind **h.8** and compare. Which dataset shows greater **variation over time**?"
     },
     "sup-practice-trend": {
       "baseComponent": "supTrendBase",
-      "instruction": "Looking at the **superposition**:\n\nFind **h.8** and compare. Which dataset shows greater variation over time?",
+      "instruction": "Looking at the **superposition**:\n\nFind **h.8** and compare. Which dataset shows greater **variation over time**?",
       "path": "comparison-method/assets/sup/test.png",
       "provideFeedback": true,
       "trainingAttempts": 1,
@@ -473,7 +473,7 @@
       "style": {
         "width": "700px"
       },
-  "instruction": "### Explanation\n\n**Correct answer: Dataset B, the right one.**\n\nFirst, locate **h.8** in the figure.\n\nThen, look at the **curves inside the two boxes** for h.8 and compare how they change over time. The curve in the left symbol, representing Dataset A, is smoother and shows fewer changes. In contrast, the curve in the right symbol, representing Dataset B, has more ups and downs.\n\nMore ups and downs indicate greater variation over time, while a smoother curve indicates less variation.\n\nTherefore, **Dataset B, the right one, shows greater variation over time**.",
+  "instruction": "### Explanation\n\n**Correct answer: Dataset B, the right one.**\n\nFirst, locate **h.8** in the figure.\n\nThen, look at the **curves inside the two boxes** for h.8 and compare how they change over time. The curve in the left symbol, representing Dataset A, is smoother and shows fewer changes. In contrast, the curve in the right symbol, representing Dataset B, has more ups and downs.\n\nMore ups and downs indicate greater **variation over time**, while a smoother curve indicates less variation.\n\nTherefore, **Dataset B, the right one, shows greater **variation over time****.",
       "instructionLocation": "sidebar",
       "nextButtonLocation": "sidebar",
       "nextButtonText": "Continue",
@@ -481,11 +481,11 @@
     },
     "sup-practice-range-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **superposition**:\n\nFind **h.5** and compare, which dataset has larger range for that node?"
+      "instruction": "Looking at the **superposition**:\n\nFind **h.5** and compare, which dataset has larger **range for that node**?"
     },
     "sup-practice-range": {
       "baseComponent": "supRangeBase",
-      "instruction": "Looking at the **superposition**:\n\nFind **h.5** and compare, which dataset has larger range for that node?",
+      "instruction": "Looking at the **superposition**:\n\nFind **h.5** and compare, which dataset has larger **range for that node**?",
       "path": "comparison-method/assets/sup/s1.png",
       "provideFeedback": true,
       "trainingAttempts": 1,
@@ -511,11 +511,11 @@
     },
     "exp-practice-value-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.5** and compare, which dataset has higher voltage value?"
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.5** and compare, which dataset has higher **voltage value**?"
     },
     "exp-practice-value": {
       "baseComponent": "expValueBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.5** and compare, which dataset has higher voltage value?",
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.5** and compare, which dataset has higher **voltage value**?",
       "path": "comparison-method/assets/exp/test.png",
       "provideFeedback": true,
       "trainingAttempts": 1,
@@ -541,11 +541,11 @@
     },
     "exp-practice-trend-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.33** and compare. Which dataset shows greater variation over time?"
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.33** and compare. Which dataset shows greater **variation over time**?"
     },
     "exp-practice-trend": {
       "baseComponent": "expTrendBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.33** and compare. Which dataset shows greater variation over time?",
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.33** and compare. Which dataset shows greater **variation over time**?",
       "path": "comparison-method/assets/exp/s1.png",
       "provideFeedback": true,
       "trainingAttempts": 1,
@@ -563,7 +563,7 @@
       "style": {
         "width": "700px"
       },
-      "instruction": "### Explanation\n\n**Correct answer: Dataset B.**\n\nFirst, locate **h.33** in the figure.\n\nThen, look at the **variation difference line** for h.33. This line represents the difference in voltage variation over time between the two datasets, **B − A**. The dashed line in the center of the box represents **0**, where the two datasets have the same variation.\n\nYou can see that the line is above the dashed line. This means that **B − A is greater than 0**, indicating that Dataset B shows greater variation over time than Dataset A.\n\nTherefore, **Dataset B shows greater variation over time**.",
+      "instruction": "### Explanation\n\n**Correct answer: Dataset B.**\n\nFirst, locate **h.33** in the figure.\n\nThen, look at the **variation difference line** for h.33. This line represents the difference in voltage **variation over time** between the two datasets, **B − A**. The dashed line in the center of the box represents **0**, where the two datasets have the same variation.\n\nYou can see that the line is above the dashed line. This means that **B − A is greater than 0**, indicating that Dataset B shows greater **variation over time** than Dataset A.\n\nTherefore, **Dataset B shows greater **variation over time****.",
       "instructionLocation": "sidebar",
       "nextButtonLocation": "sidebar",
       "nextButtonText": "Continue",
@@ -571,11 +571,11 @@
     },
     "exp-practice-range-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.25** and compare, which dataset has larger range for that node?"
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.25** and compare, which dataset has larger **range for that node**?"
     },
     "exp-practice-range": {
       "baseComponent": "expRangeBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.25** and compare, which dataset has larger range for that node?",
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.25** and compare, which dataset has larger **range for that node**?",
       "path": "comparison-method/assets/exp/s1.png",
       "provideFeedback": true,
       "trainingAttempts": 1,
@@ -601,488 +601,488 @@
     },
     "jux-value-1-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.6** and compare, which dataset has higher maximum voltage value in that household?"
+      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.6** and compare, which dataset has higher **maximum voltage value in that household**?"
     },
     "jux-value-1": {
       "baseComponent": "juxValueBase",
-      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.6** and compare, which dataset has higher maximum voltage value in that household?",
+      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.6** and compare, which dataset has higher **maximum voltage value in that household**?",
       "path": "comparison-method/assets/jux/s2.png"
     },
     "jux-value-2-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.28** and compare, which dataset has higher maximum voltage value in the whole neighborhood?"
+      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.28** and compare, which dataset has higher **maximum voltage value in the whole neighborhood**?"
     },
     "jux-value-2": {
       "baseComponent": "juxValueBase",
-      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.28** and compare, which dataset has higher maximum voltage value in the whole neighborhood?",
+      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.28** and compare, which dataset has higher **maximum voltage value in the whole neighborhood**?",
       "path": "comparison-method/assets/jux/s6.png"
     },
     "jux-value-3-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.6** and compare, which dataset has higher voltage value?"
+      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.6** and compare, which dataset has higher **voltage value**?"
     },
     "jux-value-3": {
       "baseComponent": "juxValueBase",
-      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.6** and compare, which dataset has higher voltage value?",
+      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.6** and compare, which dataset has higher **voltage value**?",
       "path": "comparison-method/assets/jux/s3.png"
     },
     "jux-value-4-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.15** and compare, which dataset has higher minimum voltage value in the whole neighborhood?"
+      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.15** and compare, which dataset has higher **minimum voltage value in the whole neighborhood**?"
     },
     "jux-value-4": {
       "baseComponent": "juxValueBase",
-      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.15** and compare, which dataset has higher minimum voltage value in the whole neighborhood?",
+      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.15** and compare, which dataset has higher **minimum voltage value in the whole neighborhood**?",
       "path": "comparison-method/assets/jux/s2.png"
     },
     "jux-value-5-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.4** and compare, which dataset has higher voltage value?"
+      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.4** and compare, which dataset has higher **voltage value**?"
     },
     "jux-value-5": {
       "baseComponent": "juxValueBase",
-      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.4** and compare, which dataset has higher voltage value?",
+      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.4** and compare, which dataset has higher **voltage value**?",
       "path": "comparison-method/assets/jux/s4.png"
     },
     "jux-value-6-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.23** and compare, which dataset has higher minimum voltage value in the whole neighborhood?"
+      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.23** and compare, which dataset has higher **minimum voltage value in the whole neighborhood**?"
     },
     "jux-value-6": {
       "baseComponent": "juxValueBase",
-      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.23** and compare, which dataset has higher minimum voltage value in the whole neighborhood?",
+      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.23** and compare, which dataset has higher **minimum voltage value in the whole neighborhood**?",
       "path": "comparison-method/assets/jux/s7.png"
     },
     "jux-trend-1-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.25** and compare. Which dataset shows greater variation over time?"
+      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.25** and compare. Which dataset shows greater **variation over time**?"
     },
     "jux-trend-1": {
       "baseComponent": "juxTrendBase",
-      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.25** and compare. Which dataset shows greater variation over time?",
+      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.25** and compare. Which dataset shows greater **variation over time**?",
       "path": "comparison-method/assets/jux/s9.png"
     },
     "jux-trend-2-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.23** and compare. Which dataset shows greater variation over time?"
+      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.23** and compare. Which dataset shows greater **variation over time**?"
     },
     "jux-trend-2": {
       "baseComponent": "juxTrendBase",
-      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.23** and compare. Which dataset shows greater variation over time?",
+      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.23** and compare. Which dataset shows greater **variation over time**?",
       "path": "comparison-method/assets/jux/s12.png"
     },
     "jux-trend-3-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.30** and compare. Which dataset shows greater variation over time?"
+      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.30** and compare. Which dataset shows greater **variation over time**?"
     },
     "jux-trend-3": {
       "baseComponent": "juxTrendBase",
-      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.30** and compare. Which dataset shows greater variation over time?",
+      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.30** and compare. Which dataset shows greater **variation over time**?",
       "path": "comparison-method/assets/jux/s11.png"
     },
     "jux-trend-4-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.6** and compare. Which dataset shows greater variation over time?"
+      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.6** and compare. Which dataset shows greater **variation over time**?"
     },
     "jux-trend-4": {
       "baseComponent": "juxTrendBase",
-      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.6** and compare. Which dataset shows greater variation over time?",
+      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.6** and compare. Which dataset shows greater **variation over time**?",
       "path": "comparison-method/assets/jux/s14.png"
     },
     "jux-trend-5-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.33** and compare. Which dataset shows greater variation over time?"
+      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.33** and compare. Which dataset shows greater **variation over time**?"
     },
     "jux-trend-5": {
       "baseComponent": "juxTrendBase",
-      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.33** and compare. Which dataset shows greater variation over time?",
+      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.33** and compare. Which dataset shows greater **variation over time**?",
       "path": "comparison-method/assets/jux/s10.png"
     },
     "jux-trend-6-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.27** and compare. Which dataset shows greater variation over time?"
+      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.27** and compare. Which dataset shows greater **variation over time**?"
     },
     "jux-trend-6": {
       "baseComponent": "juxTrendBase",
-      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.27** and compare. Which dataset shows greater variation over time?",
+      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.27** and compare. Which dataset shows greater **variation over time**?",
       "path": "comparison-method/assets/jux/s13.png"
     },
     "jux-range-1-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.4** and compare, which dataset has larger range for that node?"
+      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.4** and compare, which dataset has larger **range for that node**?"
     },
     "jux-range-1": {
       "baseComponent": "juxRangeBase",
-      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.4** and compare, which dataset has larger range for that node?",
+      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.4** and compare, which dataset has larger **range for that node**?",
       "path": "comparison-method/assets/jux/s14.png"
     },
     "jux-range-2-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.11** and compare, which dataset has larger range for that node?"
+      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.11** and compare, which dataset has larger **range for that node**?"
     },
     "jux-range-2": {
       "baseComponent": "juxRangeBase",
-      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.11** and compare, which dataset has larger range for that node?",
+      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.11** and compare, which dataset has larger **range for that node**?",
       "path": "comparison-method/assets/jux/s3.png"
     },
     "jux-range-3-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.28** and compare, which dataset has larger range for that node?"
+      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.28** and compare, which dataset has larger **range for that node**?"
     },
     "jux-range-3": {
       "baseComponent": "juxRangeBase",
-      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.28** and compare, which dataset has larger range for that node?",
+      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.28** and compare, which dataset has larger **range for that node**?",
       "path": "comparison-method/assets/jux/s6.png"
     },
     "jux-range-4-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.29** and compare, which dataset has larger range for that node?"
+      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.29** and compare, which dataset has larger **range for that node**?"
     },
     "jux-range-4": {
       "baseComponent": "juxRangeBase",
-      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.29** and compare, which dataset has larger range for that node?",
+      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.29** and compare, which dataset has larger **range for that node**?",
       "path": "comparison-method/assets/jux/s11.png"
     },
     "jux-range-5-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.23** and compare, which dataset has larger range for that node?"
+      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.23** and compare, which dataset has larger **range for that node**?"
     },
     "jux-range-5": {
       "baseComponent": "juxRangeBase",
-      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.23** and compare, which dataset has larger range for that node?",
+      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.23** and compare, which dataset has larger **range for that node**?",
       "path": "comparison-method/assets/jux/s13.png"
     },
     "jux-range-6-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.8** and compare, which dataset has larger range for that node?"
+      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.8** and compare, which dataset has larger **range for that node**?"
     },
     "jux-range-6": {
       "baseComponent": "juxRangeBase",
-      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.8** and compare, which dataset has larger range for that node?",
+      "instruction": "Looking at the **juxtaposition**:\n\nFind **h.8** and compare, which dataset has larger **range for that node**?",
       "path": "comparison-method/assets/jux/s2.png"
     },
     "sup-value-1-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **superposition**:\n\nFind **h.4** and compare, which dataset has higher voltage value?"
+      "instruction": "Looking at the **superposition**:\n\nFind **h.4** and compare, which dataset has higher **voltage value**?"
     },
     "sup-value-1": {
       "baseComponent": "supValueBase",
-      "instruction": "Looking at the **superposition**:\n\nFind **h.4** and compare, which dataset has higher voltage value?",
+      "instruction": "Looking at the **superposition**:\n\nFind **h.4** and compare, which dataset has higher **voltage value**?",
       "path": "comparison-method/assets/sup/s4.png"
     },
     "sup-value-2-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **superposition**:\n\nFind **h.27** and compare, which dataset has higher maximum voltage value in the whole neighborhood?"
+      "instruction": "Looking at the **superposition**:\n\nFind **h.27** and compare, which dataset has higher **maximum voltage value in the whole neighborhood**?"
     },
     "sup-value-2": {
       "baseComponent": "supValueBase",
-      "instruction": "Looking at the **superposition**:\n\nFind **h.27** and compare, which dataset has higher maximum voltage value in the whole neighborhood?",
+      "instruction": "Looking at the **superposition**:\n\nFind **h.27** and compare, which dataset has higher **maximum voltage value in the whole neighborhood**?",
       "path": "comparison-method/assets/sup/s5.png"
     },
     "sup-value-3-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **superposition**:\n\nFind **h.8** and compare, which dataset has higher maximum voltage value in that household?"
+      "instruction": "Looking at the **superposition**:\n\nFind **h.8** and compare, which dataset has higher **maximum voltage value in that household**?"
     },
     "sup-value-3": {
       "baseComponent": "supValueBase",
-      "instruction": "Looking at the **superposition**:\n\nFind **h.8** and compare, which dataset has higher maximum voltage value in that household?",
+      "instruction": "Looking at the **superposition**:\n\nFind **h.8** and compare, which dataset has higher **maximum voltage value in that household**?",
       "path": "comparison-method/assets/sup/s2.png"
     },
     "sup-value-4-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **superposition**:\n\nFind **h.19** and compare, which dataset has higher minimum voltage value in the whole neighborhood?"
+      "instruction": "Looking at the **superposition**:\n\nFind **h.19** and compare, which dataset has higher **minimum voltage value in the whole neighborhood**?"
     },
     "sup-value-4": {
       "baseComponent": "supValueBase",
-      "instruction": "Looking at the **superposition**:\n\nFind **h.19** and compare, which dataset has higher minimum voltage value in the whole neighborhood?",
+      "instruction": "Looking at the **superposition**:\n\nFind **h.19** and compare, which dataset has higher **minimum voltage value in the whole neighborhood**?",
       "path": "comparison-method/assets/sup/s5.png"
     },
     "sup-value-5-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **superposition**:\n\nFind **h.31** and compare, which dataset has higher minimum voltage value in that household?"
+      "instruction": "Looking at the **superposition**:\n\nFind **h.31** and compare, which dataset has higher **minimum voltage value in that household**?"
     },
     "sup-value-5": {
       "baseComponent": "supValueBase",
-      "instruction": "Looking at the **superposition**:\n\nFind **h.31** and compare, which dataset has higher minimum voltage value in that household?",
+      "instruction": "Looking at the **superposition**:\n\nFind **h.31** and compare, which dataset has higher **minimum voltage value in that household**?",
       "path": "comparison-method/assets/sup/s6.png"
     },
     "sup-value-6-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **superposition**:\n\nFind **h.25** and compare, which dataset has higher maximum voltage value in that household?"
+      "instruction": "Looking at the **superposition**:\n\nFind **h.25** and compare, which dataset has higher **maximum voltage value in that household**?"
     },
     "sup-value-6": {
       "baseComponent": "supValueBase",
-      "instruction": "Looking at the **superposition**:\n\nFind **h.25** and compare, which dataset has higher maximum voltage value in that household?",
+      "instruction": "Looking at the **superposition**:\n\nFind **h.25** and compare, which dataset has higher **maximum voltage value in that household**?",
       "path": "comparison-method/assets/sup/s7.png"
     },
     "sup-trend-1-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **superposition**:\n\nFind **h.29** and compare. Which dataset shows greater variation over time?"
+      "instruction": "Looking at the **superposition**:\n\nFind **h.29** and compare. Which dataset shows greater **variation over time**?"
     },
     "sup-trend-1": {
       "baseComponent": "supTrendBase",
-      "instruction": "Looking at the **superposition**:\n\nFind **h.29** and compare. Which dataset shows greater variation over time?",
+      "instruction": "Looking at the **superposition**:\n\nFind **h.29** and compare. Which dataset shows greater **variation over time**?",
       "path": "comparison-method/assets/sup/s10.png"
     },
     "sup-trend-2-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **superposition**:\n\nFind **h.10** and compare. Which dataset shows greater variation over time?"
+      "instruction": "Looking at the **superposition**:\n\nFind **h.10** and compare. Which dataset shows greater **variation over time**?"
     },
     "sup-trend-2": {
       "baseComponent": "supTrendBase",
-      "instruction": "Looking at the **superposition**:\n\nFind **h.10** and compare. Which dataset shows greater variation over time?",
+      "instruction": "Looking at the **superposition**:\n\nFind **h.10** and compare. Which dataset shows greater **variation over time**?",
       "path": "comparison-method/assets/sup/s11.png"
     },
     "sup-trend-3-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **superposition**:\n\nFind **h.6** and compare. Which dataset shows greater variation over time?"
+      "instruction": "Looking at the **superposition**:\n\nFind **h.6** and compare. Which dataset shows greater **variation over time**?"
     },
     "sup-trend-3": {
       "baseComponent": "supTrendBase",
-      "instruction": "Looking at the **superposition**:\n\nFind **h.6** and compare. Which dataset shows greater variation over time?",
+      "instruction": "Looking at the **superposition**:\n\nFind **h.6** and compare. Which dataset shows greater **variation over time**?",
       "path": "comparison-method/assets/sup/s12.png"
     },
     "sup-trend-4-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **superposition**:\n\nFind **h.14** and compare. Which dataset shows greater variation over time?"
+      "instruction": "Looking at the **superposition**:\n\nFind **h.14** and compare. Which dataset shows greater **variation over time**?"
     },
     "sup-trend-4": {
       "baseComponent": "supTrendBase",
-      "instruction": "Looking at the **superposition**:\n\nFind **h.14** and compare. Which dataset shows greater variation over time?",
+      "instruction": "Looking at the **superposition**:\n\nFind **h.14** and compare. Which dataset shows greater **variation over time**?",
       "path": "comparison-method/assets/sup/s14.png"
     },
     "sup-trend-5-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **superposition**:\n\nFind **h.15** and compare. Which dataset shows greater variation over time?"
+      "instruction": "Looking at the **superposition**:\n\nFind **h.15** and compare. Which dataset shows greater **variation over time**?"
     },
     "sup-trend-5": {
       "baseComponent": "supTrendBase",
-      "instruction": "Looking at the **superposition**:\n\nFind **h.15** and compare. Which dataset shows greater variation over time?",
+      "instruction": "Looking at the **superposition**:\n\nFind **h.15** and compare. Which dataset shows greater **variation over time**?",
       "path": "comparison-method/assets/sup/s13.png"
     },
     "sup-trend-6-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **superposition**:\n\nFind **h.18** and compare. Which dataset shows greater variation over time?"
+      "instruction": "Looking at the **superposition**:\n\nFind **h.18** and compare. Which dataset shows greater **variation over time**?"
     },
     "sup-trend-6": {
       "baseComponent": "supTrendBase",
-      "instruction": "Looking at the **superposition**:\n\nFind **h.18** and compare. Which dataset shows greater variation over time?",
+      "instruction": "Looking at the **superposition**:\n\nFind **h.18** and compare. Which dataset shows greater **variation over time**?",
       "path": "comparison-method/assets/sup/s10.png"
     },
     "sup-range-1-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **superposition**:\n\nFind **h.24** and compare, which dataset has larger range for that node?"
+      "instruction": "Looking at the **superposition**:\n\nFind **h.24** and compare, which dataset has larger **range for that node**?"
     },
     "sup-range-1": {
       "baseComponent": "supRangeBase",
-      "instruction": "Looking at the **superposition**:\n\nFind **h.24** and compare, which dataset has larger range for that node?",
+      "instruction": "Looking at the **superposition**:\n\nFind **h.24** and compare, which dataset has larger **range for that node**?",
       "path": "comparison-method/assets/sup/s9.png"
     },
     "sup-range-2-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **superposition**:\n\nFind **h.8** and compare, which dataset has larger range for that node?"
+      "instruction": "Looking at the **superposition**:\n\nFind **h.8** and compare, which dataset has larger **range for that node**?"
     },
     "sup-range-2": {
       "baseComponent": "supRangeBase",
-      "instruction": "Looking at the **superposition**:\n\nFind **h.8** and compare, which dataset has larger range for that node?",
+      "instruction": "Looking at the **superposition**:\n\nFind **h.8** and compare, which dataset has larger **range for that node**?",
       "path": "comparison-method/assets/sup/s2.png"
     },
     "sup-range-3-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **superposition**:\n\nFind **h.4** and compare, which dataset has larger range for that node?"
+      "instruction": "Looking at the **superposition**:\n\nFind **h.4** and compare, which dataset has larger **range for that node**?"
     },
     "sup-range-3": {
       "baseComponent": "supRangeBase",
-      "instruction": "Looking at the **superposition**:\n\nFind **h.4** and compare, which dataset has larger range for that node?",
+      "instruction": "Looking at the **superposition**:\n\nFind **h.4** and compare, which dataset has larger **range for that node**?",
       "path": "comparison-method/assets/sup/s3.png"
     },
     "sup-range-4-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **superposition**:\n\nFind **h.28** and compare, which dataset has larger range for that node?"
+      "instruction": "Looking at the **superposition**:\n\nFind **h.28** and compare, which dataset has larger **range for that node**?"
     },
     "sup-range-4": {
       "baseComponent": "supRangeBase",
-      "instruction": "Looking at the **superposition**:\n\nFind **h.28** and compare, which dataset has larger range for that node?",
+      "instruction": "Looking at the **superposition**:\n\nFind **h.28** and compare, which dataset has larger **range for that node**?",
       "path": "comparison-method/assets/sup/s6.png"
     },
     "sup-range-5-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **superposition**:\n\nFind **h.21** and compare, which dataset has larger range for that node?"
+      "instruction": "Looking at the **superposition**:\n\nFind **h.21** and compare, which dataset has larger **range for that node**?"
     },
     "sup-range-5": {
       "baseComponent": "supRangeBase",
-      "instruction": "Looking at the **superposition**:\n\nFind **h.21** and compare, which dataset has larger range for that node?",
+      "instruction": "Looking at the **superposition**:\n\nFind **h.21** and compare, which dataset has larger **range for that node**?",
       "path": "comparison-method/assets/sup/s9.png"
     },
     "sup-range-6-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **superposition**:\n\nFind **h.15** and compare, which dataset has larger range for that node?"
+      "instruction": "Looking at the **superposition**:\n\nFind **h.15** and compare, which dataset has larger **range for that node**?"
     },
     "sup-range-6": {
       "baseComponent": "supRangeBase",
-      "instruction": "Looking at the **superposition**:\n\nFind **h.15** and compare, which dataset has larger range for that node?",
+      "instruction": "Looking at the **superposition**:\n\nFind **h.15** and compare, which dataset has larger **range for that node**?",
       "path": "comparison-method/assets/sup/s11.png"
     },
     "exp-value-1-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.25** and compare, which dataset has higher voltage value?"
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.25** and compare, which dataset has higher **voltage value**?"
     },
     "exp-value-1": {
       "baseComponent": "expValueBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.25** and compare, which dataset has higher voltage value?",
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.25** and compare, which dataset has higher **voltage value**?",
       "path": "comparison-method/assets/exp/s3.png"
     },
     "exp-value-2-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.16** and compare, which dataset has higher minimum voltage value in that household?"
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.16** and compare, which dataset has higher **minimum voltage value in that household**?"
     },
     "exp-value-2": {
       "baseComponent": "expValueBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.16** and compare, which dataset has higher minimum voltage value in that household?",
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.16** and compare, which dataset has higher **minimum voltage value in that household**?",
       "path": "comparison-method/assets/exp/s9.png"
     },
     "exp-value-3-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.19** and compare, which dataset has higher maximum voltage value in that household?"
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.19** and compare, which dataset has higher **maximum voltage value in that household**?"
     },
     "exp-value-3": {
       "baseComponent": "expValueBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.19** and compare, which dataset has higher maximum voltage value in that household?",
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.19** and compare, which dataset has higher **maximum voltage value in that household**?",
       "path": "comparison-method/assets/exp/s2.png"
     },
     "exp-value-4-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.4** and compare, which dataset has higher voltage value?"
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.4** and compare, which dataset has higher **voltage value**?"
     },
     "exp-value-4": {
       "baseComponent": "expValueBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.4** and compare, which dataset has higher voltage value?",
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.4** and compare, which dataset has higher **voltage value**?",
       "path": "comparison-method/assets/exp/s8.png"
     },
     "exp-value-5-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.9** and compare, which dataset has higher maximum voltage value in the whole neighborhood?"
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.9** and compare, which dataset has higher **maximum voltage value in the whole neighborhood**?"
     },
     "exp-value-5": {
       "baseComponent": "expValueBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.9** and compare, which dataset has higher maximum voltage value in the whole neighborhood?",
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.9** and compare, which dataset has higher **maximum voltage value in the whole neighborhood**?",
       "path": "comparison-method/assets/exp/s5.png"
     },
     "exp-value-6-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.14** and compare, which dataset has higher minimum voltage value in that household?"
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.14** and compare, which dataset has higher **minimum voltage value in that household**?"
     },
     "exp-value-6": {
       "baseComponent": "expValueBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.14** and compare, which dataset has higher minimum voltage value in that household?",
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.14** and compare, which dataset has higher **minimum voltage value in that household**?",
       "path": "comparison-method/assets/exp/s6.png"
     },
     "exp-trend-1-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.11** and compare. Which dataset shows greater variation over time?"
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.11** and compare. Which dataset shows greater **variation over time**?"
     },
     "exp-trend-1": {
       "baseComponent": "expTrendBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.11** and compare. Which dataset shows greater variation over time?",
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.11** and compare. Which dataset shows greater **variation over time**?",
       "path": "comparison-method/assets/exp/s16.png"
     },
     "exp-trend-2-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.4** and compare. Which dataset shows greater variation over time?"
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.4** and compare. Which dataset shows greater **variation over time**?"
     },
     "exp-trend-2": {
       "baseComponent": "expTrendBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.4** and compare. Which dataset shows greater variation over time?",
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.4** and compare. Which dataset shows greater **variation over time**?",
       "path": "comparison-method/assets/exp/s15.png"
     },
     "exp-trend-3-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.23** and compare. Which dataset shows greater variation over time?"
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.23** and compare. Which dataset shows greater **variation over time**?"
     },
     "exp-trend-3": {
       "baseComponent": "expTrendBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.23** and compare. Which dataset shows greater variation over time?",
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.23** and compare. Which dataset shows greater **variation over time**?",
       "path": "comparison-method/assets/exp/s10.png"
     },
     "exp-trend-4-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.20** and compare. Which dataset shows greater variation over time?"
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.20** and compare. Which dataset shows greater **variation over time**?"
     },
     "exp-trend-4": {
       "baseComponent": "expTrendBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.20** and compare. Which dataset shows greater variation over time?",
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.20** and compare. Which dataset shows greater **variation over time**?",
       "path": "comparison-method/assets/exp/s13.png"
     },
     "exp-trend-5-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.31** and compare. Which dataset shows greater variation over time?"
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.31** and compare. Which dataset shows greater **variation over time**?"
     },
     "exp-trend-5": {
       "baseComponent": "expTrendBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.31** and compare. Which dataset shows greater variation over time?",
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.31** and compare. Which dataset shows greater **variation over time**?",
       "path": "comparison-method/assets/exp/s11.png"
     },
     "exp-trend-6-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.5** and compare. Which dataset shows greater variation over time?"
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.5** and compare. Which dataset shows greater **variation over time**?"
     },
     "exp-trend-6": {
       "baseComponent": "expTrendBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.5** and compare. Which dataset shows greater variation over time?",
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.5** and compare. Which dataset shows greater **variation over time**?",
       "path": "comparison-method/assets/exp/s14.png"
     },
     "exp-range-1-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.8** and compare, which dataset has larger range for that node?"
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.8** and compare, which dataset has larger **range for that node**?"
     },
     "exp-range-1": {
       "baseComponent": "expRangeBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.8** and compare, which dataset has larger range for that node?",
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.8** and compare, which dataset has larger **range for that node**?",
       "path": "comparison-method/assets/exp/s6.png"
     },
     "exp-range-2-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.17** and compare, which dataset has larger range for that node?"
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.17** and compare, which dataset has larger **range for that node**?"
     },
     "exp-range-2": {
       "baseComponent": "expRangeBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.17** and compare, which dataset has larger range for that node?",
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.17** and compare, which dataset has larger **range for that node**?",
       "path": "comparison-method/assets/exp/s8.png"
     },
     "exp-range-3-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.25** and compare, which dataset has larger range for that node?"
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.25** and compare, which dataset has larger **range for that node**?"
     },
     "exp-range-3": {
       "baseComponent": "expRangeBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.25** and compare, which dataset has larger range for that node?",
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.25** and compare, which dataset has larger **range for that node**?",
       "path": "comparison-method/assets/exp/s2.png"
     },
     "exp-range-4-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.16** and compare, which dataset has larger range for that node?"
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.16** and compare, which dataset has larger **range for that node**?"
     },
     "exp-range-4": {
       "baseComponent": "expRangeBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.16** and compare, which dataset has larger range for that node?",
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.16** and compare, which dataset has larger **range for that node**?",
       "path": "comparison-method/assets/exp/s9.png"
     },
     "exp-range-5-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.20** and compare, which dataset has larger range for that node?"
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.20** and compare, which dataset has larger **range for that node**?"
     },
     "exp-range-5": {
       "baseComponent": "expRangeBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.20** and compare, which dataset has larger range for that node?",
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.20** and compare, which dataset has larger **range for that node**?",
       "path": "comparison-method/assets/exp/s12.png"
     },
     "exp-range-6-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.27** and compare, which dataset has larger range for that node?"
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.27** and compare, which dataset has larger **range for that node**?"
     },
     "exp-range-6": {
       "baseComponent": "expRangeBase",
-      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.27** and compare, which dataset has larger range for that node?",
+      "instruction": "Looking at the **explicit encoding**:\n\nFind **h.27** and compare, which dataset has larger **range for that node**?",
       "path": "comparison-method/assets/exp/s10.png"
     },
     "post-jux": {
