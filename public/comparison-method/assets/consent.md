@@ -20,7 +20,7 @@ how different visualization strategies support the comparison
 of time-varying data in hierarchical network structures.
 
 ## Tasks
-The test contains 54 questions about our tool. 
+The test contains 54 tasks about comparison strategies. 
 It will take approximately 30 minutes to finish this
 test. 
 <!-- For each question, you will be given an interactive data
@@ -33,7 +33,7 @@ Your participation will remain anonymous, and the study does not ask you to prov
 
 We will not make audio, video, or screen recordings during the study. Only your responses to the study tasks and data related to your interaction with the visualizations will be collected for research analysis.
 
-## Benefits to research participants and others:
+## Benefits to research participants and others
 The possible benefits include exposure to interesting data
 visualization, along with helping inform the
 development of future experiment reporting techniques.

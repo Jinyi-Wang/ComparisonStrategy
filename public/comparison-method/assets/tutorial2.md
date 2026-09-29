@@ -5,8 +5,8 @@ In this part, you will compare two datasets and answer a series of questions abo
 ![Example of the superposition visualization](comparison-method/assets/sup/test.png)
 
 ## How to read the figure
-* **Dataset A** is shown in the left grid.
-* **Dataset B** is shown in the right grid.
+* **Dataset A** is shown as the left symbol.
+* **Dataset B** is shown as the right symbol.
 * The node symbol is a box-and-whisker, and it represents the household in the grid. 
 
 ## How to read symbol
@@ -24,7 +24,7 @@ Each question names a node, for example **h.23**. There are three types of quest
 
 #### **Value questions** 
 Ask which dataset has the *higher* value of one of these:
-![Example of the superposition visualization](comparison-method/assets/sup/node.png)
+<img src="comparison-method/assets/sup/node.png" alt="drawing" style="width:800px;"/>
 
 * **Maximum / minimum voltage value across all households:** check the upper / bottom whisker, a higher position indicates a higher value, while a lower position indicates a lower value.
 * **Maximum / minimum voltage value for that household:** check the upper / bottom box border, a higher position indicates a higher value, while a lower position indicates a lower value.
