@@ -116,6 +116,43 @@ export function StudyEnd() {
     download(JSON.stringify(participantDataToDownload, null, 2), `${baseFilename}_${participantIdToDownload}.json`);
   }, [baseFilename, participantData, participantId, refreshParticipantData]);
 
+  const saveParticipantToServer = useCallback(async () => {
+    const latestParticipant = await refreshParticipantData();
+    const participantDataToSave = latestParticipant.participantData || participantData;
+    const participantIdToSave = latestParticipant.participantId || participantId;
+
+    if (!participantDataToSave || !participantIdToSave) {
+      return;
+    }
+
+    try {
+      const response = await fetch(
+        'https://www.itn.liu.se/~jinwa71/user_data/submit.php',
+        {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            participantId: participantIdToSave,
+            participantData: participantDataToSave,
+          }),
+        },
+      );
+
+      const result = await response.text();
+
+      if (!response.ok) {
+        throw new Error(result || 'Server error');
+      }
+
+      alert('Study data saved successfully.');
+    } catch (error) {
+      console.error('Failed to save study data:', error);
+      alert('Failed to save study data to the server.');
+    }
+  }, [participantData, participantId, refreshParticipantData]);
+
   const retryFinalize = useCallback(() => {
     finalizeLoopRef.current?.retryNow();
   }, []);
@@ -227,6 +264,13 @@ export function StudyEnd() {
                   variant="default"
                 >
                   2. Upload Data
+                </Button>
+
+                <Button
+                  onClick={saveParticipantToServer}
+                  disabled={downloadUnavailable}
+                >
+                  3. Save to Server
                 </Button>
               </Group>
             </>
