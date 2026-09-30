@@ -32,6 +32,10 @@ export function StudyEnd() {
   const storageEngineRef = useRef(storageEngine);
   const finalizeLoopRef = useRef<ReturnType<typeof createStudyEndFinalizeLoop> | null>(null);
 
+  const [saveFailed, setSaveFailed] = useState(false);
+  const [saveSucceeded, setSaveSucceeded] = useState(false);
+  const [isSaving, setIsSaving] = useState(false);
+
   useEffect(() => {
     storageEngineRef.current = storageEngine;
   }, [storageEngine]);
@@ -117,11 +121,14 @@ export function StudyEnd() {
   }, [baseFilename, participantData, participantId, refreshParticipantData]);
 
   const saveParticipantToServer = useCallback(async () => {
+    setIsSaving(true);
     const latestParticipant = await refreshParticipantData();
     const participantDataToSave = latestParticipant.participantData || participantData;
     const participantIdToSave = latestParticipant.participantId || participantId;
 
     if (!participantDataToSave || !participantIdToSave) {
+      setIsSaving(false);
+      setSaveFailed(true);
       return;
     }
 
@@ -146,10 +153,13 @@ export function StudyEnd() {
         throw new Error(result || 'Server error');
       }
 
-      alert('Study data saved successfully.');
+      setSaveFailed(false);
+      setSaveSucceeded(true);
     } catch (error) {
       console.error('Failed to save study data:', error);
-      alert('Failed to save study data to the server.');
+      setSaveFailed(true);
+    } finally {
+      setIsSaving(false);
     }
   }, [participantData, participantId, refreshParticipantData]);
 
@@ -242,37 +252,59 @@ export function StudyEnd() {
               <Space h="lg" />
 
               <Text>
-                Please download your study data file first. Then upload the downloaded
-                file using the form below.
+                Please click the button below to submit your study data.
               </Text>
 
               <Space h="lg" />
 
-              <Group>
-                <Button
-                  onClick={downloadParticipant}
-                  disabled={downloadUnavailable}
-                >
-                  1. Download Data
-                </Button>
+              <Button
+                onClick={saveParticipantToServer}
+                disabled={downloadUnavailable || saveSucceeded}
+                loading={isSaving}
+              >
+                Save Study Data
+              </Button>
 
-                <Button
-                  component="a"
-                  href="https://docs.google.com/forms/d/e/1FAIpQLScUc2ruD9OtvQPCzISw63tn7z6faYlt9CPUThaJ_ncjZ5H3_w/viewform?usp=publish-editor"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  variant="default"
-                >
-                  2. Upload Data
-                </Button>
+              {saveSucceeded && (
+                <>
+                  <Space h="md" />
+                  <Text c="green">
+                    Your study data has been saved. Thank you for participating! You may close the window now.
+                  </Text>
+                </>
+              )}
 
-                <Button
-                  onClick={saveParticipantToServer}
-                  disabled={downloadUnavailable}
-                >
-                  3. Save to Server
-                </Button>
-              </Group>
+              {saveFailed && (
+                <>
+                  <Space h="xl" />
+                  <Text c="red" maw={560}>
+                    We could not save your study data to the server. Please download your
+                    data file and upload it using the form below.
+                  </Text>
+
+                  <Space h="md" />
+
+                  <Group>
+                    <Button
+                      onClick={downloadParticipant}
+                      disabled={downloadUnavailable}
+                      variant="default"
+                    >
+                      1. Download Data
+                    </Button>
+
+                    <Button
+                      component="a"
+                      href="https://docs.google.com/forms/d/e/1FAIpQLScUc2ruD9OtvQPCzISw63tn7z6faYlt9CPUThaJ_ncjZ5H3_w/viewform?usp=publish-editor"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      variant="default"
+                    >
+                      2. Upload Data
+                    </Button>
+                  </Group>
+                </>
+              )}
             </>
           )
           : (
