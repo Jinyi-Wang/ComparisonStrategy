@@ -1,11 +1,10 @@
-# IRB Consent Form
+# Consent Form
 
  **Investigator: Jinyi Wang**
 
- **Contact Information: jinyi.wang@liu.se; (+46) 070 385 6042**
+ **Contact Information: jinyi.wang@liu.se; (+46) 11 363 683**
 
-## Title of Research Study: Comparing comparison strategy
-## Introduction
+## Visual comparison of time-varying node attributes in hierarchical network structures
 You are being asked to participate in a research study. Before you
 agree, however, you must be fully informed about the purpose of
 the study, the procedures to be followed, and any benefits, risks
