@@ -1369,7 +1369,7 @@
       "response": [
         {
           "id": "easiest-value",
-          "prompt": "Rank each visualization based on how easy it was to use for **value comparison** by dragging the three strategies into order from the top (high) to the bottom (low).",
+          "prompt": "Rank each visualization based on how **easy** it was to use for **value comparison** by dragging the three strategies into order from the top (high) to the bottom (low).",
           "required": true,
           "location": "belowStimulus",
           "type": "ranking-sublist",
@@ -1382,7 +1382,7 @@
         },
         {
           "id": "easiest-trend",
-          "prompt": "Rank each visualization based on how easy it was to use for **variation comparison** by dragging the three strategies into order from the top (high) to the bottom (low).",
+          "prompt": "Rank each visualization based on how **easy** it was to use for **variation comparison** by dragging the three strategies into order from the top (high) to the bottom (low).",
           "required": true,
           "location": "belowStimulus",
           "type": "ranking-sublist",
@@ -1395,7 +1395,7 @@
         },
         {
           "id": "easiest-range",
-          "prompt": "Rank each visualization based on how easy it was to use for **range comparison** by dragging the three strategies into order from the top (high) to the bottom (low).",
+          "prompt": "Rank each visualization based on how **easy** it was to use for **range comparison** by dragging the three strategies into order from the top (high) to the bottom (low).",
           "required": true,
           "location": "belowStimulus",
           "type": "ranking-sublist",
@@ -1408,7 +1408,7 @@
         },
         {
           "id": "easy",
-          "prompt": "Rank each visualization based on how easy it was to **use overall** by dragging the three strategies into order from the top (high) to the bottom (low).",
+          "prompt": "Rank each visualization based on how **easy** it was to **use overall** by dragging the three strategies into order from the top (high) to the bottom (low).",
           "required": true,
           "location": "belowStimulus",
           "type": "ranking-sublist",
@@ -1421,7 +1421,7 @@
         },
         {
           "id": "preferred",
-          "prompt": "Rank how much you liked each visualization overall by dragging the three strategies into order from the top (high) to the bottom (low).",
+          "prompt": "Rank how much you **liked** each visualization **overall** by dragging the three strategies into order from the top (high) to the bottom (low).",
           "required": true,
           "location": "belowStimulus",
           "type": "ranking-sublist",
