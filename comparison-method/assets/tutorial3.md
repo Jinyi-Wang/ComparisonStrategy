@@ -20,9 +20,8 @@ In this part, you will compare two datasets and answer a series of questions abo
   * The farther from the center line, the larger the absolute difference between the two datasets.
 * **Left arrow:** the direction of the upper end represents the difference between B and A in maximum voltage value across all households; the direction of the bottom end represents the difference between B and A in minimum voltage value across all households.
 * **Right arrow:** the direction of the upper end represents the difference between B and A in maximum voltage value for that household; the direction of the bottom end represents the difference between B and A in minimum voltage value for that household.
-* **Arrow direction** indicates the difference of B − A. Movement away from the centerline represents a positive difference \(B - A > 0\), whereas movement toward the centerline represents a negative difference \(B - A < 0\). 
-  * For the upper ends of the arrows: arrow uses ▲ if B > A, ▼ if B < A, or ● if B = A.
-  * For the bottom ends of the arrows: arrow uses ▼ if B > A, ▲ if B < A, or ● if B = A.
+* **Arrow direction** indicates the difference of B − A. Upward movement represents a positive difference \(B - A > 0\), whereas downward movement represents a negative difference \(B - A < 0\). 
+  * Arrow uses ▲ if B > A, ▼ if B < A, or ● if B = A.
   
 
 ## How to answer
@@ -33,8 +32,8 @@ Each question names a node corresponding to a household, for example **h.23**. T
 Value questions ask which dataset has the *higher* value:
 ![Example of the explicit encoding visualization](comparison-method/assets/exp/node.png)
 
-* **Maximum / minimum voltage value across all households:** check the upper / bottom end of left arrow. Movement away from the centerline represents a positive difference \(B - A > 0\), whereas movement toward the centerline represents a negative difference \(B - A < 0\). 
-* **Maximum / minimum voltage value for that household:** check the upper / bottom end of right arrow. Movement away from the centerline represents a positive difference \(B - A > 0\), whereas movement toward the centerline represents a negative difference \(B - A < 0\). 
+* **Maximum / minimum voltage value across all households:** check the upper / bottom end of left arrow. Upward movement represents a positive difference \(B - A > 0\), whereas downward movement represents a negative difference \(B - A < 0\). 
+* **Maximum / minimum voltage value for that household:** check the upper / bottom end of right arrow. Upward movement represents a positive difference \(B - A > 0\), whereas downward movement represents a negative difference \(B - A < 0\). 
 * **Voltage value:** check the voltage line in the box, a higher position of the line indicates a larger value of B − A, while a lower position indicates a smaller value of B − A.
 
 *Answers: Dataset A, Dataset B, or Same.*
