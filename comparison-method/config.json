@@ -275,6 +275,7 @@
       "path": "comparison-method/assets/tutorial1.md",
       "nextButtonText": "Next",
       "nextButtonLocation": "sidebar",
+      "instruction": "Need a refresher? You can click the **Help** button in the top-right corner anytime to revisit the tutorial.",
       "response": [
         {
           "id": "accept",
@@ -294,6 +295,7 @@
       "path": "comparison-method/assets/tutorial2.md",
       "nextButtonText": "Next",
       "nextButtonLocation": "sidebar",
+      "instruction": "Need a refresher? You can click the **Help** button in the top-right corner anytime to revisit the tutorial.",
       "response": [
         {
           "id": "accept",
@@ -313,6 +315,7 @@
       "path": "comparison-method/assets/tutorial3.md",
       "nextButtonText": "Next",
       "nextButtonLocation": "sidebar",
+      "instruction": "Need a refresher? You can click the **Help** button in the top-right corner anytime to revisit the tutorial.",
       "response": [
         {
           "id": "accept",

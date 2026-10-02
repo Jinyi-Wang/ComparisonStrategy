@@ -1,8 +1,6 @@
 # Consent Form
 
- **Investigator: Jinyi Wang**
-
- **Contact Information: jinyi.wang@liu.se; (+46) 11 363 683**
+ **Contact Information: Jinyi Wang (jinyi.wang@liu.se); (+46) 11 363 683**
 
 ## Visual comparison of time-varying node attributes in hierarchical network structures
 You are being asked to participate in a research study. Before you
