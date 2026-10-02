@@ -591,7 +591,7 @@
       "style": {
         "width": "700px"
       },
-      "instruction": "### Explanation\n\n**Correct answer: Dataset A.**\n\nFirst, locate **h.25** in the figure.\n\nThen, look at the **range arrow** for h.25. Both the upper part and the lower part of the arrow point toward the center.\n\nThese directions indicate that the differences between Dataset B and Dataset A (**B − A**) are less than 0 for both ends of the range. In other words, Dataset B has a smaller range than Dataset A for this node.\n\nTherefore, **Dataset A has the larger range for h.25**.",
+      "instruction": "### Explanation\n\n**Correct answer: Dataset A.**\n\nFirst, locate **h.25** in the figure.\n\nThen, look at the **range arrow** for h.25. Both the upper part and the lower part of the arrow point toward the center.\n\nThese directions indicate that B has lower maximum voltage value and higher minimum voltage value. In other words, Dataset B has a smaller range than Dataset A for this node.\n\nTherefore, **Dataset A has the larger range for h.25**.",
       "instructionLocation": "sidebar",
       "nextButtonLocation": "sidebar",
       "nextButtonText": "Continue",
