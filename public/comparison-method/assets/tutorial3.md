@@ -2,7 +2,7 @@
 
 In this part, you will compare two datasets and answer a series of questions about the differences between them. In this design, the **difference** between the two datasets is **computed and explicitly encoded (drawn) directly in the figure**.
 
-![Example of the explicit encoding visualization](comparison-method/assets/exp/test.png)
+![Example of the explicit encoding visualization](comparison-method/assets/exp/test1.png)
 
 ## How to read the figure
 
