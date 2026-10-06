@@ -10,11 +10,11 @@ In this study, you will complete a series of comparison tasks. In each task, you
 
 # Tasks
 You will first read a short tutorial and practice several tasks to become familiar with the visualization and task format. You will then complete a series of comparison tasks using three different visual comparison strategies. 
-We are recording your response and completion time.
+Task responses and completion times will be recorded.
 
-Please do not worry if you are unsure about an answer. Make your best judgment based on the information shown in the visualization. We are interested in understanding how different visualization strategies support the comparison of two datasets.
+The study explores how different visualization strategies support the comparison of two datasets. Please answer each task as accurately as possible based on the information shown in the visualization.
 
-**Note:** For the best viewing experience, we recommend completing this study on a computer or tablet with a larger screen. Using a mobile phone is not recommended, as the smaller screen size may affect how the visualizations are displayed and viewed.
+**Note:** Please use a computer or tablet, not a mobile device.
 
 
 
