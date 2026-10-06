@@ -229,13 +229,13 @@
     "consent": {
       "type": "markdown",
       "path": "comparison-method/assets/consent.md",
-      "nextButtonText": "Agree",
+      "nextButtonText": "continue",
       "nextButtonLocation": "sidebar",
       "response": [
         {
           "id": "accept",
           "prompt": "Do you consent to the study and wish to continue?",
-          "secondaryText": "You must agree to participate before continuing with the study. If you do not wish to participate in the study, you may close this browser tab at any time.",
+          "secondaryText": "You must accept to participate before continuing with the study. If you do not wish to participate in the study, you may close this browser tab at any time.",
           "requiredValue": "Accept",
           "location": "sidebar",
           "type": "radio",
