@@ -474,7 +474,7 @@ export class SupabaseStorageEngine extends CloudStorageEngine {
 
     const defaultModes = {
       dataCollectionEnabled: true,
-      developmentModeEnabled: true,
+      developmentModeEnabled: false,
       dataSharingEnabled: true,
     };
     await this.supabase

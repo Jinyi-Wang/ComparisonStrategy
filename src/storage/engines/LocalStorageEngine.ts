@@ -224,7 +224,7 @@ export class LocalStorageEngine extends StorageEngine {
 
     const defaults: Record<REVISIT_MODE, boolean> = {
       dataCollectionEnabled: true,
-      developmentModeEnabled: true,
+      developmentModeEnabled: false,
       dataSharingEnabled: true,
     };
     await this.studyDatabase.setItem(key, defaults);

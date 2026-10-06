@@ -531,7 +531,7 @@ export class FirebaseStorageEngine extends CloudStorageEngine {
     // Else set to default values
     const defaultModes = {
       dataCollectionEnabled: true,
-      developmentModeEnabled: true,
+      developmentModeEnabled: false,
       dataSharingEnabled: true,
     };
     await setDoc(revisitModesDoc, defaultModes);

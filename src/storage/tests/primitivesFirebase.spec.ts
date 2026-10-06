@@ -424,7 +424,7 @@ describe.each([
       dataCollectionEnabled: true,
     };
     const cleanedModes = {
-      developmentModeEnabled: true,
+      developmentModeEnabled: false,
       dataSharingEnabled: true,
       dataCollectionEnabled: true,
     };

@@ -192,7 +192,7 @@ describe.each([
     };
 
     const cleanedModes = {
-      developmentModeEnabled: true,
+      developmentModeEnabled: false,
       dataSharingEnabled: true,
       dataCollectionEnabled: true,
     };
