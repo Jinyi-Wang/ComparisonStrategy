@@ -229,7 +229,7 @@
     "consent": {
       "type": "markdown",
       "path": "comparison-method/assets/consent.md",
-      "nextButtonText": "continue",
+      "nextButtonText": "Continue",
       "nextButtonLocation": "sidebar",
       "response": [
         {
@@ -248,31 +248,31 @@
     },
     "tutorial1-pre": {
       "type": "markdown",
-      "path": "comparison-method/assets/tutorial1.md",
+      "path": "comparison-method/assets/tutorial1Short.md",
       "nextButtonText": "Continue",
       "nextButtonLocation": "sidebar",
-      "instruction": "**Are you ready to practice?**\n\nAfter this tutorial, you will complete three practice tasks to become familiar with the visualization and three types of questions you will encounter.\n\nAfter each practice task, you will be shown an explanation of the correct answer. Once you have completed all three practice tasks, you will see the tutorial again for a quick review before starting the main tasks.",
+      "instruction": "**Are you ready to practice?**\n\nYou will complete three practice tasks covering three question types. After each practice, you will see an explanation of the correct answer.\n\nAt the end, you will review the tutorial before starting the main tasks.",
       "response": []
     },
     "tutorial2-pre": {
       "type": "markdown",
-      "path": "comparison-method/assets/tutorial2.md",
+      "path": "comparison-method/assets/tutorial2Short.md",
       "nextButtonText": "Continue",
       "nextButtonLocation": "sidebar",
-      "instruction": "**Are you ready to practice?**\n\nAfter this tutorial, you will complete three practice tasks to become familiar with the visualization and three types of questions you will encounter.\n\nAfter each practice task, you will be shown an explanation of the correct answer. Once you have completed all three practice tasks, you will see the tutorial again for a quick review before starting the main tasks.",
+      "instruction": "**Are you ready to practice?**\n\nYou will complete three practice tasks covering three question types. After each practice, you will see an explanation of the correct answer.\n\nAt the end, you will review the tutorial before starting the main tasks.",
       "response": []
     },
     "tutorial3-pre": {
       "type": "markdown",
-      "path": "comparison-method/assets/tutorial3.md",
+      "path": "comparison-method/assets/tutorial3Short.md",
       "nextButtonText": "Continue",
       "nextButtonLocation": "sidebar",
-      "instruction": "**Are you ready to practice?**\n\nAfter this tutorial, you will complete three practice tasks to become familiar with the visualization and three types of questions you will encounter.\n\nAfter each practice task, you will be shown an explanation of the correct answer. Once you have completed all three practice tasks, you will see the tutorial again for a quick review before starting the main tasks.",
+      "instruction": "**Are you ready to practice?**\n\nYou will complete three practice tasks covering three question types. After each practice, you will see an explanation of the correct answer.\n\nAt the end, you will review the tutorial before starting the main tasks.",
       "response": []
     },
     "tutorial1": {
       "type": "markdown",
-      "path": "comparison-method/assets/tutorial1.md",
+      "path": "comparison-method/assets/tutorial1After.md",
       "nextButtonText": "Next",
       "nextButtonLocation": "sidebar",
       "instruction": "Need a refresher? You can click the **Help** button in the top-right corner anytime to revisit the tutorial.",
@@ -280,7 +280,6 @@
         {
           "id": "accept",
           "prompt": "Do you understand and ready to continue?",
-          "requiredValue": "Yes",
           "location": "sidebar",
           "type": "radio",
           "options": [
@@ -292,7 +291,7 @@
     },
     "tutorial2": {
       "type": "markdown",
-      "path": "comparison-method/assets/tutorial2.md",
+      "path": "comparison-method/assets/tutorial2After.md",
       "nextButtonText": "Next",
       "nextButtonLocation": "sidebar",
       "instruction": "Need a refresher? You can click the **Help** button in the top-right corner anytime to revisit the tutorial.",
@@ -300,7 +299,6 @@
         {
           "id": "accept",
           "prompt": "Do you understand and ready to continue?",
-          "requiredValue": "Yes",
           "location": "sidebar",
           "type": "radio",
           "options": [
@@ -312,7 +310,7 @@
     },
     "tutorial3": {
       "type": "markdown",
-      "path": "comparison-method/assets/tutorial3.md",
+      "path": "comparison-method/assets/tutorial3After.md",
       "nextButtonText": "Next",
       "nextButtonLocation": "sidebar",
       "instruction": "Need a refresher? You can click the **Help** button in the top-right corner anytime to revisit the tutorial.",
@@ -320,7 +318,6 @@
         {
           "id": "accept",
           "prompt": "Do you understand and ready to continue?",
-          "requiredValue": "Yes",
           "location": "sidebar",
           "type": "radio",
           "options": [
@@ -330,6 +327,187 @@
         }
       ]
     },
+        
+    "jux-practice-value-intro": {
+      "type": "markdown",
+      "path": "comparison-method/assets/JUX_value.md",
+      "nextButtonText": "Next",
+      "nextButtonLocation": "sidebar",
+      "instruction": "How to answer value questions:",
+      "response": [
+        {
+          "id": "accept",
+          "prompt": "Do you understand and ready to continue?",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "No",
+            "Yes"
+          ]
+        }
+      ]
+    },
+
+    "jux-practice-trend-intro": {
+      "type": "markdown",
+      "path": "comparison-method/assets/JUX_variation.md",
+      "nextButtonText": "Next",
+      "nextButtonLocation": "sidebar",
+      "instruction": "How to answer variation questions:",
+      "response": [
+        {
+          "id": "accept",
+          "prompt": "Do you understand and ready to continue?",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "No",
+            "Yes"
+          ]
+        }
+      ]
+    },
+
+    "jux-practice-range-intro": {
+      "type": "markdown",
+      "path": "comparison-method/assets/JUX_range.md",
+      "nextButtonText": "Next",
+      "nextButtonLocation": "sidebar",
+      "instruction": "How to answer range questions:",
+      "response": [
+        {
+          "id": "accept",
+          "prompt": "Do you understand and ready to continue?",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "No",
+            "Yes"
+          ]
+        }
+      ]
+    },
+
+    "sup-practice-value-intro": {
+      "type": "markdown",
+      "path": "comparison-method/assets/SUP_value.md",
+      "nextButtonText": "Next",
+      "nextButtonLocation": "sidebar",
+      "instruction": "How to answer value questions:",
+      "response": [
+        {
+          "id": "accept",
+          "prompt": "Do you understand and ready to continue?",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "No",
+            "Yes"
+          ]
+        }
+      ]
+    },
+
+    "sup-practice-trend-intro": {
+      "type": "markdown",
+      "path": "comparison-method/assets/SUP_variation.md",
+      "nextButtonText": "Next",
+      "nextButtonLocation": "sidebar",
+      "instruction": "How to answer variation questions:",
+      "response": [
+        {
+          "id": "accept",
+          "prompt": "Do you understand and ready to continue?",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "No",
+            "Yes"
+          ]
+        }
+      ]
+    },
+
+    "sup-practice-range-intro": {
+      "type": "markdown",
+      "path": "comparison-method/assets/SUP_range.md",
+      "nextButtonText": "Next",
+      "nextButtonLocation": "sidebar",
+      "instruction": "How to answer range questions:",
+      "response": [
+        {
+          "id": "accept",
+          "prompt": "Do you understand and ready to continue?",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "No",
+            "Yes"
+          ]
+        }
+      ]
+    },
+
+    "exp-practice-value-intro": {
+      "type": "markdown",
+      "path": "comparison-method/assets/EXP_value.md",
+      "nextButtonText": "Next",
+      "nextButtonLocation": "sidebar",
+      "instruction": "How to answer value questions:",
+      "response": [
+        {
+          "id": "accept",
+          "prompt": "Do you understand and ready to continue?",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "No",
+            "Yes"
+          ]
+        }
+      ]
+    },
+
+    "exp-practice-trend-intro": {
+      "type": "markdown",
+      "path": "comparison-method/assets/EXP_variation.md",
+      "nextButtonText": "Next",
+      "nextButtonLocation": "sidebar",
+      "instruction": "How to answer variation questions:",
+      "response": [
+        {
+          "id": "accept",
+          "prompt": "Do you understand and ready to continue?",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "No",
+            "Yes"
+          ]
+        }
+      ]
+    },
+
+    "exp-practice-range-intro": {
+      "type": "markdown",
+      "path": "comparison-method/assets/EXP_range.md",
+      "nextButtonText": "Next",
+      "nextButtonLocation": "sidebar",
+      "instruction": "How to answer range questions:",
+      "response": [
+        {
+          "id": "accept",
+          "prompt": "Do you understand and ready to continue?",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "No",
+            "Yes"
+          ]
+        }
+      ]
+    },
+
     "jux-practice-value-question": {
       "baseComponent": "questionPageBase",
       "instruction": "Looking at the **juxtaposition**:\n\nFind **h.5** and compare, which dataset has higher **voltage value**?"
@@ -1366,8 +1544,10 @@
       ]
     },
     "final-questionnaire": {
-      "type": "questionnaire",
+      "type": "image",
       "description": "Final questionnaire",
+        "path": "comparison-method/assets/description.png",
+
       "instruction": "You have now seen all three visualizations. Please answer a few final questions.",
       "response": [
         {
@@ -1465,12 +1645,15 @@
             "order": "fixed",
             "components": [
               "tutorial1-pre",
+              "jux-practice-value-intro",
               "jux-practice-value-question",
               "jux-practice-value",
               "jux-practice-value-explanation",
+              "jux-practice-trend-intro",
               "jux-practice-trend-question",
               "jux-practice-trend",
               "jux-practice-trend-explanation",
+              "jux-practice-range-intro",
               "jux-practice-range-question",
               "jux-practice-range",
               "jux-practice-range-explanation",
@@ -1518,12 +1701,15 @@
             "order": "fixed",
             "components": [
               "tutorial2-pre",
+              "sup-practice-value-intro",
               "sup-practice-value-question",
               "sup-practice-value",
               "sup-practice-value-explanation",
+              "sup-practice-trend-intro",
               "sup-practice-trend-question",
               "sup-practice-trend",
               "sup-practice-trend-explanation",
+              "sup-practice-range-intro",
               "sup-practice-range-question",
               "sup-practice-range",
               "sup-practice-range-explanation",
@@ -1571,12 +1757,15 @@
             "order": "fixed",
             "components": [
               "tutorial3-pre",
+              "exp-practice-value-intro",
               "exp-practice-value-question",
               "exp-practice-value",
               "exp-practice-value-explanation",
+              "exp-practice-trend-intro",
               "exp-practice-trend-question",
               "exp-practice-trend",
               "exp-practice-trend-explanation",
+              "exp-practice-range-intro",
               "exp-practice-range-question",
               "exp-practice-range",
               "exp-practice-range-explanation",
