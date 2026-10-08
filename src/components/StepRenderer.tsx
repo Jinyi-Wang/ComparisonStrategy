@@ -1,4 +1,5 @@
-import { AppShell, Button, Flex } from '@mantine/core';
+// import { AppShell, Button, Flex } from '@mantine/core';
+import { AppShell, Flex } from '@mantine/core';
 import { Outlet } from 'react-router';
 import {
   useEffect, useMemo, useRef,
@@ -6,7 +7,7 @@ import {
 } from 'react';
 import type { CSSProperties } from 'react';
 import debounce from 'lodash.debounce';
-import { IconArrowLeft } from '@tabler/icons-react';
+// import { IconArrowLeft } from '@tabler/icons-react';
 import { AppAside } from './interface/AppAside';
 import { AppHeader } from './interface/AppHeader';
 import { AppNavBar } from './interface/AppNavBar';
@@ -34,7 +35,8 @@ const STUDY_BROWSER_WIDTH = 360;
 export function StepRenderer() {
   const windowEvents = useRef<EventType[]>([]);
   const dispatch = useStoreDispatch();
-  const { toggleStudyBrowser, setAlertModal } = useStoreActions();
+  // const { toggleStudyBrowser, setAlertModal } = useStoreActions();
+  const { setAlertModal } = useStoreActions();
   const { storageEngine } = useStorageEngine();
 
   const isAnalysis = useIsAnalysis();
@@ -224,7 +226,7 @@ export function StepRenderer() {
                 }}
                 w={sidebarOpen ? `calc(100% - ${sidebarWidth}px - 10px)` : '100%'}
               >
-                {!showTitleBar && !showStudyBrowser && developmentModeEnabled && (
+                {/* {!showTitleBar && !showStudyBrowser && developmentModeEnabled && (
                 <Button
                   variant="subtle"
                   leftSection={<IconArrowLeft size={14} />}
@@ -234,7 +236,7 @@ export function StepRenderer() {
                 >
                   Study Browser
                 </Button>
-                )}
+                )} */}
                 <Outlet />
               </AppShell.Main>
             </Flex>
