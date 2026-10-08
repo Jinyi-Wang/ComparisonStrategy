@@ -279,11 +279,10 @@
       "response": [
         {
           "id": "accept",
-          "prompt": "Do you understand and ready to continue?",
+          "prompt": "Are you ready to continue?",
           "location": "sidebar",
           "type": "radio",
           "options": [
-            "No",
             "Yes"
           ]
         }
@@ -298,11 +297,10 @@
       "response": [
         {
           "id": "accept",
-          "prompt": "Do you understand and ready to continue?",
+          "prompt": "Are you ready to continue?",
           "location": "sidebar",
           "type": "radio",
           "options": [
-            "No",
             "Yes"
           ]
         }
@@ -317,11 +315,10 @@
       "response": [
         {
           "id": "accept",
-          "prompt": "Do you understand and ready to continue?",
+          "prompt": "Are you ready to continue?",
           "location": "sidebar",
           "type": "radio",
           "options": [
-            "No",
             "Yes"
           ]
         }
@@ -337,11 +334,10 @@
       "response": [
         {
           "id": "accept",
-          "prompt": "Do you understand and ready to continue?",
+          "prompt": "Are you ready to continue?",
           "location": "sidebar",
           "type": "radio",
           "options": [
-            "No",
             "Yes"
           ]
         }
@@ -357,11 +353,10 @@
       "response": [
         {
           "id": "accept",
-          "prompt": "Do you understand and ready to continue?",
+          "prompt": "Are you ready to continue?",
           "location": "sidebar",
           "type": "radio",
           "options": [
-            "No",
             "Yes"
           ]
         }
@@ -377,11 +372,10 @@
       "response": [
         {
           "id": "accept",
-          "prompt": "Do you understand and ready to continue?",
+          "prompt": "Are you ready to continue?",
           "location": "sidebar",
           "type": "radio",
           "options": [
-            "No",
             "Yes"
           ]
         }
@@ -397,11 +391,10 @@
       "response": [
         {
           "id": "accept",
-          "prompt": "Do you understand and ready to continue?",
+          "prompt": "Are you ready to continue?",
           "location": "sidebar",
           "type": "radio",
           "options": [
-            "No",
             "Yes"
           ]
         }
@@ -417,11 +410,10 @@
       "response": [
         {
           "id": "accept",
-          "prompt": "Do you understand and ready to continue?",
+          "prompt": "Are you ready to continue?",
           "location": "sidebar",
           "type": "radio",
           "options": [
-            "No",
             "Yes"
           ]
         }
@@ -437,11 +429,10 @@
       "response": [
         {
           "id": "accept",
-          "prompt": "Do you understand and ready to continue?",
+          "prompt": "Are you ready to continue?",
           "location": "sidebar",
           "type": "radio",
           "options": [
-            "No",
             "Yes"
           ]
         }
@@ -457,11 +448,10 @@
       "response": [
         {
           "id": "accept",
-          "prompt": "Do you understand and ready to continue?",
+          "prompt": "Are you ready to continue?",
           "location": "sidebar",
           "type": "radio",
           "options": [
-            "No",
             "Yes"
           ]
         }
@@ -477,11 +467,10 @@
       "response": [
         {
           "id": "accept",
-          "prompt": "Do you understand and ready to continue?",
+          "prompt": "Are you ready to continue?",
           "location": "sidebar",
           "type": "radio",
           "options": [
-            "No",
             "Yes"
           ]
         }
@@ -497,11 +486,10 @@
       "response": [
         {
           "id": "accept",
-          "prompt": "Do you understand and ready to continue?",
+          "prompt": "Are you ready to continue?",
           "location": "sidebar",
           "type": "radio",
           "options": [
-            "No",
             "Yes"
           ]
         }
