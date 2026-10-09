@@ -2,7 +2,7 @@
 
 In this part, you will compare two datasets and answer a series of questions about the differences between them. In this design, two nodes are plotted at each data point **in the same neighborhood**.
 
-<img src="comparison-method/assets/sup/test1.png" alt="drawing" style="width:800px;"/>
+<img src="comparison-method/assets/sup/test1.png" alt="drawing" style="width:700px;"/>
 
 ## How to read the figure
 * **Dataset A** is shown as the left node glyph.
