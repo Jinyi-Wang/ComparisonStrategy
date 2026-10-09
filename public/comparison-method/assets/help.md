@@ -55,7 +55,7 @@ Variation questions ask which dataset shows greater variation over time:
 
 
 #### **Range questions** 
-Range questions ask which dataset has the larger range for the node, that is, the difference between the maximum and minimum voltage value for that node:
+Range questions ask which dataset has the larger range for the node, that is, the difference between the maximum and minimum voltage value in that household:
 <img src="comparison-method/assets/jux/range.png" alt="drawing" style="width:600px;"/>
 
 * **Maximum / minimum voltage value for that household:** check the difference between upper / bottom box border, larger the difference indicates larger the range.
@@ -109,7 +109,7 @@ Variation questions ask which dataset shows greater variation over time:
 *Answers: Dataset A, Dataset B, or Same.*
 
 #### **Range questions** 
-Range questions ask which dataset has the larger range for the node, that is, the difference between the maximum and minimum voltage value for that node:
+Range questions ask which dataset has the larger range for the node, that is, the difference between the maximum and minimum voltage value in that household:
 <img src="comparison-method/assets/sup/range.png" alt="drawing" style="width:650px;"/>
 
 * **Maximum / minimum voltage value for that household:** check the difference between upper / bottom box border, larger the difference indicates larger the range.
@@ -169,7 +169,7 @@ Variation questions ask which dataset shows greater variation over time:
 *Answers: Dataset A, Dataset B, or Same.*
 
 #### **Range questions** 
-Range questions ask which dataset has the larger range for the node, that is, the difference between the maximum and minimum voltage value for that node:
+Range questions ask which dataset has the larger range for the node, that is, the difference between the maximum and minimum voltage value in that household:
 <img src="comparison-method/assets/exp/range.png" alt="drawing" style="width:550px;"/>
 
 * **Maximum / minimum voltage value for that household:** check the right arrow, two ends moving away from the centerline indicates the range is larger in Dataset B, while two ends moving toward the centerline indicates the range is smaller in Dataset B.

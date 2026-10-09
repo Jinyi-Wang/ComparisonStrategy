@@ -42,12 +42,12 @@ Value questions ask which dataset has the *higher* value:
 Variation questions ask which dataset shows greater variation over time: 
 <img src="comparison-method/assets/exp/variation.png" alt="drawing" style="width:500px;"/>
 
-* **Variation line:** check the line in the box, the line above the dashed line indicates the variation of B - A > 0, while line below the dashed line indicates the variation of B - A < 0.
+* **Variation line:** check the line in the box, the line above the dashed line indicates the variation of B - A > 0 which means that variation of B is greater than A; while line below the dashed line indicates the variation of B - A < 0which means variation of B is less than A.
 
 *Answers: Dataset A, Dataset B, or Same.*
 
 #### **Range questions** 
-Range questions ask which dataset has the larger range for the node, that is, the difference between the maximum and minimum voltage value for that node:
+Range questions ask which dataset has the larger range for the node, that is, the difference between the maximum and minimum voltage value in that household:
 <img src="comparison-method/assets/exp/range.png" alt="drawing" style="width:550px;"/>
 
 * **Maximum / minimum voltage value for that household:** check the right arrow, two ends moving away from the centerline indicates the range is larger in Dataset B, while two ends moving toward the centerline indicates the range is smaller in Dataset B.

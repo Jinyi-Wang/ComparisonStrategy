@@ -41,7 +41,7 @@ Variation questions ask which dataset shows greater variation over time:
 *Answers: Dataset A, Dataset B, or Same.*
 
 #### **Range questions** 
-Range questions ask which dataset has the larger range for the node, that is, the difference between the maximum and minimum voltage value for that node:
+Range questions ask which dataset has the larger range for the node, that is, the difference between the maximum and minimum voltage value in that household:
 <img src="comparison-method/assets/sup/range.png" alt="drawing" style="width:650px;"/>
 
 * **Maximum / minimum voltage value for that household:** check the difference between upper / bottom box border, larger the difference indicates larger the range.

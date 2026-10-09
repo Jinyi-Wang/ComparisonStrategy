@@ -2,7 +2,7 @@
 
 In this part, you will compare two datasets and answer a series of questions about the differences between them. In this design, two nodes are plotted at each data point **in the same neighborhood**.
 
-![Example of the superposition visualization](comparison-method/assets/sup/test1.png)
+<img src="comparison-method/assets/sup/test1.png" alt="drawing" style="width:800px;"/>
 
 ## How to read the figure
 * **Dataset A** is shown as the left node glyph.
