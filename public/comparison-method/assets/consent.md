@@ -9,7 +9,7 @@ how different visualization strategies support the comparison
 of time-varying data in hierarchical network structures.
 
 ## Tasks
-The test contains 54 comparison tasks, which take approximately 45 minutes.
+The test contains 36 comparison tasks, which take approximately 40 minutes.
 
 ## Data and privacy
 We will collect your task responses and interaction data. 
