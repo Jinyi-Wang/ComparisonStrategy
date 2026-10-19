@@ -26,7 +26,7 @@ Your participation may contribute to future visualization research.
 For questions about the study or your rights as a participant, please contact: Jinyi (contact info at the top of this page). 
 
 ## Voluntary participation
-Participation is voluntary. You may stop at any time without penalty.
+Participation is voluntary. You may stop at any time without any consequences.
 
 **By clicking accept,**
 You confirm that you have read and understood this information and voluntarily agree to participate in the study.

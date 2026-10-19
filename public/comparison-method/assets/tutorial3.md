@@ -7,12 +7,13 @@ In this part, you will compare two datasets and answer a series of questions abo
 ## How to read the figure
 
 * Each node in the neighborhood shows **the computed difference between Dataset B and Dataset A (B − A)**.
-* The node glyph includes a faded box-and-whisker-like reference glyph that does not encode data itself. It provides a consistent visual frame of reference across the visual comparison strategies. 
+* The node glyph includes a faded box-and-whisker-like reference glyph that does not encode data itself. It serves as a fixed visual reference and provides a consistent visual frame of reference across the visual comparison strategies.
+ 
 
 
 ## How to read the glyph
 **B − A** difference is shown through three separate encodings on top of that fixed node glyph:
-* **Line in the box** represents the computed difference of voltage value between dataset B and A, or the computed difference of voltage variation over time between dataset B and A. 
+* **Line in the box** represents either the computed voltage difference between dataset B and A, or the computed difference of voltage variation over time between dataset B and A, depending on the question type. 
 * **Dashed line in the box** represents the centerline of the glyph. It is fixed in the glyph and provides a reference of the line position.
 * **Vertical position** for the line in the box, vertical position represents the voltage difference B − A: 
   * A line above the centerline indicates B − A > 0, meaning Dataset B has a higher voltage value than Dataset A.
@@ -34,7 +35,7 @@ Value questions ask which dataset has the *higher* value:
 
 * **Maximum / minimum voltage value across all households:** check the upper / bottom end of left arrow. Upward movement represents a positive difference \(B - A > 0\), whereas downward movement represents a negative difference \(B - A < 0\). 
 * **Maximum / minimum voltage value for that household:** check the upper / bottom end of right arrow. Upward movement represents a positive difference \(B - A > 0\), whereas downward movement represents a negative difference \(B - A < 0\). 
-* **Voltage value:** check the voltage line in the box, a higher position of the line indicates a larger value of B − A, while a lower position indicates a smaller value of B − A.
+* **Voltage difference:** check the voltage line in the box, a higher position of the line indicates a larger value of B − A, while a lower position indicates a smaller value of B − A. The centerline corresponds to B − A = 0.
 
 *Answers: Dataset A, Dataset B, or Same.*
 
@@ -42,7 +43,7 @@ Value questions ask which dataset has the *higher* value:
 Variation questions ask which dataset shows greater variation over time: 
 <img src="comparison-method/assets/exp/variation.png" alt="drawing" style="width:500px;"/>
 
-* **Variation line:** check the line in the box, the line above the dashed line indicates the variation of B - A > 0 which means that variation of B is greater than A; while line below the dashed line indicates the variation of B - A < 0which means variation of B is less than A.
+* **Variation line:** check the line in the box, the dashed line represents a variation of B − A = 0. The line above the dashed line indicates the variation of B - A > 0 which means that variation of B is greater than A; while line below the dashed line indicates the variation of B - A < 0which means variation of B is less than A.
 
 *Answers: Dataset A, Dataset B, or Same.*
 

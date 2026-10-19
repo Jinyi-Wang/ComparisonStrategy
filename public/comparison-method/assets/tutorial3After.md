@@ -7,12 +7,14 @@ In this part, you will compare two datasets and answer a series of questions abo
 ## How to read the figure
 
 * Each node in the neighborhood shows **the computed difference between Dataset B and Dataset A (B − A)**.
-* The node glyph includes a faded box-and-whisker-like reference glyph that does not encode data itself. It provides a consistent visual frame of reference across the visual comparison strategies. 
+* The horizontal line has the same visual appearance across question types, but its meaning depends on the question type. 
+* The node glyph includes a faded box-and-whisker-like reference glyph that does not encode data itself. It serves as a fixed visual reference and provides a consistent visual frame of reference across the visual comparison strategies.
+ 
 
 
 ## How to read the glyph
 **B − A** difference is shown through three separate encodings on top of that fixed node glyph:
-* **Line in the box** represents the computed difference of voltage value between dataset B and A, or the computed difference of voltage variation over time between dataset B and A. 
+* **Line in the box** represents either the computed voltage difference between dataset B and A, or the computed difference of voltage variation over time between dataset B and A, depending on the question type. 
 * **Dashed line in the box** represents the centerline of the glyph. It is fixed in the glyph and provides a reference of the line position.
 * **Vertical position** for the line in the box, vertical position represents the voltage difference B − A: 
   * A line above the centerline indicates B − A > 0, meaning Dataset B has a higher voltage value than Dataset A.
