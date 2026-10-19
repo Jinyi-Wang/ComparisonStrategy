@@ -502,6 +502,20 @@
           "id": "answer",
           "answer": "Dataset A, the left one"
         }
+      ],
+      "response": [
+        {
+          "id": "answer",
+          "prompt": "Answer:",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Dataset A, the left one",
+            "Dataset B, the right one",
+            "Same"
+          ],
+          "infoText": "Voltage value: check the voltage line in the box, a higher position indicates a higher value, while a lower position indicates a lower value."
+        }
       ]
     },
     "jux-practice-value-explanation": {
@@ -531,6 +545,20 @@
         {
           "id": "answer",
           "answer": "Dataset B, the right one"
+        }
+      ],
+      "response": [
+        {
+          "id": "answer",
+          "prompt": "Answer:",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Dataset A, the left one",
+            "Dataset B, the right one",
+            "Same"
+          ],
+          "infoText": "Voltage curve: assess the degree of dispersion of each time series around its central tendency over the time period. A greater degree of dispersion indicates greater variation."
         }
       ]
     },
@@ -562,6 +590,20 @@
           "id": "answer",
           "answer": "Dataset A, the left one"
         }
+      ],
+      "response": [
+        {
+          "id": "answer",
+          "prompt": "Answer:",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Dataset A, the left one",
+            "Dataset B, the right one",
+            "Same"
+          ],
+          "infoText": "Maximum / minimum voltage value for that household: check the difference between upper / bottom box border, larger the difference indicates larger the range."
+        }
       ]
     },
     "jux-practice-range-explanation": {
@@ -591,6 +633,20 @@
         {
           "id": "answer",
           "answer": "Dataset B, the right one"
+        }
+      ],
+      "response": [
+        {
+          "id": "answer",
+          "prompt": "Answer:",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Dataset A, the left one",
+            "Dataset B, the right one",
+            "Same"
+          ],
+          "infoText": "Voltage value: check the voltage line in the box, a higher position indicates a higher value, while a lower position indicates a lower value."
         }
       ]
     },
@@ -622,6 +678,20 @@
           "id": "answer",
           "answer": "Dataset B, the right one"
         }
+      ],
+      "response": [
+        {
+          "id": "answer",
+          "prompt": "Answer:",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Dataset A, the left one",
+            "Dataset B, the right one",
+            "Same"
+          ],
+          "infoText": "Voltage curve: assess the degree of dispersion of each time series around its central tendency over the time period. A greater degree of dispersion indicates greater variation."
+        }
       ]
     },
     "sup-practice-trend-explanation": {
@@ -651,6 +721,20 @@
         {
           "id": "answer",
           "answer": "Dataset B, the right one"
+        }
+      ],
+      "response": [
+        {
+          "id": "answer",
+          "prompt": "Answer:",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Dataset A, the left one",
+            "Dataset B, the right one",
+            "Same"
+          ],
+          "infoText": "Maximum / minimum voltage value for that household: check the difference between upper / bottom box border, larger the difference indicates larger the range."
         }
       ]
     },
@@ -682,6 +766,20 @@
           "id": "answer",
           "answer": "Dataset B"
         }
+      ],
+      "response": [
+        {
+          "id": "answer",
+          "prompt": "Answer:",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Dataset A",
+            "Dataset B",
+            "Same"
+          ],
+          "infoText": "Voltage value: check the voltage line in the box, a higher position of the line indicates a larger value of B − A, while a lower position indicates a smaller value of B − A. The centerline corresponds to B − A = 0."
+        }
       ]
     },
     "exp-practice-value-explanation": {
@@ -711,6 +809,20 @@
         {
           "id": "answer",
           "answer": "Dataset B"
+        }
+      ],
+      "response": [
+        {
+          "id": "answer",
+          "prompt": "Answer:",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Dataset A",
+            "Dataset B",
+            "Same"
+          ],
+          "infoText": "Variation line: check the line in the box, the dashed line represents a variation of B − A = 0. The line above the dashed line indicates the variation of B - A > 0 which means that variation of B is greater than A; while line below the dashed line indicates the variation of B - A < 0 which means variation of B is less than A."
         }
       ]
     },
@@ -742,6 +854,20 @@
           "id": "answer",
           "answer": "Dataset A"
         }
+      ],
+      "response": [
+        {
+          "id": "answer",
+          "prompt": "Answer:",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Dataset A",
+            "Dataset B",
+            "Same"
+          ],
+          "infoText": "Maximum / minimum voltage value for that household: check the right arrow, two ends moving away from the centerline indicates the range is larger in Dataset B, while two ends moving toward the centerline indicates the range is smaller in Dataset B."
+        }
       ]
     },
     "exp-practice-range-explanation": {
@@ -763,25 +889,67 @@
     "jux-value-1": {
       "baseComponent": "juxValueBase",
       "instruction": "**Test 1 of 4**\n\nLooking at the **juxtaposition**:\n\nFind **h.6** and compare, which dataset has higher **maximum voltage value in that household**?",
-      "path": "comparison-method/assets/jux/s2.png"
+      "path": "comparison-method/assets/jux/s2.png",
+      "response": [
+        {
+          "id": "answer",
+          "prompt": "Answer:",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Dataset A, the left one",
+            "Dataset B, the right one",
+            "Same"
+          ],
+          "infoText": "Maximum / minimum voltage value for that household: check the upper / bottom box border, a higher position indicates a higher value, while a lower position indicates a lower value."
+        }
+      ]
     },
     "jux-value-2-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "**Test 2 of 4**\n\nLooking at the **juxtaposition**:\n\nFind **h.28** and compare, which dataset has higher **maximum voltage value in the whole neighborhood**?"
+      "instruction": "**Test 2 of 4**\n\nLooking at the **juxtaposition**:\n\nFind **h.28** and compare, which dataset has higher **maximum voltage value across all households**?"
     },
     "jux-value-2": {
       "baseComponent": "juxValueBase",
-      "instruction": "**Test 2 of 4**\n\nLooking at the **juxtaposition**:\n\nFind **h.28** and compare, which dataset has higher **maximum voltage value in the whole neighborhood**?",
-      "path": "comparison-method/assets/jux/s6.png"
+      "instruction": "**Test 2 of 4**\n\nLooking at the **juxtaposition**:\n\nFind **h.28** and compare, which dataset has higher **maximum voltage value across all households**?",
+      "path": "comparison-method/assets/jux/s6.png",
+      "response": [
+        {
+          "id": "answer",
+          "prompt": "Answer:",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Dataset A, the left one",
+            "Dataset B, the right one",
+            "Same"
+          ],
+          "infoText": "Maximum / minimum voltage value across all households: check the upper / bottom whisker, a higher position indicates a higher value, while a lower position indicates a lower value."
+        }
+      ]
     },
     "jux-value-4-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "**Test 3 of 4**\n\nLooking at the **juxtaposition**:\n\nFind **h.15** and compare, which dataset has higher **minimum voltage value in the whole neighborhood**?"
+      "instruction": "**Test 3 of 4**\n\nLooking at the **juxtaposition**:\n\nFind **h.15** and compare, which dataset has higher **minimum voltage value across all households**?"
     },
     "jux-value-4": {
       "baseComponent": "juxValueBase",
-      "instruction": "**Test 3 of 4**\n\nLooking at the **juxtaposition**:\n\nFind **h.15** and compare, which dataset has higher **minimum voltage value in the whole neighborhood**?",
-      "path": "comparison-method/assets/jux/s2.png"
+      "instruction": "**Test 3 of 4**\n\nLooking at the **juxtaposition**:\n\nFind **h.15** and compare, which dataset has higher **minimum voltage value across all households**?",
+      "path": "comparison-method/assets/jux/s2.png",
+      "response": [
+        {
+          "id": "answer",
+          "prompt": "Answer:",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Dataset A, the left one",
+            "Dataset B, the right one",
+            "Same"
+          ],
+          "infoText": "Maximum / minimum voltage value across all households: check the upper / bottom whisker, a higher position indicates a higher value, while a lower position indicates a lower value."
+        }
+      ]
     },
     "jux-value-5-question": {
       "baseComponent": "questionPageBase",
@@ -790,7 +958,21 @@
     "jux-value-5": {
       "baseComponent": "juxValueBase",
       "instruction": "**Test 4 of 4**\n\nLooking at the **juxtaposition**:\n\nFind **h.4** and compare, which dataset has higher **voltage value**?",
-      "path": "comparison-method/assets/jux/s4.png"
+      "path": "comparison-method/assets/jux/s4.png",
+      "response": [
+        {
+          "id": "answer",
+          "prompt": "Answer:",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Dataset A, the left one",
+            "Dataset B, the right one",
+            "Same"
+          ],
+          "infoText": "Voltage value: check the voltage line in the box, a higher position indicates a higher value, while a lower position indicates a lower value."
+        }
+      ]
     },
     "jux-trend-1-question": {
       "baseComponent": "questionPageBase",
@@ -799,7 +981,21 @@
     "jux-trend-1": {
       "baseComponent": "juxTrendBase",
       "instruction": "**Test 1 of 4**\n\nLooking at the **juxtaposition**:\n\nFind **h.25** and compare. Which dataset shows greater **variation over time**?",
-      "path": "comparison-method/assets/jux/s9.png"
+      "path": "comparison-method/assets/jux/s9.png",
+      "response": [
+        {
+          "id": "answer",
+          "prompt": "Answer:",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Dataset A, the left one",
+            "Dataset B, the right one",
+            "Same"
+          ],
+          "infoText": "Voltage curve: assess the degree of dispersion of each time series around its central tendency over the time period. A greater degree of dispersion indicates greater variation."
+        }
+      ]
     },
     "jux-trend-2-question": {
       "baseComponent": "questionPageBase",
@@ -808,7 +1004,21 @@
     "jux-trend-2": {
       "baseComponent": "juxTrendBase",
       "instruction": "**Test 2 of 4**\n\nLooking at the **juxtaposition**:\n\nFind **h.23** and compare. Which dataset shows greater **variation over time**?",
-      "path": "comparison-method/assets/jux/s12.png"
+      "path": "comparison-method/assets/jux/s12.png",
+      "response": [
+        {
+          "id": "answer",
+          "prompt": "Answer:",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Dataset A, the left one",
+            "Dataset B, the right one",
+            "Same"
+          ],
+          "infoText": "Voltage curve: assess the degree of dispersion of each time series around its central tendency over the time period. A greater degree of dispersion indicates greater variation."
+        }
+      ]
     },
     "jux-trend-4-question": {
       "baseComponent": "questionPageBase",
@@ -817,7 +1027,21 @@
     "jux-trend-4": {
       "baseComponent": "juxTrendBase",
       "instruction": "**Test 3 of 4**\n\nLooking at the **juxtaposition**:\n\nFind **h.6** and compare. Which dataset shows greater **variation over time**?",
-      "path": "comparison-method/assets/jux/s14.png"
+      "path": "comparison-method/assets/jux/s14.png",
+      "response": [
+        {
+          "id": "answer",
+          "prompt": "Answer:",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Dataset A, the left one",
+            "Dataset B, the right one",
+            "Same"
+          ],
+          "infoText": "Voltage curve: assess the degree of dispersion of each time series around its central tendency over the time period. A greater degree of dispersion indicates greater variation."
+        }
+      ]
     },
     "jux-trend-5-question": {
       "baseComponent": "questionPageBase",
@@ -826,7 +1050,21 @@
     "jux-trend-5": {
       "baseComponent": "juxTrendBase",
       "instruction": "**Test 4 of 4**\n\nLooking at the **juxtaposition**:\n\nFind **h.33** and compare. Which dataset shows greater **variation over time**?",
-      "path": "comparison-method/assets/jux/s10.png"
+      "path": "comparison-method/assets/jux/s10.png",
+      "response": [
+        {
+          "id": "answer",
+          "prompt": "Answer:",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Dataset A, the left one",
+            "Dataset B, the right one",
+            "Same"
+          ],
+          "infoText": "Voltage curve: assess the degree of dispersion of each time series around its central tendency over the time period. A greater degree of dispersion indicates greater variation."
+        }
+      ]
     },
     "jux-range-1-question": {
       "baseComponent": "questionPageBase",
@@ -835,7 +1073,21 @@
     "jux-range-1": {
       "baseComponent": "juxRangeBase",
       "instruction": "**Test 1 of 4**\n\nLooking at the **juxtaposition**:\n\nFind **h.4** and compare, which dataset has larger **range in that household**?",
-      "path": "comparison-method/assets/jux/s14.png"
+      "path": "comparison-method/assets/jux/s14.png",
+      "response": [
+        {
+          "id": "answer",
+          "prompt": "Answer:",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Dataset A, the left one",
+            "Dataset B, the right one",
+            "Same"
+          ],
+          "infoText": "Maximum / minimum voltage value for that household: check the difference between upper / bottom box border, larger the difference indicates larger the range."
+        }
+      ]
     },
     "jux-range-2-question": {
       "baseComponent": "questionPageBase",
@@ -844,7 +1096,21 @@
     "jux-range-2": {
       "baseComponent": "juxRangeBase",
       "instruction": "**Test 2 of 4**\n\nLooking at the **juxtaposition**:\n\nFind **h.11** and compare, which dataset has larger **range in that household**?",
-      "path": "comparison-method/assets/jux/s3.png"
+      "path": "comparison-method/assets/jux/s3.png",
+      "response": [
+        {
+          "id": "answer",
+          "prompt": "Answer:",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Dataset A, the left one",
+            "Dataset B, the right one",
+            "Same"
+          ],
+          "infoText": "Maximum / minimum voltage value for that household: check the difference between upper / bottom box border, larger the difference indicates larger the range."
+        }
+      ]
     },
     "jux-range-4-question": {
       "baseComponent": "questionPageBase",
@@ -853,7 +1119,21 @@
     "jux-range-4": {
       "baseComponent": "juxRangeBase",
       "instruction": "**Test 3 of 4**\n\nLooking at the **juxtaposition**:\n\nFind **h.29** and compare, which dataset has larger **range in that household**?",
-      "path": "comparison-method/assets/jux/s11.png"
+      "path": "comparison-method/assets/jux/s11.png",
+      "response": [
+        {
+          "id": "answer",
+          "prompt": "Answer:",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Dataset A, the left one",
+            "Dataset B, the right one",
+            "Same"
+          ],
+          "infoText": "Maximum / minimum voltage value for that household: check the difference between upper / bottom box border, larger the difference indicates larger the range."
+        }
+      ]
     },
     "jux-range-5-question": {
       "baseComponent": "questionPageBase",
@@ -862,7 +1142,21 @@
     "jux-range-5": {
       "baseComponent": "juxRangeBase",
       "instruction": "**Test 4 of 4**\n\nLooking at the **juxtaposition**:\n\nFind **h.23** and compare, which dataset has larger **range in that household**?",
-      "path": "comparison-method/assets/jux/s13.png"
+      "path": "comparison-method/assets/jux/s13.png",
+      "response": [
+        {
+          "id": "answer",
+          "prompt": "Answer:",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Dataset A, the left one",
+            "Dataset B, the right one",
+            "Same"
+          ],
+          "infoText": "Maximum / minimum voltage value for that household: check the difference between upper / bottom box border, larger the difference indicates larger the range."
+        }
+      ]
     },
     "sup-value-1-question": {
       "baseComponent": "questionPageBase",
@@ -871,25 +1165,67 @@
     "sup-value-1": {
       "baseComponent": "supValueBase",
       "instruction": "**Test 1 of 4**\n\nLooking at the **superposition**:\n\nFind **h.4** and compare, which dataset has higher **voltage value**?",
-      "path": "comparison-method/assets/sup/s4.png"
+      "path": "comparison-method/assets/sup/s4.png",
+      "response": [
+        {
+          "id": "answer",
+          "prompt": "Answer:",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Dataset A, the left one",
+            "Dataset B, the right one",
+            "Same"
+          ],
+          "infoText": "Voltage value: check the voltage line in the box, a higher position indicates a higher value, while a lower position indicates a lower value."
+        }
+      ]
     },
     "sup-value-2-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "**Test 2 of 4**\n\nLooking at the **superposition**:\n\nFind **h.27** and compare, which dataset has higher **maximum voltage value in the whole neighborhood**?"
+      "instruction": "**Test 2 of 4**\n\nLooking at the **superposition**:\n\nFind **h.27** and compare, which dataset has higher **maximum voltage value across all households**?"
     },
     "sup-value-2": {
       "baseComponent": "supValueBase",
-      "instruction": "**Test 2 of 4**\n\nLooking at the **superposition**:\n\nFind **h.27** and compare, which dataset has higher **maximum voltage value in the whole neighborhood**?",
-      "path": "comparison-method/assets/sup/s5.png"
+      "instruction": "**Test 2 of 4**\n\nLooking at the **superposition**:\n\nFind **h.27** and compare, which dataset has higher **maximum voltage value across all households**?",
+      "path": "comparison-method/assets/sup/s5.png",
+      "response": [
+        {
+          "id": "answer",
+          "prompt": "Answer:",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Dataset A, the left one",
+            "Dataset B, the right one",
+            "Same"
+          ],
+          "infoText": "Maximum / minimum voltage value across all households: check the upper / bottom whisker, a higher position indicates a higher value, while a lower position indicates a lower value."
+        }
+      ]
     },
     "sup-value-4-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "**Test 3 of 4**\n\nLooking at the **superposition**:\n\nFind **h.19** and compare, which dataset has higher **minimum voltage value in the whole neighborhood**?"
+      "instruction": "**Test 3 of 4**\n\nLooking at the **superposition**:\n\nFind **h.19** and compare, which dataset has higher **minimum voltage value across all households**?"
     },
     "sup-value-4": {
       "baseComponent": "supValueBase",
-      "instruction": "**Test 3 of 4**\n\nLooking at the **superposition**:\n\nFind **h.19** and compare, which dataset has higher **minimum voltage value in the whole neighborhood**?",
-      "path": "comparison-method/assets/sup/s5.png"
+      "instruction": "**Test 3 of 4**\n\nLooking at the **superposition**:\n\nFind **h.19** and compare, which dataset has higher **minimum voltage value across all households**?",
+      "path": "comparison-method/assets/sup/s5.png",
+      "response": [
+        {
+          "id": "answer",
+          "prompt": "Answer:",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Dataset A, the left one",
+            "Dataset B, the right one",
+            "Same"
+          ],
+          "infoText": "Maximum / minimum voltage value across all households: check the upper / bottom whisker, a higher position indicates a higher value, while a lower position indicates a lower value."
+        }
+      ]
     },
     "sup-value-5-question": {
       "baseComponent": "questionPageBase",
@@ -898,7 +1234,21 @@
     "sup-value-5": {
       "baseComponent": "supValueBase",
       "instruction": "**Test 4 of 4**\n\nLooking at the **superposition**:\n\nFind **h.31** and compare, which dataset has higher **minimum voltage value in that household**?",
-      "path": "comparison-method/assets/sup/s6.png"
+      "path": "comparison-method/assets/sup/s6.png",
+      "response": [
+        {
+          "id": "answer",
+          "prompt": "Answer:",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Dataset A, the left one",
+            "Dataset B, the right one",
+            "Same"
+          ],
+          "infoText": "Maximum / minimum voltage value for that household: check the upper / bottom box border, a higher position indicates a higher value, while a lower position indicates a lower value."
+        }
+      ]
     },
     "sup-trend-1-question": {
       "baseComponent": "questionPageBase",
@@ -907,7 +1257,21 @@
     "sup-trend-1": {
       "baseComponent": "supTrendBase",
       "instruction": "**Test 1 of 4**\n\nLooking at the **superposition**:\n\nFind **h.29** and compare. Which dataset shows greater **variation over time**?",
-      "path": "comparison-method/assets/sup/s10.png"
+      "path": "comparison-method/assets/sup/s10.png",
+      "response": [
+        {
+          "id": "answer",
+          "prompt": "Answer:",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Dataset A, the left one",
+            "Dataset B, the right one",
+            "Same"
+          ],
+          "infoText": "Voltage curve: assess the degree of dispersion of each time series around its central tendency over the time period. A greater degree of dispersion indicates greater variation."
+        }
+      ]
     },
     "sup-trend-2-question": {
       "baseComponent": "questionPageBase",
@@ -916,7 +1280,21 @@
     "sup-trend-2": {
       "baseComponent": "supTrendBase",
       "instruction": "**Test 2 of 4**\n\nLooking at the **superposition**:\n\nFind **h.10** and compare. Which dataset shows greater **variation over time**?",
-      "path": "comparison-method/assets/sup/s11.png"
+      "path": "comparison-method/assets/sup/s11.png",
+      "response": [
+        {
+          "id": "answer",
+          "prompt": "Answer:",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Dataset A, the left one",
+            "Dataset B, the right one",
+            "Same"
+          ],
+          "infoText": "Voltage curve: assess the degree of dispersion of each time series around its central tendency over the time period. A greater degree of dispersion indicates greater variation."
+        }
+      ]
     },
     "sup-trend-4-question": {
       "baseComponent": "questionPageBase",
@@ -925,7 +1303,21 @@
     "sup-trend-4": {
       "baseComponent": "supTrendBase",
       "instruction": "**Test 3 of 4**\n\nLooking at the **superposition**:\n\nFind **h.14** and compare. Which dataset shows greater **variation over time**?",
-      "path": "comparison-method/assets/sup/s14.png"
+      "path": "comparison-method/assets/sup/s14.png",
+      "response": [
+        {
+          "id": "answer",
+          "prompt": "Answer:",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Dataset A, the left one",
+            "Dataset B, the right one",
+            "Same"
+          ],
+          "infoText": "Voltage curve: assess the degree of dispersion of each time series around its central tendency over the time period. A greater degree of dispersion indicates greater variation."
+        }
+      ]
     },
     "sup-trend-5-question": {
       "baseComponent": "questionPageBase",
@@ -934,7 +1326,21 @@
     "sup-trend-5": {
       "baseComponent": "supTrendBase",
       "instruction": "**Test 4 of 4**\n\nLooking at the **superposition**:\n\nFind **h.15** and compare. Which dataset shows greater **variation over time**?",
-      "path": "comparison-method/assets/sup/s13.png"
+      "path": "comparison-method/assets/sup/s13.png",
+      "response": [
+        {
+          "id": "answer",
+          "prompt": "Answer:",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Dataset A, the left one",
+            "Dataset B, the right one",
+            "Same"
+          ],
+          "infoText": "Voltage curve: assess the degree of dispersion of each time series around its central tendency over the time period. A greater degree of dispersion indicates greater variation."
+        }
+      ]
     },
     "sup-range-1-question": {
       "baseComponent": "questionPageBase",
@@ -943,7 +1349,21 @@
     "sup-range-1": {
       "baseComponent": "supRangeBase",
       "instruction": "**Test 1 of 4**\n\nLooking at the **superposition**:\n\nFind **h.24** and compare, which dataset has larger **range in that household**?",
-      "path": "comparison-method/assets/sup/s9.png"
+      "path": "comparison-method/assets/sup/s9.png",
+      "response": [
+        {
+          "id": "answer",
+          "prompt": "Answer:",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Dataset A, the left one",
+            "Dataset B, the right one",
+            "Same"
+          ],
+          "infoText": "Maximum / minimum voltage value for that household: check the difference between upper / bottom box border, larger the difference indicates larger the range."
+        }
+      ]
     },
     "sup-range-2-question": {
       "baseComponent": "questionPageBase",
@@ -952,7 +1372,21 @@
     "sup-range-2": {
       "baseComponent": "supRangeBase",
       "instruction": "**Test 2 of 4**\n\nLooking at the **superposition**:\n\nFind **h.8** and compare, which dataset has larger **range in that household**?",
-      "path": "comparison-method/assets/sup/s2.png"
+      "path": "comparison-method/assets/sup/s2.png",
+      "response": [
+        {
+          "id": "answer",
+          "prompt": "Answer:",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Dataset A, the left one",
+            "Dataset B, the right one",
+            "Same"
+          ],
+          "infoText": "Maximum / minimum voltage value for that household: check the difference between upper / bottom box border, larger the difference indicates larger the range."
+        }
+      ]
     },
     "sup-range-4-question": {
       "baseComponent": "questionPageBase",
@@ -961,7 +1395,21 @@
     "sup-range-4": {
       "baseComponent": "supRangeBase",
       "instruction": "**Test 3 of 4**\n\nLooking at the **superposition**:\n\nFind **h.28** and compare, which dataset has larger **range in that household**?",
-      "path": "comparison-method/assets/sup/s6.png"
+      "path": "comparison-method/assets/sup/s6.png",
+      "response": [
+        {
+          "id": "answer",
+          "prompt": "Answer:",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Dataset A, the left one",
+            "Dataset B, the right one",
+            "Same"
+          ],
+          "infoText": "Maximum / minimum voltage value for that household: check the difference between upper / bottom box border, larger the difference indicates larger the range."
+        }
+      ]
     },
     "sup-range-5-question": {
       "baseComponent": "questionPageBase",
@@ -970,7 +1418,21 @@
     "sup-range-5": {
       "baseComponent": "supRangeBase",
       "instruction": "**Test 4 of 4**\n\nLooking at the **superposition**:\n\nFind **h.21** and compare, which dataset has larger **range in that household**?",
-      "path": "comparison-method/assets/sup/s9.png"
+      "path": "comparison-method/assets/sup/s9.png",
+      "response": [
+        {
+          "id": "answer",
+          "prompt": "Answer:",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Dataset A, the left one",
+            "Dataset B, the right one",
+            "Same"
+          ],
+          "infoText": "Maximum / minimum voltage value for that household: check the difference between upper / bottom box border, larger the difference indicates larger the range."
+        }
+      ]
     },
     "exp-value-1-question": {
       "baseComponent": "questionPageBase",
@@ -979,7 +1441,21 @@
     "exp-value-1": {
       "baseComponent": "expValueBase",
       "instruction": "**Test 1 of 4**\n\nLooking at the **explicit encoding**:\n\nFind **h.25** and compare, which dataset has higher **voltage value**?",
-      "path": "comparison-method/assets/exp/s3.png"
+      "path": "comparison-method/assets/exp/s3.png",
+      "response": [
+        {
+          "id": "answer",
+          "prompt": "Answer:",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Dataset A",
+            "Dataset B",
+            "Same"
+          ],
+          "infoText": "Voltage value: check the voltage line in the box, a higher position of the line indicates a larger value of B − A, while a lower position indicates a smaller value of B − A. The centerline corresponds to B − A = 0."
+        }
+      ]
     },
     "exp-value-2-question": {
       "baseComponent": "questionPageBase",
@@ -988,7 +1464,21 @@
     "exp-value-2": {
       "baseComponent": "expValueBase",
       "instruction": "**Test 2 of 4**\n\nLooking at the **explicit encoding**:\n\nFind **h.16** and compare, which dataset has higher **minimum voltage value in that household**?",
-      "path": "comparison-method/assets/exp/s9.png"
+      "path": "comparison-method/assets/exp/s9.png",
+      "response": [
+        {
+          "id": "answer",
+          "prompt": "Answer:",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Dataset A",
+            "Dataset B",
+            "Same"
+          ],
+          "infoText": "Maximum / minimum voltage value for that household: check the upper / bottom end of right arrow. Upward movement represents a positive difference (B - A > 0), whereas downward movement represents a negative difference (B - A < 0)."
+        }
+      ]
     },
     "exp-value-4-question": {
       "baseComponent": "questionPageBase",
@@ -997,16 +1487,44 @@
     "exp-value-4": {
       "baseComponent": "expValueBase",
       "instruction": "**Test 3 of 4**\n\nLooking at the **explicit encoding**:\n\nFind **h.4** and compare, which dataset has higher **voltage value**?",
-      "path": "comparison-method/assets/exp/s8.png"
+      "path": "comparison-method/assets/exp/s8.png",
+      "response": [
+        {
+          "id": "answer",
+          "prompt": "Answer:",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Dataset A",
+            "Dataset B",
+            "Same"
+          ],
+          "infoText": "Voltage value: check the voltage line in the box, a higher position of the line indicates a larger value of B − A, while a lower position indicates a smaller value of B − A. The centerline corresponds to B − A = 0."
+        }
+      ]
     },
     "exp-value-5-question": {
       "baseComponent": "questionPageBase",
-      "instruction": "**Test 4 of 4**\n\nLooking at the **explicit encoding**:\n\nFind **h.9** and compare, which dataset has higher **maximum voltage value in the whole neighborhood**?"
+      "instruction": "**Test 4 of 4**\n\nLooking at the **explicit encoding**:\n\nFind **h.9** and compare, which dataset has higher **maximum voltage value across all households**?"
     },
     "exp-value-5": {
       "baseComponent": "expValueBase",
-      "instruction": "**Test 4 of 4**\n\nLooking at the **explicit encoding**:\n\nFind **h.9** and compare, which dataset has higher **maximum voltage value in the whole neighborhood**?",
-      "path": "comparison-method/assets/exp/s5.png"
+      "instruction": "**Test 4 of 4**\n\nLooking at the **explicit encoding**:\n\nFind **h.9** and compare, which dataset has higher **maximum voltage value across all households**?",
+      "path": "comparison-method/assets/exp/s5.png",
+      "response": [
+        {
+          "id": "answer",
+          "prompt": "Answer:",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Dataset A",
+            "Dataset B",
+            "Same"
+          ],
+          "infoText": "Maximum / minimum voltage value across all households: check the upper / bottom end of left arrow. Upward movement represents a positive difference (B - A > 0), whereas downward movement represents a negative difference (B - A < 0)."
+        }
+      ]
     },
     "exp-trend-1-question": {
       "baseComponent": "questionPageBase",
@@ -1015,7 +1533,21 @@
     "exp-trend-1": {
       "baseComponent": "expTrendBase",
       "instruction": "**Test 1 of 4**\n\nLooking at the **explicit encoding**:\n\nFind **h.11** and compare. Which dataset shows greater **variation over time**?",
-      "path": "comparison-method/assets/exp/s16.png"
+      "path": "comparison-method/assets/exp/s16.png",
+      "response": [
+        {
+          "id": "answer",
+          "prompt": "Answer:",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Dataset A",
+            "Dataset B",
+            "Same"
+          ],
+          "infoText": "Variation line: check the line in the box, the dashed line represents a variation of B − A = 0. The line above the dashed line indicates the variation of B - A > 0 which means that variation of B is greater than A; while line below the dashed line indicates the variation of B - A < 0 which means variation of B is less than A."
+        }
+      ]
     },
     "exp-trend-2-question": {
       "baseComponent": "questionPageBase",
@@ -1024,7 +1556,21 @@
     "exp-trend-2": {
       "baseComponent": "expTrendBase",
       "instruction": "**Test 2 of 4**\n\nLooking at the **explicit encoding**:\n\nFind **h.4** and compare. Which dataset shows greater **variation over time**?",
-      "path": "comparison-method/assets/exp/s15.png"
+      "path": "comparison-method/assets/exp/s15.png",
+      "response": [
+        {
+          "id": "answer",
+          "prompt": "Answer:",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Dataset A",
+            "Dataset B",
+            "Same"
+          ],
+          "infoText": "Variation line: check the line in the box, the dashed line represents a variation of B − A = 0. The line above the dashed line indicates the variation of B - A > 0 which means that variation of B is greater than A; while line below the dashed line indicates the variation of B - A < 0 which means variation of B is less than A."
+        }
+      ]
     },
     "exp-trend-4-question": {
       "baseComponent": "questionPageBase",
@@ -1033,7 +1579,21 @@
     "exp-trend-4": {
       "baseComponent": "expTrendBase",
       "instruction": "**Test 3 of 4**\n\nLooking at the **explicit encoding**:\n\nFind **h.20** and compare. Which dataset shows greater **variation over time**?",
-      "path": "comparison-method/assets/exp/s13.png"
+      "path": "comparison-method/assets/exp/s13.png",
+      "response": [
+        {
+          "id": "answer",
+          "prompt": "Answer:",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Dataset A",
+            "Dataset B",
+            "Same"
+          ],
+          "infoText": "Variation line: check the line in the box, the dashed line represents a variation of B − A = 0. The line above the dashed line indicates the variation of B - A > 0 which means that variation of B is greater than A; while line below the dashed line indicates the variation of B - A < 0 which means variation of B is less than A."
+        }
+      ]
     },
     "exp-trend-5-question": {
       "baseComponent": "questionPageBase",
@@ -1042,7 +1602,21 @@
     "exp-trend-5": {
       "baseComponent": "expTrendBase",
       "instruction": "**Test 4 of 4**\n\nLooking at the **explicit encoding**:\n\nFind **h.31** and compare. Which dataset shows greater **variation over time**?",
-      "path": "comparison-method/assets/exp/s11.png"
+      "path": "comparison-method/assets/exp/s11.png",
+      "response": [
+        {
+          "id": "answer",
+          "prompt": "Answer:",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Dataset A",
+            "Dataset B",
+            "Same"
+          ],
+          "infoText": "Variation line: check the line in the box, the dashed line represents a variation of B − A = 0. The line above the dashed line indicates the variation of B - A > 0 which means that variation of B is greater than A; while line below the dashed line indicates the variation of B - A < 0 which means variation of B is less than A."
+        }
+      ]
     },
     "exp-range-1-question": {
       "baseComponent": "questionPageBase",
@@ -1051,7 +1625,21 @@
     "exp-range-1": {
       "baseComponent": "expRangeBase",
       "instruction": "**Test 1 of 4**\n\nLooking at the **explicit encoding**:\n\nFind **h.8** and compare, which dataset has larger **range in that household**?",
-      "path": "comparison-method/assets/exp/s6.png"
+      "path": "comparison-method/assets/exp/s6.png",
+      "response": [
+        {
+          "id": "answer",
+          "prompt": "Answer:",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Dataset A",
+            "Dataset B",
+            "Same"
+          ],
+          "infoText": "Maximum / minimum voltage value for that household: check the right arrow, two ends moving away from the centerline indicates the range is larger in Dataset B, while two ends moving toward the centerline indicates the range is smaller in Dataset B."
+        }
+      ]
     },
     "exp-range-2-question": {
       "baseComponent": "questionPageBase",
@@ -1060,7 +1648,21 @@
     "exp-range-2": {
       "baseComponent": "expRangeBase",
       "instruction": "**Test 2 of 4**\n\nLooking at the **explicit encoding**:\n\nFind **h.17** and compare, which dataset has larger **range in that household**?",
-      "path": "comparison-method/assets/exp/s8.png"
+      "path": "comparison-method/assets/exp/s8.png",
+      "response": [
+        {
+          "id": "answer",
+          "prompt": "Answer:",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Dataset A",
+            "Dataset B",
+            "Same"
+          ],
+          "infoText": "Maximum / minimum voltage value for that household: check the right arrow, two ends moving away from the centerline indicates the range is larger in Dataset B, while two ends moving toward the centerline indicates the range is smaller in Dataset B."
+        }
+      ]
     },
     "exp-range-4-question": {
       "baseComponent": "questionPageBase",
@@ -1069,7 +1671,21 @@
     "exp-range-4": {
       "baseComponent": "expRangeBase",
       "instruction": "**Test 3 of 4**\n\nLooking at the **explicit encoding**:\n\nFind **h.16** and compare, which dataset has larger **range in that household**?",
-      "path": "comparison-method/assets/exp/s9.png"
+      "path": "comparison-method/assets/exp/s9.png",
+      "response": [
+        {
+          "id": "answer",
+          "prompt": "Answer:",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Dataset A",
+            "Dataset B",
+            "Same"
+          ],
+          "infoText": "Maximum / minimum voltage value for that household: check the right arrow, two ends moving away from the centerline indicates the range is larger in Dataset B, while two ends moving toward the centerline indicates the range is smaller in Dataset B."
+        }
+      ]
     },
     "exp-range-5-question": {
       "baseComponent": "questionPageBase",
@@ -1078,7 +1694,21 @@
     "exp-range-5": {
       "baseComponent": "expRangeBase",
       "instruction": "**Test 4 of 4**\n\nLooking at the **explicit encoding**:\n\nFind **h.20** and compare, which dataset has larger **range in that household**?",
-      "path": "comparison-method/assets/exp/s12.png"
+      "path": "comparison-method/assets/exp/s12.png",
+      "response": [
+        {
+          "id": "answer",
+          "prompt": "Answer:",
+          "location": "sidebar",
+          "type": "radio",
+          "options": [
+            "Dataset A",
+            "Dataset B",
+            "Same"
+          ],
+          "infoText": "Maximum / minimum voltage value for that household: check the right arrow, two ends moving away from the centerline indicates the range is larger in Dataset B, while two ends moving toward the centerline indicates the range is smaller in Dataset B."
+        }
+      ]
     },
     "post-jux": {
       "type": "questionnaire",
@@ -1359,77 +1989,277 @@
         }
       ]
     },
-    "final-questionnaire": {
+    "final-questionnaire-1": {
       "type": "image",
-      "description": "Final questionnaire",
+      "description": "Final questionnaire (1 of 5)",
       "path": "comparison-method/assets/description.png",
       "instruction": "You have now seen all three visualizations. Please answer a few final questions.",
       "response": [
         {
-          "id": "easiest-value",
-          "prompt": "Rank each visualization based on how **easy** it was to use for **value comparison** by dragging the three strategies into order from the top (high) to the bottom (low).",
-          "required": true,
+          "id": "easiest-value-question",
+          "prompt": "Rank each visualization based on how **easy** it was to use for **value comparison** by selecting the three strategies in order, from the most (first) to the least (third).",
           "location": "belowStimulus",
-          "type": "ranking-sublist",
-          "options": [
-            "juxtaposition",
-            "superposition",
-            "explicit encoding"
-          ],
-          "numItems": 3
+          "type": "textOnly"
         },
         {
-          "id": "easiest-trend",
-          "prompt": "Rank each visualization based on how **easy** it was to use for **variation comparison** by dragging the three strategies into order from the top (high) to the bottom (low).",
+          "id": "easiest-value-1st",
+          "prompt": "First:",
           "required": true,
           "location": "belowStimulus",
-          "type": "ranking-sublist",
+          "type": "dropdown",
+          "placeholder": "Select the easiest",
           "options": [
-            "juxtaposition",
-            "superposition",
-            "explicit encoding"
-          ],
-          "numItems": 3
+            "Juxtaposition",
+            "Superposition",
+            "Explicit encoding"
+          ]
         },
         {
-          "id": "easiest-range",
-          "prompt": "Rank each visualization based on how **easy** it was to use for **range comparison** by dragging the three strategies into order from the top (high) to the bottom (low).",
+          "id": "easiest-value-2nd",
+          "prompt": "Second:",
           "required": true,
           "location": "belowStimulus",
-          "type": "ranking-sublist",
+          "type": "dropdown",
+          "placeholder": "Select the second easiest",
           "options": [
-            "juxtaposition",
-            "superposition",
-            "explicit encoding"
-          ],
-          "numItems": 3
+            "Juxtaposition",
+            "Superposition",
+            "Explicit encoding"
+          ]
         },
         {
-          "id": "easy",
-          "prompt": "Rank each visualization based on how **easy** it was to **use overall** by dragging the three strategies into order from the top (high) to the bottom (low).",
+          "id": "easiest-value-3rd",
+          "prompt": "Third:",
           "required": true,
           "location": "belowStimulus",
-          "type": "ranking-sublist",
+          "type": "dropdown",
+          "placeholder": "Select the third easiest",
           "options": [
-            "juxtaposition",
-            "superposition",
-            "explicit encoding"
-          ],
-          "numItems": 3
+            "Juxtaposition",
+            "Superposition",
+            "Explicit encoding"
+          ]
+        }
+      ]
+    },
+    "final-questionnaire-2": {
+      "type": "image",
+      "description": "Final questionnaire (2 of 5)",
+      "path": "comparison-method/assets/description.png",
+      "instruction": "You have now seen all three visualizations. Please answer a few final questions.",
+      "response": [
+        {
+          "id": "easiest-trend-question",
+          "prompt": "Rank each visualization based on how **easy** it was to use for **variation comparison** by selecting the three strategies in order, from the most (first) to the least (third).",
+          "location": "belowStimulus",
+          "type": "textOnly"
         },
         {
-          "id": "preferred",
-          "prompt": "Rank how much you **liked** each visualization **overall** by dragging the three strategies into order from the top (high) to the bottom (low).",
+          "id": "easiest-trend-1st",
+          "prompt": "First:",
           "required": true,
           "location": "belowStimulus",
-          "type": "ranking-sublist",
+          "type": "dropdown",
+          "placeholder": "Select the easiest",
           "options": [
-            "juxtaposition",
-            "superposition",
-            "explicit encoding"
-          ],
-          "numItems": 3
+            "Juxtaposition",
+            "Superposition",
+            "Explicit encoding"
+          ]
         },
+        {
+          "id": "easiest-trend-2nd",
+          "prompt": "Second:",
+          "required": true,
+          "location": "belowStimulus",
+          "type": "dropdown",
+          "placeholder": "Select the second easiest",
+          "options": [
+            "Juxtaposition",
+            "Superposition",
+            "Explicit encoding"
+          ]
+        },
+        {
+          "id": "easiest-trend-3rd",
+          "prompt": "Third:",
+          "required": true,
+          "location": "belowStimulus",
+          "type": "dropdown",
+          "placeholder": "Select the third easiest",
+          "options": [
+            "Juxtaposition",
+            "Superposition",
+            "Explicit encoding"
+          ]
+        }
+      ]
+    },
+    "final-questionnaire-3": {
+      "type": "image",
+      "description": "Final questionnaire (3 of 5)",
+      "path": "comparison-method/assets/description.png",
+      "instruction": "You have now seen all three visualizations. Please answer a few final questions.",
+      "response": [
+        {
+          "id": "easiest-range-question",
+          "prompt": "Rank each visualization based on how **easy** it was to use for **range comparison** by selecting the three strategies in order, from the most (first) to the least (third).",
+          "location": "belowStimulus",
+          "type": "textOnly"
+        },
+        {
+          "id": "easiest-range-1st",
+          "prompt": "First:",
+          "required": true,
+          "location": "belowStimulus",
+          "type": "dropdown",
+          "placeholder": "Select the easiest",
+          "options": [
+            "Juxtaposition",
+            "Superposition",
+            "Explicit encoding"
+          ]
+        },
+        {
+          "id": "easiest-range-2nd",
+          "prompt": "Second:",
+          "required": true,
+          "location": "belowStimulus",
+          "type": "dropdown",
+          "placeholder": "Select the second easiest",
+          "options": [
+            "Juxtaposition",
+            "Superposition",
+            "Explicit encoding"
+          ]
+        },
+        {
+          "id": "easiest-range-3rd",
+          "prompt": "Third:",
+          "required": true,
+          "location": "belowStimulus",
+          "type": "dropdown",
+          "placeholder": "Select the third easiest",
+          "options": [
+            "Juxtaposition",
+            "Superposition",
+            "Explicit encoding"
+          ]
+        }
+      ]
+    },
+    "final-questionnaire-4": {
+      "type": "image",
+      "description": "Final questionnaire (4 of 5)",
+      "path": "comparison-method/assets/description.png",
+      "instruction": "You have now seen all three visualizations. Please answer a few final questions.",
+      "response": [
+        {
+          "id": "easy-question",
+          "prompt": "Rank each visualization based on how **easy** it was to **use overall** by selecting the three strategies in order, from the most (first) to the least (third).",
+          "location": "belowStimulus",
+          "type": "textOnly"
+        },
+        {
+          "id": "easy-1st",
+          "prompt": "First:",
+          "required": true,
+          "location": "belowStimulus",
+          "type": "dropdown",
+          "placeholder": "Select the easiest",
+          "options": [
+            "Juxtaposition",
+            "Superposition",
+            "Explicit encoding"
+          ]
+        },
+        {
+          "id": "easy-2nd",
+          "prompt": "Second:",
+          "required": true,
+          "location": "belowStimulus",
+          "type": "dropdown",
+          "placeholder": "Select the second easiest",
+          "options": [
+            "Juxtaposition",
+            "Superposition",
+            "Explicit encoding"
+          ]
+        },
+        {
+          "id": "easy-3rd",
+          "prompt": "Third:",
+          "required": true,
+          "location": "belowStimulus",
+          "type": "dropdown",
+          "placeholder": "Select the third easiest",
+          "options": [
+            "Juxtaposition",
+            "Superposition",
+            "Explicit encoding"
+          ]
+        }
+      ]
+    },
+    "final-questionnaire-5": {
+      "type": "image",
+      "description": "Final questionnaire (5 of 5)",
+      "path": "comparison-method/assets/description.png",
+      "instruction": "You have now seen all three visualizations. Please answer a few final questions.",
+      "response": [
+        {
+          "id": "preferred-question",
+          "prompt": "Rank how much you **liked** each visualization **overall** by selecting the three strategies in order, from the most (first) to the least (third).",
+          "location": "belowStimulus",
+          "type": "textOnly"
+        },
+        {
+          "id": "preferred-1st",
+          "prompt": "First:",
+          "required": true,
+          "location": "belowStimulus",
+          "type": "dropdown",
+          "placeholder": "Select your favorite",
+          "options": [
+            "Juxtaposition",
+            "Superposition",
+            "Explicit encoding"
+          ]
+        },
+        {
+          "id": "preferred-2nd",
+          "prompt": "Second:",
+          "required": true,
+          "location": "belowStimulus",
+          "type": "dropdown",
+          "placeholder": "Select your second favorite",
+          "options": [
+            "Juxtaposition",
+            "Superposition",
+            "Explicit encoding"
+          ]
+        },
+        {
+          "id": "preferred-3rd",
+          "prompt": "Third:",
+          "required": true,
+          "location": "belowStimulus",
+          "type": "dropdown",
+          "placeholder": "Select your third favorite",
+          "options": [
+            "Juxtaposition",
+            "Superposition",
+            "Explicit encoding"
+          ]
+        }
+      ]
+    },
+    "final-questionnaire-6": {
+      "type": "image",
+      "description": "Final questionnaire (6 of 6)",
+      "path": "comparison-method/assets/description.png",
+      "instruction": "You have now seen all three visualizations. Please answer a few final questions.",
+      "response": [
         {
           "id": "preference-reason",
           "prompt": "Why did you prefer that visualization?",
@@ -1590,7 +2420,12 @@
           }
         ]
       },
-      "final-questionnaire"
+      "final-questionnaire-1",
+      "final-questionnaire-2",
+      "final-questionnaire-3",
+      "final-questionnaire-4",
+      "final-questionnaire-5",
+      "final-questionnaire-6"
     ]
   }
 }

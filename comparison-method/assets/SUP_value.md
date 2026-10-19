@@ -1,6 +1,6 @@
 #### **Value questions** 
 Value questions ask which dataset has the *higher* value:
-<img src="comparison-method/assets/sup/node.png" alt="drawing" style="width:800px;"/>
+<img src="comparison-method/assets/sup/node1.png" alt="drawing" style="width:800px;"/>
 
 * **Maximum / minimum voltage value across all households:** check the upper / bottom whisker, a higher position indicates a higher value, while a lower position indicates a lower value.
 * **Maximum / minimum voltage value for that household:** check the upper / bottom box border, a higher position indicates a higher value, while a lower position indicates a lower value.
