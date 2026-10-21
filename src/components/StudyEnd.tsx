@@ -222,6 +222,12 @@ export function StudyEnd() {
     };
   }, [completed, isAnalysis, studyConfig.uiConfig]);
 
+  // Two studies share this file. A study with an end message (the Prolific one, which
+  // contains the completion code) uses the Prolific form; a study without one uses the default form.
+  const PROLIFIC_FORM_URL = 'https://docs.google.com/forms/d/e/1FAIpQLScW9N3mlno20GcLRah0NJl9lpJ2yL6K9DCjf9lK1rglaqLrxg/viewform?usp=dialog';
+  const DEFAULT_FORM_URL = 'https://docs.google.com/forms/d/e/1FAIpQLScUc2ruD9OtvQPCzISw63tn7z6faYlt9CPUThaJ_ncjZ5H3_w/viewform?usp=dialog';
+  const fallbackFormUrl = processedStudyEndMsg ? PROLIFIC_FORM_URL : DEFAULT_FORM_URL;
+
   const {
     error: finalizeError,
     failedAttemptCount,
@@ -241,13 +247,9 @@ export function StudyEnd() {
         {completed || !dataCollectionEnabled
           ? (
             <>
-              {processedStudyEndMsg
-                ? <ReactMarkdownWrapper text={processedStudyEndMsg} />
-                : (
-                  <Text size="xl" display="block">
-                    Thank you for completing the study.
-                  </Text>
-                )}
+              <Text size="xl" display="block">
+                Thank you for completing the study.
+              </Text>
 
               <Space h="lg" />
 
@@ -271,6 +273,13 @@ export function StudyEnd() {
                   <Text c="green">
                     Your study data has been saved. Thank you for participating! You may close the window now.
                   </Text>
+
+                  {processedStudyEndMsg && (
+                    <>
+                      <Space h="md" />
+                      <ReactMarkdownWrapper text={processedStudyEndMsg} />
+                    </>
+                  )}
                 </>
               )}
 
@@ -295,7 +304,7 @@ export function StudyEnd() {
 
                     <Button
                       component="a"
-                      href="https://docs.google.com/forms/d/e/1FAIpQLScUc2ruD9OtvQPCzISw63tn7z6faYlt9CPUThaJ_ncjZ5H3_w/viewform?usp=publish-editor"
+                      href={fallbackFormUrl}
                       target="_blank"
                       rel="noopener noreferrer"
                       variant="default"
