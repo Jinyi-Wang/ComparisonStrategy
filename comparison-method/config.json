@@ -1997,7 +1997,7 @@
       "response": [
         {
           "id": "easiest-value-question",
-          "prompt": "Rank each visualization based on how **easy** it was to use for **value comparison** by selecting the three strategies in order, from the most (first) to the least (third).",
+          "prompt": "Rank each visualization based on how **easy** it was to use for **value comparison** by selecting the three strategies in order, from the most easiest (first) to the least easiest (third).",
           "location": "belowStimulus",
           "type": "textOnly"
         },
@@ -2007,7 +2007,7 @@
           "required": true,
           "location": "belowStimulus",
           "type": "dropdown",
-          "placeholder": "Select the easiest",
+          "placeholder": "Select the most easiest",
           "options": [
             "Juxtaposition",
             "Superposition",
@@ -2033,12 +2033,18 @@
           "required": true,
           "location": "belowStimulus",
           "type": "dropdown",
-          "placeholder": "Select the third easiest",
+          "placeholder": "Select the least easiest",
           "options": [
             "Juxtaposition",
             "Superposition",
             "Explicit encoding"
           ]
+        },
+        {
+          "id": "easiest-value-note",
+          "prompt": "Please do not select the same option more than once.",
+          "location": "belowStimulus",
+          "type": "textOnly"
         }
       ]
     },
@@ -2050,7 +2056,7 @@
       "response": [
         {
           "id": "easiest-trend-question",
-          "prompt": "Rank each visualization based on how **easy** it was to use for **variation comparison** by selecting the three strategies in order, from the most (first) to the least (third).",
+          "prompt": "Rank each visualization based on how **easy** it was to use for **variation comparison** by selecting the three strategies in order, from the most easiest (first) to the least easiest (third).",
           "location": "belowStimulus",
           "type": "textOnly"
         },
@@ -2060,7 +2066,7 @@
           "required": true,
           "location": "belowStimulus",
           "type": "dropdown",
-          "placeholder": "Select the easiest",
+          "placeholder": "Select the most easiest",
           "options": [
             "Juxtaposition",
             "Superposition",
@@ -2086,12 +2092,18 @@
           "required": true,
           "location": "belowStimulus",
           "type": "dropdown",
-          "placeholder": "Select the third easiest",
+          "placeholder": "Select the least easiest",
           "options": [
             "Juxtaposition",
             "Superposition",
             "Explicit encoding"
           ]
+        },
+        {
+          "id": "easiest-trend-note",
+          "prompt": "Please do not select the same option more than once.",
+          "location": "belowStimulus",
+          "type": "textOnly"
         }
       ]
     },
@@ -2103,7 +2115,7 @@
       "response": [
         {
           "id": "easiest-range-question",
-          "prompt": "Rank each visualization based on how **easy** it was to use for **range comparison** by selecting the three strategies in order, from the most (first) to the least (third).",
+          "prompt": "Rank each visualization based on how **easy** it was to use for **range comparison** by selecting the three strategies in order, from the most easiest (first) to the least easiest (third).",
           "location": "belowStimulus",
           "type": "textOnly"
         },
@@ -2113,7 +2125,7 @@
           "required": true,
           "location": "belowStimulus",
           "type": "dropdown",
-          "placeholder": "Select the easiest",
+          "placeholder": "Select the most easiest",
           "options": [
             "Juxtaposition",
             "Superposition",
@@ -2139,12 +2151,18 @@
           "required": true,
           "location": "belowStimulus",
           "type": "dropdown",
-          "placeholder": "Select the third easiest",
+          "placeholder": "Select the least easiest",
           "options": [
             "Juxtaposition",
             "Superposition",
             "Explicit encoding"
           ]
+        },
+        {
+          "id": "easiest-range-note",
+          "prompt": "Please do not select the same option more than once.",
+          "location": "belowStimulus",
+          "type": "textOnly"
         }
       ]
     },
@@ -2156,7 +2174,7 @@
       "response": [
         {
           "id": "easy-question",
-          "prompt": "Rank each visualization based on how **easy** it was to **use overall** by selecting the three strategies in order, from the most (first) to the least (third).",
+          "prompt": "Rank each visualization based on how **easy** it was to **use overall** by selecting the three strategies in order, from the most easiest (first) to the least easiest (third).",
           "location": "belowStimulus",
           "type": "textOnly"
         },
@@ -2166,7 +2184,7 @@
           "required": true,
           "location": "belowStimulus",
           "type": "dropdown",
-          "placeholder": "Select the easiest",
+          "placeholder": "Select the most easiest",
           "options": [
             "Juxtaposition",
             "Superposition",
@@ -2192,12 +2210,18 @@
           "required": true,
           "location": "belowStimulus",
           "type": "dropdown",
-          "placeholder": "Select the third easiest",
+          "placeholder": "Select the least easiest",
           "options": [
             "Juxtaposition",
             "Superposition",
             "Explicit encoding"
           ]
+        },
+        {
+          "id": "easy-note",
+          "prompt": "Please do not select the same option more than once.",
+          "location": "belowStimulus",
+          "type": "textOnly"
         }
       ]
     },
@@ -2209,7 +2233,7 @@
       "response": [
         {
           "id": "preferred-question",
-          "prompt": "Rank how much you **liked** each visualization **overall** by selecting the three strategies in order, from the most (first) to the least (third).",
+          "prompt": "Rank how much you **liked** each visualization **overall** by selecting the three strategies in order, from the most favorite (first) to the least favorite (third).",
           "location": "belowStimulus",
           "type": "textOnly"
         },
@@ -2219,7 +2243,7 @@
           "required": true,
           "location": "belowStimulus",
           "type": "dropdown",
-          "placeholder": "Select your favorite",
+          "placeholder": "Select the most favorite",
           "options": [
             "Juxtaposition",
             "Superposition",
@@ -2232,7 +2256,7 @@
           "required": true,
           "location": "belowStimulus",
           "type": "dropdown",
-          "placeholder": "Select your second favorite",
+          "placeholder": "Select the second favorite",
           "options": [
             "Juxtaposition",
             "Superposition",
@@ -2245,12 +2269,18 @@
           "required": true,
           "location": "belowStimulus",
           "type": "dropdown",
-          "placeholder": "Select your third favorite",
+          "placeholder": "Select the least favorite",
           "options": [
             "Juxtaposition",
             "Superposition",
             "Explicit encoding"
           ]
+        },
+        {
+          "id": "preferred-note",
+          "prompt": "Please do not select the same option more than once.",
+          "location": "belowStimulus",
+          "type": "textOnly"
         }
       ]
     },
