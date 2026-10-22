@@ -558,7 +558,7 @@
             "Dataset B, the right one",
             "Same"
           ],
-          "infoText": "Voltage curve: assess the degree of dispersion of each time series around its central tendency over the time period. A greater degree of dispersion indicates greater variation."
+          "infoText": "Voltage curve: assess the degree of voltage fluctuation over the time period. Larger ups and downs around the mean indicate greater voltage variation."
         }
       ]
     },
@@ -568,7 +568,7 @@
       "style": {
         "width": "1000px"
       },
-      "instruction": "### Explanation\n\n**Correct answer: Dataset B, the right one.**\n\nFirst, locate **h.5** in both datasets.\n\nThen, look at the **curves inside the two boxes** for h.5 and compare how they change over time. The curve in the left grid, representing Dataset A, is smoother and shows fewer ups and downs. In contrast, the curve in the right grid, representing Dataset B, has more ups and downs.\n\nMore ups and downs indicate greater **variation over time**, while a smoother curve indicates less variation.\n\nTherefore, **Dataset B, the right one, shows greater **variation over time** for h.5**.",
+      "instruction": "### Explanation\n\n**Correct answer: Dataset B, the right one.**\n\nFirst, locate **h.5** in both datasets.\n\nThen, look at the **curves inside the two boxes** for h.5 and compare how they change over time. The curve in the left grid, representing Dataset A, is smoother and shows fewer ups and downs. In contrast, the curve in the right grid, representing Dataset B, has larger ups and downs.\n\nLarger ups and downs indicate greater **variation over time**, while a smoother curve indicates less variation.\n\nTherefore, **Dataset B, the right one, shows greater **variation over time** for h.5**.",
       "instructionLocation": "sidebar",
       "nextButtonLocation": "sidebar",
       "nextButtonText": "Continue",
@@ -690,7 +690,7 @@
             "Dataset B, the right one",
             "Same"
           ],
-          "infoText": "Voltage curve: assess the degree of dispersion of each time series around its central tendency over the time period. A greater degree of dispersion indicates greater variation."
+          "infoText": "Voltage curve: assess the degree of voltage fluctuation over the time period. Larger ups and downs around the mean indicate greater voltage variation."
         }
       ]
     },
@@ -700,7 +700,7 @@
       "style": {
         "width": "700px"
       },
-      "instruction": "### Explanation\n\n**Correct answer: Dataset B, the right one.**\n\nFirst, locate **h.8** in the figure.\n\nThen, look at the **curves inside the two boxes** for h.8 and compare how they change over time. The curve in the left symbol, representing Dataset A, is smoother and shows fewer changes. In contrast, the curve in the right symbol, representing Dataset B, has more ups and downs.\n\nMore ups and downs indicate greater **variation over time**, while a smoother curve indicates less variation.\n\nTherefore, **Dataset B, the right one, shows greater **variation over time****.",
+      "instruction": "### Explanation\n\n**Correct answer: Dataset B, the right one.**\n\nFirst, locate **h.8** in the figure.\n\nThen, look at the **curves inside the two boxes** for h.8 and compare how they change over time. The curve in the left symbol, representing Dataset A, is smoother and shows fewer changes. In contrast, the curve in the right symbol, representing Dataset B, has larger ups and downs.\n\nLarger ups and downs indicate greater **variation over time**, while a smoother curve indicates less variation.\n\nTherefore, **Dataset B, the right one, shows greater **variation over time****.",
       "instructionLocation": "sidebar",
       "nextButtonLocation": "sidebar",
       "nextButtonText": "Continue",
@@ -993,7 +993,7 @@
             "Dataset B, the right one",
             "Same"
           ],
-          "infoText": "Voltage curve: assess the degree of dispersion of each time series around its central tendency over the time period. A greater degree of dispersion indicates greater variation."
+          "infoText": "Voltage curve: assess the degree of voltage fluctuation over the time period. Larger ups and downs around the mean indicate greater voltage variation."
         }
       ]
     },
@@ -1016,7 +1016,7 @@
             "Dataset B, the right one",
             "Same"
           ],
-          "infoText": "Voltage curve: assess the degree of dispersion of each time series around its central tendency over the time period. A greater degree of dispersion indicates greater variation."
+          "infoText": "Voltage curve: assess the degree of voltage fluctuation over the time period. Larger ups and downs around the mean indicate greater voltage variation."
         }
       ]
     },
@@ -1039,7 +1039,7 @@
             "Dataset B, the right one",
             "Same"
           ],
-          "infoText": "Voltage curve: assess the degree of dispersion of each time series around its central tendency over the time period. A greater degree of dispersion indicates greater variation."
+          "infoText": "Voltage curve: assess the degree of voltage fluctuation over the time period. Larger ups and downs around the mean indicate greater voltage variation."
         }
       ]
     },
@@ -1062,7 +1062,7 @@
             "Dataset B, the right one",
             "Same"
           ],
-          "infoText": "Voltage curve: assess the degree of dispersion of each time series around its central tendency over the time period. A greater degree of dispersion indicates greater variation."
+          "infoText": "Voltage curve: assess the degree of voltage fluctuation over the time period. Larger ups and downs around the mean indicate greater voltage variation."
         }
       ]
     },
@@ -1269,7 +1269,7 @@
             "Dataset B, the right one",
             "Same"
           ],
-          "infoText": "Voltage curve: assess the degree of dispersion of each time series around its central tendency over the time period. A greater degree of dispersion indicates greater variation."
+          "infoText": "Voltage curve: assess the degree of voltage fluctuation over the time period. Larger ups and downs around the mean indicate greater voltage variation."
         }
       ]
     },
@@ -1292,7 +1292,7 @@
             "Dataset B, the right one",
             "Same"
           ],
-          "infoText": "Voltage curve: assess the degree of dispersion of each time series around its central tendency over the time period. A greater degree of dispersion indicates greater variation."
+          "infoText": "Voltage curve: assess the degree of voltage fluctuation over the time period. Larger ups and downs around the mean indicate greater voltage variation."
         }
       ]
     },
@@ -1315,7 +1315,7 @@
             "Dataset B, the right one",
             "Same"
           ],
-          "infoText": "Voltage curve: assess the degree of dispersion of each time series around its central tendency over the time period. A greater degree of dispersion indicates greater variation."
+          "infoText": "Voltage curve: assess the degree of voltage fluctuation over the time period. Larger ups and downs around the mean indicate greater voltage variation."
         }
       ]
     },
@@ -1338,7 +1338,7 @@
             "Dataset B, the right one",
             "Same"
           ],
-          "infoText": "Voltage curve: assess the degree of dispersion of each time series around its central tendency over the time period. A greater degree of dispersion indicates greater variation."
+          "infoText": "Voltage curve: assess the degree of voltage fluctuation over the time period. Larger ups and downs around the mean indicate greater voltage variation."
         }
       ]
     },
