@@ -1,17 +1,23 @@
 {
   "$schema": "https://raw.githubusercontent.com/revisit-studies/study/v2.4.3/src/parser/GlobalConfigSchema.json",
   "configsList": [
-    "comparison-method",
-    "comparison"],
+    "comparison",
+    "jse",
+    "jes",
+    "sje",
+    "sej",
+    "ejs",
+    "esj"
+  ],
   "configs": {
-    "comparison-method": {
-      "path": "comparison-method/config.json"
-    },
-        "comparison": {
+    "comparison": {
       "path": "comparison/config.json"
-    }
+    },
+    "jse": { "path": "comparison-method/config-jse.json" },
+    "jes": { "path": "comparison-method/config-jes.json" },
+    "sje": { "path": "comparison-method/config-sje.json" },
+    "sej": { "path": "comparison-method/config-sej.json" },
+    "ejs": { "path": "comparison-method/config-ejs.json" },
+    "esj": { "path": "comparison-method/config-esj.json" }
   }
 }
-
-
-
