@@ -7,7 +7,13 @@
     "sje",
     "sej",
     "ejs",
-    "esj"
+    "esj",
+    "jse_1",
+    "jes_1",
+    "sje_1",
+    "sej_1",
+    "ejs_1",
+    "esj_1"
   ],
   "configs": {
     "comparison": {
@@ -18,6 +24,12 @@
     "sje": { "path": "comparison-method/config-sje.json" },
     "sej": { "path": "comparison-method/config-sej.json" },
     "ejs": { "path": "comparison-method/config-ejs.json" },
-    "esj": { "path": "comparison-method/config-esj.json" }
+    "esj": { "path": "comparison-method/config-esj.json" },
+    "jse_1": { "path": "comparison/config-jse_1.json" },
+    "jes_1": { "path": "comparison/config-jes_1.json" },
+    "sje_1": { "path": "comparison/config-sje_1.json" },
+    "sej_1": { "path": "comparison/config-sej_1.json" },
+    "ejs_1": { "path": "comparison/config-ejs_1.json" },
+    "esj_1": { "path": "comparison/config-esj_1.json" }
   }
 }
